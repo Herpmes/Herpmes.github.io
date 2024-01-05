@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <v-toolbar >
     <img src="/src/Img/LogoHerpmes.png" alt="" class="logoH">
     <RouterLink to="/"><v-btn>Home</v-btn></RouterLink>
-    <RouterLink to="/about"><v-btn>About us</v-btn></RouterLink>
+    <!--<RouterLink to="/about"><v-btn>About us</v-btn></RouterLink>-->
 
     <v-btn>Contact</v-btn>
 
