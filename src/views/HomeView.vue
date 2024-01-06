@@ -102,9 +102,12 @@ export default {
         <p>
           Sea cual sea tu actividad, tenemos la solución que estás buscando.
         </p>
-        <v-btn flat class="bg-transparent">
-          Descubre mas
-        </v-btn>
+        <br>
+        <div class="text-right">
+          <v-btn flat class="bg-transparent" >
+            Descubre mas
+          </v-btn>
+        </div>
       </v-col>
       <v-col cols="12" md="6">
         <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
