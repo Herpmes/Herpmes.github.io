@@ -68,13 +68,9 @@ export default {
     <v-sheet
         class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
         height="250"
-        width="100%"
-        style="
-        background-image: url('src/Img/HomeBaner.jpg');
-        background-repeat: repeat;
-        background-size: cover"
+        width="60%"
     >
-      <div style="width: 60%" class="text-white">
+      <div>
         <div class="text-h4 font-weight-bold mb-2">
           HERPmes es una consultoria de software para pequeñas y medianas empresas
         </div>
@@ -86,23 +82,22 @@ export default {
     </v-sheet>
 
     <v-container
-      style="max-width: none ; margin-top: 50px"
-      align="center"
+      style="background-color:#24afff;max-width: none ;" align="center"
     >
-    <v-row style="width: 70%" class="text-left text-black">
+    <v-row style="width: 70%" >
       <v-col cols="12" md="6">
-        <h1>
+        <h1 class="text-left text-white">
           Acompañamos a empresas que confían en la tecnología para avanzar
         </h1>
         <br>
-        <p>
+        <p class="text-left text-white">
           En <b>HERPmes</b> somos consultores y desarrolladores de <b>software de gestión para pequeñas y medianas empresas</b>.
         </p>
         <br>
-        <p>
+        <p class="text-left text-white">
           Sea cual sea tu actividad, tenemos la solución que estás buscando.
         </p>
-        <v-btn flat class="bg-transparent">
+        <v-btn flat class="bg-transparent text-white">
           Descubre mas
         </v-btn>
       </v-col>
@@ -117,7 +112,7 @@ export default {
         hide-delimiter-background
         show-arrows
         style="margin-top: 50px"
-        class="bg-blue"
+        color="#24afff"
     >
 
       <v-carousel-item
@@ -129,7 +124,6 @@ export default {
         <v-sheet
             height="100%"
             width="80%"
-            class="bg-blue"
         >
           <div class="d-flex fill-height justify-center align-center">
             <h1 class="text-center">Casos de cliente</h1>

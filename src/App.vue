@@ -5,23 +5,40 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <v-toolbar >
     <img src="/src/Img/LogoHerpmes.png" alt="" class="logoH">
-    <RouterLink to="/"><v-btn>Home</v-btn></RouterLink>
-    <!--<RouterLink to="/about"><v-btn>About us</v-btn></RouterLink>-->
+    <RouterLink to="/"><v-btn class="font-weight-bold">Home</v-btn></RouterLink>
+    <RouterLink to="/about"><v-btn class="font-weight-bold">Quienes Somos</v-btn></RouterLink>
 
-    <v-btn>Contact</v-btn>
+    <RouterLink to="/2"><v-btn class="hover-anchor font-weight-bold">Anchor</v-btn></RouterLink>
 
-    <v-btn>Anchor</v-btn>
+    <v-btn class="hover-nuixo font-weight-bold">NuixoErp</v-btn>
 
-    <v-btn>NuixoErp</v-btn>
-
-    <v-btn>CodeCrafters</v-btn>
+    <v-btn class="hover-codec font-weight-bold">CodeCrafters</v-btn>
 
     <v-spacer></v-spacer>
-    <v-btn>Login</v-btn>
+    <v-btn class="font-weight-bold">Login</v-btn>
   </v-toolbar>
   <RouterView />
+  <footer class="custom-footer">
+    <p>© 2024 Tu Empresa</p>
+  </footer>
 </template>
 
 <style>
-
+.hover-anchor:hover{
+  color: #24afff;
+}
+.hover-nuixo:hover{
+  color: #ff8787;
+}
+.hover-codec:hover{
+  color: #9489f5;
+}
+.custom-footer{
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto del footer */
+  padding: 10px; /* Espaciado interno del footer */
+  text-align: center; /* Alineación del texto del footer */
+  position: relative; /* Permite ajustar la posición con respecto a su contenedor */
+  margin-top: 50px; /* Empuja el footer hacia abajo al final del contenedor */
+}
 </style>
