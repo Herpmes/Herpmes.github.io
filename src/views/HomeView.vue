@@ -71,7 +71,7 @@ export default {
         background-repeat: repeat;
         background-size: cover
   -->
-  <main>
+  <main style="margin-top: 60px">
     <!--
     *****************
     Banner
