@@ -1,3 +1,4 @@
+// vue.config.js
 module.exports = {
-  publicPath: "/HerpmesWeb/"
-}
+  publicPath: process.env.NODE_ENV === 'production' ? '/nombre-repositorio/' : '/',
+};
