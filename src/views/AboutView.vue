@@ -55,11 +55,11 @@
     -->
   <v-container
       style="max-width: none ;
-      margin-top: 50px;background: #4fbbe8;
+      margin-top: 50px;background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
       padding-top: 40px;padding-bottom: 40px;"
       align="center"
   >
-    <v-row style="width: 70%" class="text-left text-black">
+    <v-row style="width: 70%" class="text-left text-white">
       <v-col cols="12" md="6">
         <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
       </v-col>

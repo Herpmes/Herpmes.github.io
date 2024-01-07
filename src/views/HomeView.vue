@@ -1,5 +1,6 @@
 <script>
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import { RouterLink, RouterView } from 'vue-router'
 
 export default {
   data() {
@@ -120,9 +121,11 @@ export default {
           </p>
           <br>
           <div class="text-right">
-            <v-btn flat class="bg-transparent">
-              Descubre mas
-            </v-btn>
+            <router-link to="/about">
+              <v-btn flat class="bg-transparent">
+                Descubre mas
+              </v-btn>
+            </router-link>
           </div>
         </v-col>
         <v-col cols="12" md="6">

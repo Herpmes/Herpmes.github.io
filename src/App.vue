@@ -17,15 +17,15 @@ import { RouterLink, RouterView } from 'vue-router'
     <v-spacer></v-spacer>
     <v-btn class="font-weight-bold">Login</v-btn>
   </v-toolbar>
-  <RouterView />
+  <RouterView/>
   <footer class="custom-footer">
     <v-container>
       <v-row>
         <v-col cols="4"></v-col>
         <v-col cols="4">
-          <v-btn icon="mdi-instagram" class="btn-margin"></v-btn>
-          <v-btn icon="mdi-twitter" class="btn-margin"></v-btn>
-          <v-btn icon="mdi-email" class="btn-margin"></v-btn>
+          <v-btn icon="mdi-instagram" class="btn-margin" href="https://www.instagram.com/herpmes.enterprise/"></v-btn>
+          <v-btn icon="mdi-twitter" class="btn-margin" href="https://twitter.com/H3RPmes"></v-btn>
+          <v-btn icon="mdi-email" class="btn-margin" href="mailto:herpmes.entrerprise@gmail.com"></v-btn>
         </v-col>
         <v-col cols="4"></v-col>
       </v-row>
