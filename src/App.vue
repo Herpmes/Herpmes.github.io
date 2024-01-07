@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <v-toolbar >
-    <img src="/src/Img/LogoHerpmes.png" alt="" class="logoH">
+    <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH">
     <RouterLink to="/"><v-btn class="font-weight-bold">Home</v-btn></RouterLink>
     <RouterLink to="/about"><v-btn class="font-weight-bold">Quienes Somos</v-btn></RouterLink>
 
@@ -19,7 +19,17 @@ import { RouterLink, RouterView } from 'vue-router'
   </v-toolbar>
   <RouterView />
   <footer class="custom-footer">
-    <p>© 2024 Tu Empresa</p>
+    <v-container>
+      <v-row>
+        <v-col cols="4"></v-col>
+        <v-col cols="4">
+          <v-btn icon="mdi-instagram" class="btn-margin"></v-btn>
+          <v-btn icon="mdi-twitter" class="btn-margin"></v-btn>
+          <v-btn icon="mdi-email" class="btn-margin"></v-btn>
+        </v-col>
+        <v-col cols="4"></v-col>
+      </v-row>
+    </v-container>
   </footer>
 </template>
 
@@ -40,5 +50,12 @@ import { RouterLink, RouterView } from 'vue-router'
   text-align: center; /* Alineación del texto del footer */
   position: relative; /* Permite ajustar la posición con respecto a su contenedor */
   margin-top: 50px; /* Empuja el footer hacia abajo al final del contenedor */
+}
+.btn-margin{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.btn-margin:hover{
+  color: #146CC4;
 }
 </style>

@@ -1,72 +1,108 @@
 <template>
-  <h1>About</h1>
-  <v-container style="max-width: none">
-    <v-row>
-      <!--Anchor-->
-      <v-col>
-        <v-card class="mx-auto" hover color="#d2f2fc">
-          <v-card-item>
-            <v-card-title>
-              Anchor
-            </v-card-title>
-          </v-card-item>
+  <!--
+    *****************
+    Banner
+    *****************
+    -->
+  <v-sheet
+      class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
+      height="250"
+      width="100%"
+      style="background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);"
+  >
+    <div style="width: 60%" class="text-white">
+      <div class="text-h4 font-weight-bold mb-2">
+        Nuestros engranajes
+      </div>
+      <br>
+      <p class="text-body-1 mb-4">
+        Los pilares de todo.
+      </p>
+    </div>
+  </v-sheet>
 
-          <v-card-text class="text-center">
-            <p class="textCenter">Zona marina o yo que se</p>
-            <br>
-            <v-btn>Descubre Anchor</v-btn>
-            <br>
-          </v-card-text>
-          <div class="text-center">
-            <img src="/src/Img/LogoAnchor.png" alt="">
-          </div>
-        </v-card>
+  <!--
+  *****************
+  Anchor
+  *****************
+  -->
+
+  <v-container
+      style="max-width: none ; margin-top: 50px;
+      padding-top: 40px;padding-bottom: 40px;"
+      align="center"
+  >
+    <v-row style="width: 70%" class="text-left text-black">
+      <v-col cols="12" md="6">
+        <v-img src="/src/Img/Logos/LogoAnchorNegro.png" width="50%"></v-img>
+        <br>
+        <p>
+          Anchor es un equipo multidisciplinario de expertos en tecnología y estrategia,
+          nos enfocamos en diseñar e implementar soluciones eficientes y estratégicas para
+          satisfacer las necesidades únicas de cada cliente, impulsando así su crecimiento
+          y ventaja competitiva.
+        </p>
       </v-col>
-      <!--Nuixo-->
-      <v-col>
-        <v-card class="mx-auto" hover color="#ff8787">
-          <v-card-item>
-            <v-card-title>
-              Nuixo
-            </v-card-title>
-          </v-card-item>
-
-          <v-card-text class="text-center">
-            <p class="textCenter">Bot 1</p>
-            <br>
-            <v-btn>Descubre Nuixo</v-btn>
-            <br>
-          </v-card-text>
-          <div class="text-center">
-            <img src="/src/Img/LogoAnchor.png" alt="">
-          </div>
-        </v-card>
-      </v-col>
-      <!--CodeCrafters-->
-      <v-col>
-        <v-card class="mx-auto" hover color="#9489f5">
-          <v-card-item>
-            <v-card-title class="text-black">
-              CodeCrafters
-            </v-card-title>
-          </v-card-item>
-
-          <v-card-text class="text-center">
-            <p class="text-black">Bot 2</p>
-            <br>
-            <v-btn>Descubre CodeCrafters</v-btn>
-            <br>
-          </v-card-text>
-          <div class="text-center">
-            <img src="/src/Img/LogoAnchor.png" alt="">
-          </div>
-        </v-card>
+      <v-col cols="12" md="6">
+        <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
       </v-col>
     </v-row>
   </v-container>
+  <!--
+    *****************
+    Codecrafters
+    *****************
+    -->
+  <v-container
+      style="max-width: none ;
+      margin-top: 50px;background: #4fbbe8;
+      padding-top: 40px;padding-bottom: 40px;"
+      align="center"
+  >
+    <v-row style="width: 70%" class="text-left text-black">
+      <v-col cols="12" md="6">
+        <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
+      </v-col>
+      <v-col cols="12" md="6">
+        <v-img src="/src/Img/Logos/LogoCodecrafters.png" width="20%"></v-img>
+        <br>
+        <p>
+          Lo que sea que hagan
+        </p>
+      </v-col>
+    </v-row>
+  </v-container>
+  <!--
+    *****************
+    Nuixo
+    *****************
+    -->
+  <v-container
+      style="max-width: none ; margin-top: 50px;
+      padding-top: 40px;padding-bottom: 40px;"
+      align="center"
+  >
+    <v-row style="width: 70%" class="text-left text-black">
+      <v-col cols="12" md="6">
+        <v-img src="/src/Img/Logos/LogoAnchorNegro.png" width="50%"></v-img>
+        <br>
+        <p>
+          Anchor es un equipo multidisciplinario de expertos en tecnología y estrategia,
+          nos enfocamos en diseñar e implementar soluciones eficientes y estratégicas para
+          satisfacer las necesidades únicas de cada cliente, impulsando así su crecimiento
+          y ventaja competitiva.
+        </p>
+      </v-col>
+      <v-col cols="12" md="6">
+        <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
+      </v-col>
+    </v-row>
+  </v-container>
+
 </template>
 
 <style>
+
 </style>
 <script setup>
 </script>
