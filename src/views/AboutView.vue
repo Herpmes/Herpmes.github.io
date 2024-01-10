@@ -50,10 +50,10 @@
       </v-row>
     </v-container>
     <!--
-      *****************
-      Codecrafters
-      *****************
-      -->
+    *****************
+    Codecrafters
+    *****************
+    -->
     <v-container
         style="max-width: none ;
       margin-top: 50px;background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
@@ -75,10 +75,10 @@
       </v-row>
     </v-container>
     <!--
-      *****************
-      Nuixo
-      *****************
-      -->
+    *****************
+    Nuixo
+    *****************
+    -->
     <v-container
         style="max-width: none ; margin-top: 50px;
       padding-top: 40px;padding-bottom: 40px;"
