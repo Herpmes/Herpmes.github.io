@@ -108,7 +108,7 @@ export default {
       <v-row style="width: 70%" class="text-left text-black">
         <v-col cols="12" md="6">
           <h1>
-            Acompañamos a empresas que confían en la tecnología para avanzar
+            Acompañamos a empresas en su camino al éxito
           </h1>
           <br>
           <p>
