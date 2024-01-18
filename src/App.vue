@@ -6,6 +6,10 @@ export default {
     return {
       selectedTopTab:0
     }
+  },methods:{
+    changeSelected(newSelected){
+      this.selectedTopTab=newSelected
+    }
   }
 }
 </script>
@@ -21,21 +25,26 @@ export default {
     <v-app-bar fixed style="height: 60px">
       <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH">
       <RouterLink to="/">
-        <v-btn class="font-weight-bold" :ripple="false">Home</v-btn>
+        <v-btn class="font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(0)" v-if="this.selectedTopTab===0">Home</v-btn>
+        <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(0)" v-else>Home</v-btn>
       </RouterLink>
       <RouterLink to="/about">
-        <v-btn class="font-weight-bold" :ripple="false">Quienes Somos</v-btn>
+        <v-btn class="font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(1)" v-if="this.selectedTopTab===1">Quienes Somos</v-btn>
+        <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(1)" v-else>Quienes Somos</v-btn>
       </RouterLink>
       <RouterLink to="/2">
-        <v-btn class="hover-anchor font-weight-bold" :ripple="false">Anchor</v-btn>
+        <v-btn class="hover-anchor font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(2)" v-if="this.selectedTopTab===2">Anchor</v-btn>
+        <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(2)" v-else>Anchor</v-btn>
       </RouterLink>
-      <v-btn class="hover-nuixo font-weight-bold" :ripple="false">NuixoErp</v-btn>
-      <v-btn class="hover-codec font-weight-bold" :ripple="false">CodeCrafters</v-btn>
+      <v-btn class="hover-nuixo font-weight-bold" style="color:#ff8787" :ripple="false" @click="changeSelected(3)" v-if="this.selectedTopTab===3">NuixoErp</v-btn>
+      <v-btn class="hover-nuixo font-weight-bold" :ripple="false" @click="changeSelected(3)" v-else>NuixoErp</v-btn>
+      <v-btn class="hover-codec font-weight-bold" style="color:#9489f5" :ripple="false" @click="changeSelected(4)" v-if="this.selectedTopTab===4">CodeCrafters</v-btn>
+      <v-btn class="hover-codec font-weight-bold" :ripple="false" @click="changeSelected(4)" v-else>CodeCrafters</v-btn>
       <v-spacer></v-spacer>
       <RouterLink to="/GRANFINAL">
         <v-btn class="v-ripple__animation"></v-btn>
       </RouterLink>
-      <v-btn class="font-weight-bold" :ripple="false">Login</v-btn>
+      <v-btn class="font-weight-bold" :ripple="false">LOGIN</v-btn>
     </v-app-bar>
     <!--
     ******************
@@ -67,7 +76,17 @@ export default {
 </template>
 
 <style>
+.selected-home {
+  color: #24afff;
+}
+.selected-about {
+  color: #24afff;
+}
 .hover-anchor:hover {
+  color: #24afff;
+}
+
+.selected-anchor {
   color: #24afff;
 }
 
@@ -75,7 +94,15 @@ export default {
   color: #ff8787;
 }
 
+.selected-nuixo {
+  color: #ff8787;
+}
+
 .hover-codec:hover {
+  color: #9489f5;
+}
+
+.selected-codec {
   color: #9489f5;
 }
 
