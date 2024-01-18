@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import HomeView2 from '../views/HomeView2.vue'
 import AboutView from "@/views/AboutView.vue";
 import FinalView from "@/views/GranFinal.vue";
+import ContactView from "@/views/ContactView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/GRANFINAL',
       name: 'GranFinal',
       component: FinalView
+    },
+    {
+      path: '/contact',
+      name: 'Constact',
+      component: ContactView
     }
   ]
 })
