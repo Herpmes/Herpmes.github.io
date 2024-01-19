@@ -44,9 +44,9 @@ export default {
       </v-btn>
       <v-btn class="hover-codec font-weight-bold" :ripple="false" @click="changeSelected(4)" v-else>CodeCrafters</v-btn>
       <v-spacer></v-spacer>
-      <RouterLink to="/GRANFINAL">
+      <!--<RouterLink to="/GRANFINAL">
         <v-btn class="v-ripple__animation"></v-btn>
-      </RouterLink>
+      </RouterLink>-->
       <RouterLink to="/contact">
         <v-btn class="font-weight-bold" :ripple="false">CONTACTANOS</v-btn>
       </RouterLink>

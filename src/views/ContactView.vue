@@ -25,6 +25,7 @@ export default {
 
       if (this.name==="" || this.subject==="" || this.body==="" || this.telf==="" || this.email==="") {
         this.text="Campos vacios";
+        this.snackbar=true;
       }else{
         emailjs.send(
             'service_gmailAnchor',
@@ -37,15 +38,16 @@ export default {
               this.name = "", this.telf = "", this.email = "";
               this.subject = "";
               this.text = "Correo enviado"
-
+              this.snackbar=true;
             })
             .catch(error => {
               this.text = "Fallo al enviar correo"
+              this.snackbar=true;
+
               console.error('Error al enviar el correo', error);
             });
       }
 
-      this.snackbar=true;
     }
   }
 }
@@ -90,7 +92,7 @@ export default {
         <v-text-field name="Telf" v-model="this.telf"></v-text-field>
         <label for="Subject" style="font-size: 20px">Asunto</label>
         <v-text-field name="Subject" v-model="this.subject"></v-text-field>
-        <label for="Reason" style="font-size: 20px">Escribe aquí tu consulta para ayudarte</label>
+        <label for="Reason" style="font-size: 20px">Escribe aquí tu consulta</label>
         <v-textarea name="Reason" v-model="this.body"></v-textarea>
         <div class="align-center">
           <v-btn class="bg-blue" style="font-size: 20px" @click="enviarCorreo">Enviar</v-btn>
@@ -108,6 +110,72 @@ export default {
           </v-snackbar>
         </div>
       </form>
+    </v-container>
+    <!--
+    ******************
+    TARJETAS
+    ******************
+    -->
+    <v-container
+        style="max-width: none ; margin-top: 50px;
+      padding-top: 40px;padding-bottom: 40px;width: 60%"
+        align="center"
+    >
+      <v-row>
+        <v-col class="align-center">
+          <h1>Otras formas de contactarnos</h1>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-card class="mx-auto" hover color="#e0dede">
+            <v-card-item>
+              <v-card-title>
+                <b>Llamando al</b>
+              </v-card-title>
+            </v-card-item>
+
+            <v-card-text class="text-center">
+              <br>
+              <a href="tel:611-740-761"
+                 style="text-decoration: none;color:black">611-740-761</a>
+              <br>
+            </v-card-text>
+          </v-card>
+        </v-col>
+
+        <v-col>
+          <v-card class="mx-auto" hover color="#e0dede">
+            <v-card-item>
+              <v-card-title>
+                <b>Correo al</b>
+              </v-card-title>
+            </v-card-item>
+
+            <v-card-text class="text-center">
+              <br>
+              <a href="mailto:herpmes.enterprise@gmail.com"
+                 style="text-decoration: none;color:black" target="_blank">herpmes.enterprise@gmail.com</a>
+              <br>
+            </v-card-text>
+          </v-card>
+        </v-col>
+
+        <v-col>
+          <v-card class="mx-auto" hover color="#e0dede">
+            <v-card-item>
+              <v-card-title>
+                <b>Yendo a</b>
+              </v-card-title>
+            </v-card-item>
+
+            <v-card-text class="text-center">
+              <a href="https://www.google.es/maps/place/IES+BENIGASL%C3%93/@39.8209435,-0.2269505,17z/data=!3m1!4b1!4m6!3m5!1s0xd600faa5ce4c981:0x6435a11e74fdf3c2!8m2!3d39.8209394!4d-0.2243756!16s%2Fg%2F11hdxxyt26?entry=ttu"
+              style="text-decoration: none;color:black" target="_blank">Carrer Arcadi García i Sanz, 1, 12600 La Vall d'Uixó, Castelló</a>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
     </v-container>
   </main>
 </template>
