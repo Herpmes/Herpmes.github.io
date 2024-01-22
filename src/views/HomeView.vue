@@ -136,7 +136,7 @@ export default {
 
     <!--
     *****************
-    Casos de Cliente
+    Casos de Exito
     *****************
     -->
 
@@ -160,8 +160,8 @@ export default {
             height: 100%;
             width: 80%"
         >
-          <div class="d-flex fill-height justify-center align-center">
-            <br><h1 class="text-center">Casos de cliente</h1>
+          <div class="d-flex fill-height justify-center align-center" style="padding-top: 20px">
+            <br><h1 class="text-center">Casos de éxito</h1>
             <v-container style="max-width: none;height:100%" class="align-center">
 
               <h3>{{ item.desc }}</h3>

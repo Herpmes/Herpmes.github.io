@@ -17,28 +17,37 @@ export default {
     ******************
     -->
     <v-app-bar fixed style="height: 60px"><img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH">
+      <!--Home-->
       <RouterLink to="/">
         <v-btn class="font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(0)"
                v-if="this.selectedTopTab===0">Home
         </v-btn>
         <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(0)" v-else>Home</v-btn>
       </RouterLink>
+
+      <!--About-->
       <RouterLink to="/about">
         <v-btn class="font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(1)"
                v-if="this.selectedTopTab===1">Quienes Somos
         </v-btn>
         <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(1)" v-else>Quienes Somos</v-btn>
       </RouterLink>
+
+      <!--Anchor-->
       <RouterLink to="/2">
         <v-btn class="hover-anchor font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(2)"
                v-if="this.selectedTopTab===2">Anchor
         </v-btn>
         <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(2)" v-else>Anchor</v-btn>
       </RouterLink>
+
+      <!--Nuixo-->
       <v-btn class="hover-nuixo font-weight-bold" style="color:#ff8787" :ripple="false" @click="changeSelected(3)"
              v-if="this.selectedTopTab===3">NuixoErp
       </v-btn>
       <v-btn class="hover-nuixo font-weight-bold" :ripple="false" @click="changeSelected(3)" v-else>NuixoErp</v-btn>
+
+      <!--CodeCrafters-->
       <v-btn class="hover-codec font-weight-bold" style="color:#9489f5" :ripple="false" @click="changeSelected(4)"
              v-if="this.selectedTopTab===4">CodeCrafters
       </v-btn>
@@ -47,9 +56,16 @@ export default {
       <!--<RouterLink to="/GRANFINAL">
         <v-btn class="v-ripple__animation"></v-btn>
       </RouterLink>-->
+
+      <!--Contact Us-->
       <RouterLink to="/contact">
-        <v-btn class="font-weight-bold" :ripple="false">CONTACTANOS</v-btn>
+        <v-btn class="hover-anchor font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(5)"
+               v-if="this.selectedTopTab===5">CONTACTANOS
+        </v-btn>
+        <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(5)" v-else>CONTACTANOS</v-btn>
       </RouterLink>
+
+      <!--Login-->
       <v-btn class="font-weight-bold" :ripple="false">LOGIN</v-btn>
     </v-app-bar>
     <!--
