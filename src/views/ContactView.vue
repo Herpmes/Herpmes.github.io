@@ -84,15 +84,15 @@ export default {
     -->
     <v-container style="max-width: none ; margin-top: 50px;width: 60%" class="align-center">
       <form style="width: 100%;">
-        <label for="Name" style="font-size: 20px">Nombre y Apellidos</label>
+        <label for="Name" style="font-size: 20px">Nombre y Apellidos<span style="color: red">*</span></label>
         <v-text-field name="Name" v-model="this.name"></v-text-field>
-        <label for="Email" style="font-size: 20px">Correo</label>
+        <label for="Email" style="font-size: 20px">Correo<span style="color: red">*</span></label>
         <v-text-field name="Email" v-model="this.email"></v-text-field>
-        <label for="Telf" style="font-size: 20px">Teléfono</label>
+        <label for="Telf" style="font-size: 20px">Teléfono<span style="color: red">*</span></label>
         <v-text-field name="Telf" v-model="this.telf"></v-text-field>
-        <label for="Subject" style="font-size: 20px">Asunto</label>
+        <label for="Subject" style="font-size: 20px">Asunto<span style="color: red">*</span></label>
         <v-text-field name="Subject" v-model="this.subject"></v-text-field>
-        <label for="Reason" style="font-size: 20px">Escribe aquí tu consulta</label>
+        <label for="Reason" style="font-size: 20px">Escribe aquí tu consulta<span style="color: red">*</span></label>
         <v-textarea name="Reason" v-model="this.body"></v-textarea>
         <div class="align-center">
           <v-btn class="bg-blue" style="font-size: 20px" @click="enviarCorreo">Enviar</v-btn>

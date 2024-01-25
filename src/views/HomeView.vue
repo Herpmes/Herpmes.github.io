@@ -26,7 +26,7 @@ export default {
         },
         {
           nombre: 'Dr. José García',
-          desc: '"Gracias a HERPmes, HealthWell Clinics ahora cuenta' +
+          desc: 'Gracias a HERPmes, HealthWell Clinics ahora cuenta' +
               ' con un ERP especializado en la salud. La gestión eficiente de ' +
               'nuestras operaciones ha mejorado significativamente. Estamos ' +
               'agradecidos por su experiencia y apoyo continuo.',
@@ -139,40 +139,60 @@ export default {
     Casos de Exito
     *****************
     -->
-
-    <v-carousel
-        height="400"
-        hide-delimiter-background
-        show-arrows
-        style="margin-top: 50px;background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);"
-        class="text-white"
-    >
-
-      <v-carousel-item
-          v-for="(item, i) in items"
-          :key="i"
-          align="center"
+    <center style="
+              background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
+              padding-top: 10px;padding-bottom: 20px;
+              margin-top: 50px" class="text-white">
+      <h1  style="margin-top: 50px;margin-bottom: -60px">Casos de éxito</h1>
+      <v-carousel
+          height="750"
+          hide-delimiter-background
+          show-arrows
+          style="width: 60%;"
+          class="text-white"
       >
 
-        <div
-          style="
-
-            height: 100%;
-            width: 80%"
+        <v-carousel-item
+            v-for="(item, i) in items"
+            :key="i"
+            align="center"
         >
-          <div class="d-flex fill-height justify-center align-center" style="padding-top: 20px">
-            <br><h1 class="text-center">Casos de éxito</h1>
-            <v-container style="max-width: none;height:100%" class="align-center">
 
-              <h3>{{ item.desc }}</h3>
-              <br>
-              <h4>{{ item.nombre }}</h4>
-              <h4>{{ item.empresa }}</h4>
-            </v-container>
-          </div>
-        </div>
-      </v-carousel-item>
-    </v-carousel>
+          <v-card class="mx-auto" hover  width="80%" height="75%" style="margin-top: 10%; border-radius: 30px">
+                  <v-row style="height: 100%">
+                    <v-col style="height: 100%;text-align: left;padding: 5%" cols="6">
+                      <v-icon icon="mdi-format-quote-close" size="90px"></v-icon>
+                      <p style="font-size: 20px">{{item.desc}}</p>
+                      <br>
+                      <p style="font-size: 20px;font-weight: bold">
+                        {{item.nombre}}
+                        <br>
+                        {{item.empresa}}
+                      </p>
+                    </v-col>
+                    <v-col style="height: 100%;padding: 3%" cols="6">
+                      <v-img src="/src/Img/Home1.jpg" height="100%" class="align-center"></v-img>
+                    </v-col>
+                  </v-row>
+<!--            <v-card-item>-->
+<!--              <v-card-title class="text-black">-->
+<!--                CodeCrafters-->
+<!--              </v-card-title>-->
+<!--            </v-card-item>-->
+
+<!--            <v-card-text class="text-center">-->
+<!--              <p class="text-black">Bot 2</p>-->
+<!--              <br>-->
+<!--              <v-btn>Descubre CodeCrafters</v-btn>-->
+<!--              <br>-->
+<!--            </v-card-text>-->
+<!--            <div class="text-center">-->
+<!--              <img src="/src/Img/Logos/LogoAncla.png" alt="">-->
+<!--            </div>-->
+          </v-card>
+        </v-carousel-item>
+      </v-carousel>
+    </center>
   </main>
 </template>
 
