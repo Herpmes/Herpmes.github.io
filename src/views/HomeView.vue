@@ -13,7 +13,8 @@ export default {
               'eficientemente nuestras operaciones. Esto ha optimizado ' +
               'nuestra eficiencia y reducido nuestra huella ambiental. ' +
               'Estamos encantados con los resultados.',
-          empresa: 'EcoTech Solutions'
+          empresa: 'EcoTech Solutions',
+          img:'/src/Img/Empresarios/empresario1.jpg'
         },
         {
           nombre: 'María Rodríguez',
@@ -22,7 +23,8 @@ export default {
               'nuestros proyectos innovadores. Desde la planificación ' +
               'hasta la facturación, HERPmes ha sido clave para nuestro ' +
               'crecimiento. ¡Gracias por ser parte de nuestro éxito!',
-          empresa: 'InnovateTech Labs'
+          empresa: 'InnovateTech Labs',
+          img:'/src/Img/Empresarios/empresario2.jpeg'
         },
         {
           nombre: 'Dr. José García',
@@ -30,7 +32,8 @@ export default {
               ' con un ERP especializado en la salud. La gestión eficiente de ' +
               'nuestras operaciones ha mejorado significativamente. Estamos ' +
               'agradecidos por su experiencia y apoyo continuo.',
-          empresa: 'HealthWell Clinics'
+          empresa: 'HealthWell Clinics',
+          img:'/src/Img/Empresarios/empresario3.jpg'
         },
         {
           nombre: 'Ana Martínez',
@@ -40,7 +43,8 @@ export default {
               'de suministro y la toma de decisiones ágil han sido ' +
               'fundamentales para nuestro éxito en mercados globales. ' +
               'Gracias HERPmes por ser nuestro socio estratégico.',
-          empresa: 'FashionHub International'
+          empresa: 'FashionHub International',
+          img:'/src/Img/Empresarios/empresario4.jpg'
         },
         {
           nombre: 'Luis Herrera',
@@ -48,7 +52,8 @@ export default {
               'cosechas, inventario y ventas. La eficiencia y trazabilidad ' +
               'mejoradas nos han permitido alcanzar nuevos niveles de ' +
               'excelencia en la agricultura orgánica.',
-          empresa: 'AgroGrow Farms'
+          empresa: 'AgroGrow Farms',
+          img:'/src/Img/Empresarios/empresario5.jpg'
         },
         {
           nombre: 'Laura Gómez',
@@ -57,7 +62,8 @@ export default {
               ' Proporcionamos servicios educativos de calidad con eficiencia' +
               ' y precisión. Gracias HERPmes por hacer ' +
               'la diferencia en la educación.',
-          empresa: 'EduLearn Academy'
+          empresa: 'EduLearn Academy',
+          img:'/src/Img/Empresarios/empresario6.jpg'
         },
       ],
     }
@@ -170,8 +176,8 @@ export default {
                         {{item.empresa}}
                       </p>
                     </v-col>
-                    <v-col style="height: 100%;padding: 3%" cols="6">
-                      <v-img src="/src/Img/Home1.jpg" height="100%" class="align-center"></v-img>
+                    <v-col style="height: 100%;padding: 5%;vertical-align: center;" cols="6">
+                      <v-img :src="item.img" height="100%" class="align-center"></v-img>
                     </v-col>
                   </v-row>
 <!--            <v-card-item>-->
