@@ -2,7 +2,7 @@
 
 export default {
   data() {
-    return {selectedTopTab: 0}
+    return {selectedTopTab: 0, drawer: false}
   }, methods: {
     changeSelected(newSelected) {
       this.selectedTopTab = newSelected
@@ -20,9 +20,9 @@ export default {
       <!--Home-->
       <RouterLink to="/">
         <v-btn class="font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(0)"
-               v-if="this.selectedTopTab===0">Home
+               v-if="this.selectedTopTab===0">Inicio
         </v-btn>
-        <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(0)" v-else>Home</v-btn>
+        <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(0)" v-else>Inicio</v-btn>
       </RouterLink>
 
       <!--About-->
@@ -32,31 +32,35 @@ export default {
         </v-btn>
         <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(1)" v-else>Quienes Somos</v-btn>
       </RouterLink>
+      <v-btn class="font-weight-bold" :ripple="false" @click="drawer = !drawer">Productos</v-btn>
 
-      <!--Anchor-->
-      <RouterLink to="/2">
-        <v-btn class="hover-anchor font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(2)"
-               v-if="this.selectedTopTab===2">Anchor
-        </v-btn>
-        <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(2)" v-else>Anchor</v-btn>
-      </RouterLink>
+<!--      <div>-->
+<!--        &lt;!&ndash;Anchor&ndash;&gt;-->
+<!--        <RouterLink to="/2">-->
+<!--          <v-btn class="hover-anchor font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(2)"-->
+<!--                 v-if="this.selectedTopTab===2">Anchor-->
+<!--          </v-btn>-->
+<!--          <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(2)" v-else>Anchor</v-btn>-->
+<!--        </RouterLink>-->
 
-      <!--Nuixo-->
-      <v-btn class="hover-nuixo font-weight-bold" style="color:#ff8787" :ripple="false" @click="changeSelected(3)"
-             v-if="this.selectedTopTab===3">NuixoErp
-      </v-btn>
-      <v-btn class="hover-nuixo font-weight-bold" :ripple="false" @click="changeSelected(3)" v-else>NuixoErp</v-btn>
+<!--        &lt;!&ndash;Nuixo&ndash;&gt;-->
+<!--        <v-btn class="hover-nuixo font-weight-bold" style="color:#ff8787" :ripple="false" @click="changeSelected(3)"-->
+<!--               v-if="this.selectedTopTab===3">NuixoErp-->
+<!--        </v-btn>-->
+<!--        <v-btn class="hover-nuixo font-weight-bold" :ripple="false" @click="changeSelected(3)" v-else>NuixoErp</v-btn>-->
 
-      <!--CodeCrafters-->
-      <v-btn class="hover-codec font-weight-bold" style="color:#9489f5" :ripple="false" @click="changeSelected(4)"
-             v-if="this.selectedTopTab===4">CodeCrafters
-      </v-btn>
-      <v-btn class="hover-codec font-weight-bold" :ripple="false" @click="changeSelected(4)" v-else>CodeCrafters</v-btn>
-      <v-spacer></v-spacer>
+<!--        &lt;!&ndash;CodeCrafters&ndash;&gt;-->
+<!--        <v-btn class="hover-codec font-weight-bold" style="color:#9489f5" :ripple="false" @click="changeSelected(4)"-->
+<!--               v-if="this.selectedTopTab===4">CodeCrafters-->
+<!--        </v-btn>-->
+<!--        <v-btn class="hover-codec font-weight-bold" :ripple="false" @click="changeSelected(4)" v-else>CodeCrafters</v-btn>-->
+<!--        <v-spacer></v-spacer>-->
+<!--      </div>-->
+
       <!--<RouterLink to="/GRANFINAL">
         <v-btn class="v-ripple__animation"></v-btn>
       </RouterLink>-->
-
+      <v-spacer></v-spacer>
       <!--Contact Us-->
       <RouterLink to="/contact">
         <v-btn class="hover-anchor font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(5)"
@@ -73,6 +77,20 @@ export default {
     View que cambia
     ******************
     -->
+    <center>
+      <v-navigation-drawer
+        v-model="drawer"
+        location="top"
+        temporary
+        style="margin-top: -5px;"
+      >
+        <v-list>
+          <v-list-item>Algo1</v-list-item>
+          <v-list-item>Algo2</v-list-item>
+        </v-list>
+      </v-navigation-drawer>
+    </center>
+
     <RouterView/>
     <!--
     ******************
