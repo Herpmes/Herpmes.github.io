@@ -35,32 +35,6 @@ import {RouterLink, RouterView} from 'vue-router'
       </RouterLink>
       <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawer = !drawer">Productos</v-btn>
 
-<!--      <div>-->
-<!--        &lt;!&ndash;Anchor&ndash;&gt;-->
-<!--        <RouterLink to="/2">-->
-<!--          <v-btn class="hover-anchor font-weight-bold" style="color:#24afff" :ripple="false" @click="changeSelected(2)"-->
-<!--                 v-if="this.selectedTopTab===2">Anchor-->
-<!--          </v-btn>-->
-<!--          <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(2)" v-else>Anchor</v-btn>-->
-<!--        </RouterLink>-->
-
-<!--        &lt;!&ndash;Nuixo&ndash;&gt;-->
-<!--        <v-btn class="hover-nuixo font-weight-bold" style="color:#ff8787" :ripple="false" @click="changeSelected(3)"-->
-<!--               v-if="this.selectedTopTab===3">NuixoErp-->
-<!--        </v-btn>-->
-<!--        <v-btn class="hover-nuixo font-weight-bold" :ripple="false" @click="changeSelected(3)" v-else>NuixoErp</v-btn>-->
-
-<!--        &lt;!&ndash;CodeCrafters&ndash;&gt;-->
-<!--        <v-btn class="hover-codec font-weight-bold" style="color:#9489f5" :ripple="false" @click="changeSelected(4)"-->
-<!--               v-if="this.selectedTopTab===4">CodeCrafters-->
-<!--        </v-btn>-->
-<!--        <v-btn class="hover-codec font-weight-bold" :ripple="false" @click="changeSelected(4)" v-else>CodeCrafters</v-btn>-->
-<!--        <v-spacer></v-spacer>-->
-<!--      </div>-->
-
-      <!--<RouterLink to="/GRANFINAL">
-        <v-btn class="v-ripple__animation"></v-btn>
-      </RouterLink>-->
       <v-spacer></v-spacer>
       <!--Contact Us-->
       <RouterLink to="/contact">
