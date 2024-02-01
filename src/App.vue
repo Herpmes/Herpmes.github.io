@@ -14,7 +14,7 @@ import {RouterLink, RouterView} from 'vue-router'
   <v-app>
     <!--
     ******************
-    Menu superior
+    Menu superior 1
     ******************
     -->
     <v-app-bar fixed style="height: 60px"><img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH">
