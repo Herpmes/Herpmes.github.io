@@ -52,20 +52,35 @@ import {RouterLink, RouterView} from 'vue-router'
     View que cambia
     ******************
     -->
-    <center>
       <v-navigation-drawer
         v-model="drawer"
         location="top"
         temporary
         style="margin-top: -5px;"
         @mouseleave="drawer = !drawer">
-        <v-list>
-          <v-list-item>Algo1</v-list-item>
-          <v-list-item>Algo2</v-list-item>
-        </v-list>
+        <v-row style="margin-top: 20px;padding: 40px">
+          <v-col cols="3" >
+            <h4 style="color: #00b0ff;font-weight: bold">GRANDES EMPRESAS</h4>
+              <v-row style="margin-top: 5px">
+                <v-col cols="2">
+                  foto
+                </v-col>
+                <v-col cols="10">
+                  texto
+                </v-col>
+              </v-row>
+          </v-col>
+          <v-col cols="3">
+            <h4 style="color: #00b0ff;font-weight: bold">PYMES</h4>
+          </v-col>
+          <v-col cols="3">
+            <h4 style="color: #00b0ff;font-weight: bold">AUTÓNOMOS</h4>
+          </v-col>
+          <v-col cols="3" style="color: #00b0ff;font-weight: bold">
+            <h4 style="color: #00b0ff;font-weight: bold">HERRAMIENTAS DE DESARROLLO</h4>
+          </v-col>
+        </v-row>
       </v-navigation-drawer>
-    </center>
-
     <RouterView/>
     <!--
     ******************
