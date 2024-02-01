@@ -1,14 +1,15 @@
-<script>import {RouterLink, RouterView} from 'vue-router'
-
-export default {
-  data() {
-    return {selectedTopTab: 0, drawer: false}
-  }, methods: {
-    changeSelected(newSelected) {
-      this.selectedTopTab = newSelected
+<script>
+import {RouterLink, RouterView} from 'vue-router'
+  export default {
+    data() {
+      return {selectedTopTab: 0, drawer: false}
+    }, methods: {
+      changeSelected(newSelected) {
+        this.selectedTopTab = newSelected
+      }
     }
   }
-}</script>
+</script>
 <template>
   <v-app>
     <!--
@@ -32,7 +33,7 @@ export default {
         </v-btn>
         <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(1)" v-else>Quienes Somos</v-btn>
       </RouterLink>
-      <v-btn class="font-weight-bold" :ripple="false" @click="drawer = !drawer">Productos</v-btn>
+      <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawer = !drawer">Productos</v-btn>
 
 <!--      <div>-->
 <!--        &lt;!&ndash;Anchor&ndash;&gt;-->
@@ -83,7 +84,7 @@ export default {
         location="top"
         temporary
         style="margin-top: -5px;"
-      >
+        @mouseleave="drawer = !drawer">
         <v-list>
           <v-list-item>Algo1</v-list-item>
           <v-list-item>Algo2</v-list-item>
