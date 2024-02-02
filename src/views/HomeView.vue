@@ -1,73 +1,12 @@
 <script>
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
-import { RouterLink, RouterView } from 'vue-router'
-
+import CasosExito from "/src/json/CasosExito.json"
 export default {
   data() {
     return {
-      items: [
-        {
-          nombre: 'Juan Pérez',
-          desc: 'Gracias a HERPmes, ahora en EcoTech Solutions ' +
-              'contamos con un ERP personalizado que ha integrado ' +
-              'eficientemente nuestras operaciones. Esto ha optimizado ' +
-              'nuestra eficiencia y reducido nuestra huella ambiental. ' +
-              'Estamos encantados con los resultados.',
-          empresa: 'EcoTech Solutions',
-          img:'/src/Img/Empresarios/empresario1.jpg'
-        },
-        {
-          nombre: 'María Rodríguez',
-          desc: 'InnovateTech Labs agradece a HERPmes por implementar ' +
-              'un ERP que ha transformado por completo la gestión de ' +
-              'nuestros proyectos innovadores. Desde la planificación ' +
-              'hasta la facturación, HERPmes ha sido clave para nuestro ' +
-              'crecimiento. ¡Gracias por ser parte de nuestro éxito!',
-          empresa: 'InnovateTech Labs',
-          img:'/src/Img/Empresarios/empresario2.jpeg'
-        },
-        {
-          nombre: 'Dr. José García',
-          desc: 'Gracias a HERPmes, HealthWell Clinics ahora cuenta' +
-              ' con un ERP especializado en la salud. La gestión eficiente de ' +
-              'nuestras operaciones ha mejorado significativamente. Estamos ' +
-              'agradecidos por su experiencia y apoyo continuo.',
-          empresa: 'HealthWell Clinics',
-          img:'/src/Img/Empresarios/empresario3.jpg'
-        },
-        {
-          nombre: 'Ana Martínez',
-          desc: 'FashionHub International ' +
-              'agradece a HERPmes por integrar nuestros procesos en un' +
-              ' ERP global. La visibilidad mejorada de nuestra cadena ' +
-              'de suministro y la toma de decisiones ágil han sido ' +
-              'fundamentales para nuestro éxito en mercados globales. ' +
-              'Gracias HERPmes por ser nuestro socio estratégico.',
-          empresa: 'FashionHub International',
-          img:'/src/Img/Empresarios/empresario4.jpg'
-        },
-        {
-          nombre: 'Luis Herrera',
-          desc: 'Gracias a HERPmes, AgroGrow Farms ahora gestiona eficientemente ' +
-              'cosechas, inventario y ventas. La eficiencia y trazabilidad ' +
-              'mejoradas nos han permitido alcanzar nuevos niveles de ' +
-              'excelencia en la agricultura orgánica.',
-          empresa: 'AgroGrow Farms',
-          img:'/src/Img/Empresarios/empresario5.jpg'
-        },
-        {
-          nombre: 'Laura Gómez',
-          desc: 'EduLearn Academy agradece a HERPmes por implementar un ' +
-              'ERP que ha revolucionado nuestros procesos administrativos.' +
-              ' Proporcionamos servicios educativos de calidad con eficiencia' +
-              ' y precisión. Gracias HERPmes por hacer ' +
-              'la diferencia en la educación.',
-          empresa: 'EduLearn Academy',
-          img:'/src/Img/Empresarios/empresario6.jpg'
-        },
-      ],
+      items :CasosExito
     }
-  },
+  }
 }
 </script>
 
@@ -84,20 +23,26 @@ export default {
     *****************
     -->
     <v-sheet
-        class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
-        height="250"
+        class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 py-15"
         width="100%"
         style="background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);"
     >
-      <div style="width: 60%" class="text-white">
-        <div class="text-h4 font-weight-bold mb-2">
-          HERPmes es una consultoria de software para pequeñas y medianas empresas
-        </div>
-        <br>
-        <p class="text-body-1 mb-4">
-          Impulsa tu éxito con nuestra consultoría de software. Utiliza soluciones digitales poderosas para potenciar tu
-          empresa.
-        </p>
+      <v-row class="text-white">
+        <v-spacer></v-spacer>
+        <v-col cols="10">
+          <div class="text-h4 font-weight-bold mb-2">
+            HERPmes es una consultoria de software para pequeñas y medianas empresas
+          </div>
+          <br>
+          <p class="text-body-1 mb-4">
+            Impulsa tu éxito con nuestra consultoría de software. Utiliza soluciones digitales poderosas para potenciar tu
+            empresa.
+          </p>
+        </v-col>
+        <v-spacer></v-spacer>
+      </v-row>
+      <div style="width: 60%" >
+
       </div>
     </v-sheet>
 
