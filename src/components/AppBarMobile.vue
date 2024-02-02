@@ -12,6 +12,11 @@ export default {
 
 <template>
   <v-app-bar fixed>
+    <v-row>
+      <v-col>
+
+      </v-col>
+    </v-row>
     <template v-slot:prepend>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </template>
