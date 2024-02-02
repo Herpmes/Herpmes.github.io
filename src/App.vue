@@ -2,12 +2,10 @@
 import {RouterLink, RouterView} from 'vue-router'
 import AppBarDesktop from './components/AppBarDesktop.vue'
 import AppBarMobile from './components/AppBarMobile.vue'
+import {useAppBraDesktopStore} from '@/stores/AppBarDesktopStore.js'
+const drawerStore = useAppBraDesktopStore()
 
-let drawerProductos = false;
-let drawerMobile = false;
-function changeSelected(newSelected) {
-  this.selectedTopTab = newSelected
-}
+console.log(drawerStore.getDrawer)
 </script>
 <template>
   <v-app>
@@ -17,6 +15,7 @@ function changeSelected(newSelected) {
     ******************
     v-if="this.$vuetify.display.name!=='xs'"
     -->
+
     <AppBarDesktop v-if="this.$vuetify.display.name!=='xs'"/>
     <AppBarMobile v-else/>
     <!--
@@ -24,35 +23,34 @@ function changeSelected(newSelected) {
     View que cambia
     ******************
     -->
-      <v-navigation-drawer
-        v-model="drawerProductos"
-        location="top"
-        temporary
-        margin-top="-5px"
-        @mouseleave="drawerProductos = !drawerProductos" >
-        <v-row class="pa-10">
-          <v-col cols="3" >
-            <h4 class="tituloProductos">GRANDES EMPRESAS</h4>
-              <v-row style="margin-top: 5px">
-                <v-col cols="2">
-                  foto
-                </v-col>
-                <v-col cols="10">
-                  texto
-                </v-col>
-              </v-row>
-          </v-col>
-          <v-col cols="3">
-            <h4 class="tituloProductos">PYMES</h4>
-          </v-col>
-          <v-col cols="3">
-            <h4 class="tituloProductos">AUTÓNOMOS</h4>
-          </v-col>
-          <v-col cols="3" style="color: #00b0ff;font-weight: bold">
-            <h4 class="tituloProductos">HERRAMIENTAS DE DESARROLLO</h4>
-          </v-col>
-        </v-row>
-      </v-navigation-drawer>
+<!--      <v-navigation-drawer-->
+<!--        v-model="drawerProductos"-->
+<!--        location="top"-->
+<!--        margin-top="-5px"-->
+<!--        @mouseleave="drawerProductos = !drawerProductos" v-if="this.drawerStore.getDrawer">-->
+<!--        <v-row class="pa-10">-->
+<!--          <v-col cols="3" >-->
+<!--            <h4 class="tituloProductos">GRANDES EMPRESAS</h4>-->
+<!--              <v-row style="margin-top: 5px">-->
+<!--                <v-col cols="2">-->
+<!--                  foto-->
+<!--                </v-col>-->
+<!--                <v-col cols="10">-->
+<!--                  texto-->
+<!--                </v-col>-->
+<!--              </v-row>-->
+<!--          </v-col>-->
+<!--          <v-col cols="3">-->
+<!--            <h4 class="tituloProductos">PYMES</h4>-->
+<!--          </v-col>-->
+<!--          <v-col cols="3">-->
+<!--            <h4 class="tituloProductos">AUTÓNOMOS</h4>-->
+<!--          </v-col>-->
+<!--          <v-col cols="3" style="color: #00b0ff;font-weight: bold">-->
+<!--            <h4 class="tituloProductos">HERRAMIENTAS DE DESARROLLO</h4>-->
+<!--          </v-col>-->
+<!--        </v-row>-->
+<!--      </v-navigation-drawer>-->
     <RouterView/>
     <!--
     ******************
