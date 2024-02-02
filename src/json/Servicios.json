@@ -1,0 +1,57 @@
+[
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/ahora-crm.png",
+    "titulo": "AHORA CRM",
+    "subtitulo": "La herramienta 360º para tu equipo de ventas"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/sga.png",
+    "titulo": "AHORA SGA",
+    "subtitulo": "Software avanzado para la Gestión de Almacén"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/empleados.png",
+    "titulo": "Sebastian",
+    "subtitulo": "Solución de RR.HH y Portal del Empleado"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/analytics-1.png",
+    "titulo": "AHORA Analytics",
+    "subtitulo": "El Cuadro BI que se adapta a tu negocio"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/sat-2.png",
+    "titulo": "AHORA SAT",
+    "subtitulo": "App móvil de asistencia técnica"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2023/08/este.webp",
+    "titulo": "AHORA TPV",
+    "subtitulo": "Software Terminal Punto de Venta"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2023/08/3333.webp",
+    "titulo": "BRUNO GMAO",
+    "subtitulo": "Plataforma para mantenimiento<br> gestión de activos de la empresa"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2024/01/Icono-canal-denuncias-azul-claro.webp",
+    "titulo": "Canal de Denuncias",
+    "subtitulo": "Alerta sobre las malas prácticas en la empresa"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2023/08/azul-ahora.webp",
+    "titulo": "AHORA Business Hub",
+    "subtitulo": "Marketplace de servicios y módulos de gestión"
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/03/kds.png",
+    "titulo": "Kit Digital",
+    "subtitulo": "Te acompañamos en tu digitalización"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/1200px-Codigo_QR.svg.png",
+    "titulo": "Ticket BAI",
+    "subtitulo": "Somos fabricante de software garante"
+  }
+]
