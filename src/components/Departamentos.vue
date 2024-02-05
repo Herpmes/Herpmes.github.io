@@ -1,22 +1,16 @@
-<script>
-export default {
-  name: "Departamentos",
-  data() {
-    return {
-      prueba: false
-    }
-  }
-}
+<script setup>
+import {useAppBraDesktopStore} from '@/stores/AppBarDesktopStore.js'
+const drawerStore = useAppBraDesktopStore()
 </script>
 
 <template>
 
   <v-navigation-drawer
-      v-model="prueba"
+      v-model="drawerStore.getDrawerDepartamentos"
       location="top"
       class=""
       style="margin-top: -5px; height: 300px"
-      @mouseleave="prueba = !prueba">
+      @mouseleave="drawerStore.swapDepartamentos()">
     <v-list>
 
       <v-container style="max-width: none">

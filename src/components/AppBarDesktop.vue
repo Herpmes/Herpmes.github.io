@@ -38,6 +38,10 @@ function changeSelected(newSelected) {
     <!--Productos-->
     <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swap()">Productos</v-btn>
 
+    <!-- Departamentos -->
+    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapDepartamentos()">Departamentos</v-btn>
+
+
 
 
     <v-spacer></v-spacer>
