@@ -1,27 +1,13 @@
+<script setup>
+import Banners from "/src/json/Banners.json"
+import BannerDesktop from '@/components/BannerDesktop.vue'
+const banner = Banners
+</script>
+
 <template>
   <main style="margin-top: 60px">
-    <!--
-    *****************
-    Banner
-    *****************
-    -->
-    <v-sheet
-        class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
-        height="250"
-        width="100%"
-        style="background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);"
-    >
-      <div style="width: 60%" class="text-white">
-        <div class="text-h4 font-weight-bold mb-2">
-          Nuestros engranajes
-        </div>
-        <br>
-        <p class="text-body-1 mb-4">
-          Los pilares de todo.
-        </p>
-      </div>
-    </v-sheet>
-
+    <!--Banner-->
+    <BannerDesktop :title="banner.about.title" :subtitle="banner.about.subtitle"/>
     <!--
     *****************
     Descripcion
@@ -160,5 +146,3 @@
 <style>
 
 </style>
-<script setup>
-</script>

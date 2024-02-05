@@ -1,9 +1,13 @@
 <script>
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import CasosExito from "/src/json/CasosExito.json"
+import Banners from "/src/json/Banners.json"
+import BannerDesktop from '@/components/BannerDesktop.vue'
 export default {
+  components: { BannerDesktop },
   data() {
     return {
+      banner : Banners,
       items :CasosExito
     }
   }
@@ -11,41 +15,9 @@ export default {
 </script>
 
 <template>
-  <!--
-  background-image: url('src/Img/HomeBaner.jpg');
-        background-repeat: repeat;
-        background-size: cover
-  -->
   <main style="margin-top: 60px">
-    <!--
-    *****************
-    Banner
-    *****************
-    -->
-    <v-sheet
-        class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 py-15"
-        width="100%"
-        style="background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);"
-    >
-      <v-row class="text-white">
-        <v-spacer></v-spacer>
-        <v-col cols="10">
-          <div class="text-h4 font-weight-bold mb-2">
-            HERPmes es una consultoria de software para pequeñas y medianas empresas
-          </div>
-          <br>
-          <p class="text-body-1 mb-4">
-            Impulsa tu éxito con nuestra consultoría de software. Utiliza soluciones digitales poderosas para potenciar tu
-            empresa.
-          </p>
-        </v-col>
-        <v-spacer></v-spacer>
-      </v-row>
-      <div style="width: 60%" >
-
-      </div>
-    </v-sheet>
-
+    <!--Banner-->
+    <BannerDesktop :title="this.banner.home.title" :subtitle="this.banner.home.subtite" />
     <!--
     *****************
     Mini Desc

@@ -1,5 +1,5 @@
 <script setup>
-import {useAppBraDesktopStore} from '@/stores/ProductosStore.js'
+import {useAppBraDesktopStore} from '@/stores/DrawerDesktopStore.js'
 const drawerStore = useAppBraDesktopStore();
 let selectedTopTab = 0;
 function changeSelected(newSelected) {
