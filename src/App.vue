@@ -4,8 +4,8 @@ import AppBarDesktop from './components/AppBarDesktop.vue'
 import AppBarMobile from './components/AppBarMobile.vue'
 import NavDrawerProductosDesktop from '@/components/NavAlgo.vue'
 import NavDrawerServiciosDesktop from '@/components/NavDrawerProductosDesktop.vue'
+import NavDrawerDepartamentosDesktop from '@/components/NavDrawerDepartamentosDesktop.vue'
 import CustomFooter from '@/components/CustomFooter.vue'
-import Departamentos from '@/components/Departamentos.vue'
 </script>
 <template>
   <v-app>
@@ -14,7 +14,8 @@ import Departamentos from '@/components/Departamentos.vue'
     <AppBarMobile v-else/>
     <!--Desplegable Productos-->
     <NavDrawerProductosDesktop />
-    <Departamentos />
+    <!--Desplegable Departamentos-->
+    <NavDrawerDepartamentosDesktop />
     <!--Desplegable Servicios-->
     <NavDrawerServiciosDesktop />
     <!--Main-->

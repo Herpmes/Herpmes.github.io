@@ -1,6 +1,6 @@
 <script setup>
-import {useAppBraDesktopStore} from '@/stores/DrawerDesktopStore.js'
-const productosStore = useAppBraDesktopStore()
+import {useAppBarDesktopStore} from '@/stores/DrawerDesktopStore.js'
+const productosStore = useAppBarDesktopStore()
 </script>
 
 <template>

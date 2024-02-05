@@ -1,6 +1,6 @@
 <script setup>
-import {useAppBraDesktopStore} from '@/stores/AppBarDesktopStore.js'
-const drawerStore = useAppBraDesktopStore();
+import {useAppBarDesktopStore} from '@/stores/DrawerDesktopStore.js'
+const drawerStore = useAppBarDesktopStore();
 let selectedTopTab = 0;
 function changeSelected(newSelected) {
   this.selectedTopTab = newSelected
@@ -37,13 +37,10 @@ function changeSelected(newSelected) {
 
     <!--Productos-->
     <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapProductos()">Productos</v-btn>
-
+    <!--Servicios-->
+    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapServicios()">Servicios</v-btn>
     <!-- Departamentos -->
     <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapDepartamentos()">Departamentos</v-btn>
-
-
-    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapServicios()">Servicios</v-btn>
-
 
     <v-spacer></v-spacer>
 
