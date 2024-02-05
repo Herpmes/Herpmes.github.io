@@ -2,8 +2,8 @@
 import {RouterView} from 'vue-router'
 import AppBarDesktop from './components/AppBarDesktop.vue'
 import AppBarMobile from './components/AppBarMobile.vue'
-import NavDrawerProductosDesktop from '@/components/NavDrawerProductosDesktop.vue'
-import NavDrawerServiciosDesktop from '@/components/NavDrawerServiciosDesktop.vue'
+import NavDrawerProductosDesktop from '@/components/NavAlgo.vue'
+import NavDrawerServiciosDesktop from '@/components/NavDrawerProductosDesktop.vue'
 import CustomFooter from '@/components/CustomFooter.vue'
 </script>
 <template>
