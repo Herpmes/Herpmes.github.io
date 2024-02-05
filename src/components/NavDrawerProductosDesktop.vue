@@ -1,13 +1,13 @@
 <script setup>
-import {useAppBraDesktopStore} from '@/stores/AppBarDesktopStore.js'
-const drawerStore = useAppBraDesktopStore()
+import {useAppBraDesktopStore} from '@/stores/ProductosStore.js'
+const productosStore = useAppBraDesktopStore()
 </script>
 
 <template>
   <v-navigation-drawer
-    v-model="drawerStore.getDrawer"
+    v-model="productosStore.getDrawerProductos"
     location="top"
-    margin-top="-5px" @mouseleave="drawerStore.swap()">
+    margin-top="-5px" @mouseleave="productosStore.swapProductos()">
     <v-row class="pa-10">
       <v-col cols="3" >
         <h4 class="tituloProductos">GRANDES EMPRESAS</h4>

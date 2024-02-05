@@ -3,6 +3,7 @@ import {RouterView} from 'vue-router'
 import AppBarDesktop from './components/AppBarDesktop.vue'
 import AppBarMobile from './components/AppBarMobile.vue'
 import NavDrawerProductosDesktop from '@/components/NavDrawerProductosDesktop.vue'
+import NavDrawerServiciosDesktop from '@/components/NavDrawerServiciosDesktop.vue'
 import CustomFooter from '@/components/CustomFooter.vue'
 </script>
 <template>
@@ -12,6 +13,8 @@ import CustomFooter from '@/components/CustomFooter.vue'
     <AppBarMobile v-else/>
     <!--Desplegable Productos-->
     <NavDrawerProductosDesktop />
+    <!--Desplegable Servicios-->
+    <NavDrawerServiciosDesktop />
     <!--Main-->
     <RouterView/>
     <!--Footer-->

@@ -1,20 +1,14 @@
-<script>
-export default {
-  name: 'Servicios_Props',
-  data() {
-    return {
-      drawer: true,
-    }
-  }
-}
+<script setup>
+import {useAppBraDesktopStore} from '@/stores/ProductosStore.js'
+const drawerStore = useAppBraDesktopStore()
 </script>
 
 <template>
   <v-navigation-drawer
-    v-model="drawer"
+    v-model="drawerStore.getDrawerServicios"
     location="top"
     style="margin-top: -5px; height: 500px"
-    @mouseleave="drawer = !drawer">
+    @mouseleave="drawerStore.swapServicios()">
 
 
     <v-container style="max-width: none">
