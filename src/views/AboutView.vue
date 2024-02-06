@@ -1,6 +1,6 @@
 <script setup>
 import Banners from "/src/json/Banners.json"
-import BannerDesktop from '@/components/BannerDesktop.vue'
+import BannerDesktop from '@/components/Banner.vue'
 const banner = Banners
 </script>
 

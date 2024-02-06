@@ -1,10 +1,10 @@
 <script setup>
 import {RouterView} from 'vue-router'
-import AppBarDesktop from './components/AppBarDesktop.vue'
-import AppBarMobile from './components/AppBarMobile.vue'
+import AppBarDesktop from './components/OnlyDesktop/AppBarDesktop.vue'
+import AppBarMobile from './components/OnlyPhone/AppBarMobile.vue'
 import NavDrawerProductosDesktop from '@/components/NavAlgo.vue'
-import NavDrawerServiciosDesktop from '@/components/NavDrawerProductosDesktop.vue'
-import NavDrawerDepartamentosDesktop from '@/components/NavDrawerDepartamentosDesktop.vue'
+import NavDrawerServiciosDesktop from '@/components/OnlyDesktop/NavDrawerProductosDesktop.vue'
+import NavDrawerDepartamentosDesktop from '@/components/OnlyDesktop/NavDrawerDepartamentosDesktop.vue'
 import CustomFooter from '@/components/CustomFooter.vue'
 </script>
 <template>

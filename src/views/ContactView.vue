@@ -1,8 +1,8 @@
 <script setup>
 import Banners from "/src/json/Banners.json"
-import BannerDesktop from '@/components/BannerDesktop.vue'
-import ContactFormDesktop from '@/components/ContactFormDesktop.vue'
-import ContactCardsDesktop from '@/components/ContactCardsDesktop.vue'
+import BannerDesktop from '@/components/Banner.vue'
+import ContactFormDesktop from '@/components/ContactForm.vue'
+import ContactCardsDesktop from '@/components/ContactCards.vue'
 const banner = Banners
 </script>
 

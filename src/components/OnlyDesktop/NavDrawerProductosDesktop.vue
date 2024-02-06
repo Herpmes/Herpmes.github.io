@@ -7,15 +7,13 @@ const drawerStore = useAppBarDesktopStore()
   <v-navigation-drawer
     v-model="drawerStore.getDrawerProductos"
     location="top"
-    style="margin-top: -5px; height: 500px"
-    @mouseleave="drawerStore.swapProductos()">
+    style="margin-top: -5px; max-height: none; height: fit-content"
+    @mouseleave="drawerStore.swapProductos()" class="pa-9">
 
-
-    <v-container style="max-width: none">
-      <h5 class="text-blue text-h5">Complementa tu Sistema de información</h5>
+      <h5 class="text-blue text-h5 text-center">Complementa tu Sistema de información</h5>
 
       <!--Contenedor-->
-      <v-row>
+      <v-row class="ma-3">
 
         <!-- Primera Columna -->
         <v-col cols="3" class="mt-5">
@@ -208,7 +206,6 @@ const drawerStore = useAppBarDesktopStore()
           </v-row>
         </v-col>
       </v-row>
-    </v-container>
 
   </v-navigation-drawer>
 </template>

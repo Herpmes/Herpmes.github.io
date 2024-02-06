@@ -6,13 +6,13 @@
   <footer class="custom-footer">
     <v-container>
       <v-row>
-        <v-col cols="4"></v-col>
-        <v-col cols="4">
+        <v-spacer></v-spacer>
+        <v-col cols="12" md="4">
           <v-btn icon="mdi-instagram" class="me-2" href="https://www.instagram.com/herpmes.enterprise/"></v-btn>
           <v-btn icon="mdi-twitter" class="me-2" href="https://twitter.com/H3RPmes"></v-btn>
           <v-btn icon="mdi-email" class="me-2" href="mailto:herpmes.entrerprise@gmail.com"></v-btn>
         </v-col>
-        <v-col cols="4"></v-col>
+        <v-spacer></v-spacer>
       </v-row>
     </v-container>
   </footer>
