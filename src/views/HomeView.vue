@@ -3,7 +3,7 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import Banners from '/src/json/Banners.json'
 import BannerDesktop from '@/components/Banner.vue'
 import HomeDescAbout from '@/components/HomeDescAbout.vue'
-import ClientCasesDesktop from '@/components/OnlyDesktop/ClientCasesDesktop.vue'
+import ClientCasesDesktop from '@/components/ClientCasesDesktop.vue'
 export default {
   components: { ClientCasesDesktop, HomeDescAbout, BannerDesktop },
   data() {

@@ -9,7 +9,7 @@ const items = CasosExito
       <h1 class="mb-8">Casos de éxito</h1>
       <v-row class="pb-5">
         <v-spacer></v-spacer>
-        <v-col cols="10">
+        <v-col cols="11" md="10">
           <v-carousel
             hide-delimiter-background
             show-arrows
@@ -23,8 +23,8 @@ const items = CasosExito
             >
 
               <v-card class="mx-auto" hover width="80%" style="border-radius: 30px">
-                <v-row class="pb-10">
-                  <v-col style="height: 100%;text-align: left;padding: 5%" cols="12" md="6">
+                <v-row class="pb-14">
+                  <v-col cols="12" md="6" class="text-left pa-15">
                     <v-icon icon="mdi-format-quote-close" size="90px"></v-icon>
                     <p style="font-size: 20px">{{ item.desc }}</p>
                     <br>
