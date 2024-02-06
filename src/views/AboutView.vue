@@ -2,44 +2,19 @@
 import Banners from "/src/json/Banners.json"
 import BannerDesktop from '@/components/Banner.vue'
 const banner = Banners
+import About from "/src/json/About.json"
+const aboutinfo = About
+import AboutTextWhite from '@/components/AboutTextWhite.vue'
 </script>
 
 <template>
   <main style="margin-top: 60px">
     <!--Banner-->
     <BannerDesktop :title="banner.about.title" :subtitle="banner.about.subtitle"/>
-    <!--
-    *****************
-    Descripcion
-    *****************
-    -->
-    <v-container
-        style="max-width: none ; margin-top: 50px;
-      padding-top: 40px;padding-bottom: 40px;"
-        align="center"
-    >
-      <v-row style="width: 70%" class="text-left text-black">
-        <v-col cols="12" md="6">
-          <v-img src="/src/Img/Logos/LogoHerpmes.png" width="50%"></v-img>
-          <br>
-          <p style="font-size: 20px">
-            Bienvenido a Herpmes, su socio confiable en consultoría y desarrollo de software.
-            En Herpmes, fusionamos experiencia y creatividad para ofrecer soluciones tecnológicas a la medida
-            de sus necesidades. Nos enorgullece destacar en el panorama de la consultoría, brindando a
-            nuestros clientes las herramientas necesarias para prosperar en el entorno digital.
-          </p>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
-        </v-col>
-      </v-row>
-    </v-container>
+    <!--Descripcion-->
+    <AboutTextWhite :logo="aboutinfo.herpmes.logo" :desc="aboutinfo.herpmes.desc" :img="aboutinfo.herpmes.img"/>
 
-    <!--
-    *****************
-    Intro Dep
-    *****************
-    -->
+    <!--Intro Dep-->
     <v-container
         style="max-width: none ;
       margin-top: 50px;background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
@@ -62,33 +37,8 @@ const banner = Banners
       </v-row>
     </v-container>
 
-    <!--
-    *****************
-    Anchor
-    *****************
-    -->
-
-    <v-container
-        style="max-width: none ; margin-top: 50px;
-      padding-top: 40px;padding-bottom: 40px;"
-        align="center"
-    >
-      <v-row style="width: 70%" class="text-left text-black">
-        <v-col cols="12" md="6">
-          <v-img src="/src/Img/Logos/LogoAnchorNegro.png" width="50%"></v-img>
-          <br>
-          <p style="font-size: 20px">
-            Anchor es un equipo multidisciplinario de expertos en tecnología y estrategia,
-            nos enfocamos en diseñar e implementar soluciones eficientes y estratégicas para
-            satisfacer las necesidades únicas de cada cliente, impulsando así su crecimiento
-            y ventaja competitiva.
-          </p>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
-        </v-col>
-      </v-row>
-    </v-container>
+    <!--Anchor-->
+    <AboutTextWhite :logo="aboutinfo.anchor.logo" :desc="aboutinfo.anchor.desc" :img="aboutinfo.anchor.img"/>
     <!--
     *****************
     Codecrafters

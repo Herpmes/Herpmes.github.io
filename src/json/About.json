@@ -1,0 +1,22 @@
+{
+  "herpmes" : {
+    "logo": "/src/Img/Logos/LogoHerpmes.png",
+    "desc": "Bienvenido a Herpmes, su socio confiable en consultoría y desarrollo de software. En Herpmes, fusionamos experiencia y creatividad para ofrecer soluciones tecnológicas a la medida de sus necesidades. Nos enorgullece destacar en el panorama de la consultoría, brindando a nuestros clientes las herramientas necesarias para prosperar en el entorno digital.",
+    "img": "/src/Img/Home1.jpg"
+  },
+  "anchor" : {
+    "logo": "/src/Img/Logos/LogoAnchorNegro.png",
+    "desc": "Anchor es un equipo multidisciplinario de expertos en tecnología y estrategia, nos enfocamos en diseñar e implementar soluciones eficientes y estratégicas para satisfacer las necesidades únicas de cada cliente, impulsando así su crecimiento y ventaja competitiva.",
+    "img": "/src/Img/Home1.jpg"
+  },
+  "codeC" : {
+    "logo": "",
+    "desc": "",
+    "img": ""
+  },
+  "nuixo" : {
+    "logo": "",
+    "desc": "",
+    "img": ""
+  }
+}
