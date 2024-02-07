@@ -10,13 +10,13 @@
     "img": "/src/Img/Home1.jpg"
   },
   "codeC" : {
-    "logo": "",
-    "desc": "",
-    "img": ""
+    "logo": "/src/Img/Logos/LogoCodecrafters.png",
+    "desc": "Somos un equipo / departamento, lo que mas hacemos en nuestro departamento es programar y realizar tareas para la empresa, destacamos en nuestro trabajo que somos muy aplicados.",
+    "img": "/src/Img/Home1.jpg"
   },
   "nuixo" : {
-    "logo": "",
-    "desc": "",
-    "img": ""
+    "logo": "/src/Img/Logos/LogoNuixo.png",
+    "desc": "Somos un grupo innovativo formado por un equipo muy unido y con un objetivo común clarísimo, contamos con un personal joven y dinámico con muchas ganas de trabajar en buenos proyectos, tenemos un objetivo en mente y con ganas de cumplirlo.\n A todo esto necesitamos ser flexibles y ágiles para abordar los cambios tecnológicos y empresariales que se presentan",
+    "img": "/src/Img/Home1.jpg"
   }
 }

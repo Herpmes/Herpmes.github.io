@@ -4,6 +4,8 @@ a{
 }
 .logoH{
   width: 200px;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+.logoHChiquito{
+  width: 150px;
+  justify-content: center;
 }

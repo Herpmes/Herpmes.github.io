@@ -11,7 +11,7 @@ function changeSelected(newSelected) {
   <v-app-bar fixed>
 
 
-    <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH">
+    <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH px-5">
 
 
 
