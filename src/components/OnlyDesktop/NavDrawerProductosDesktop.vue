@@ -23,10 +23,11 @@ let cantRows =Math.ceil(cant/4)
           <!--Bucle Elementos-->
           <v-row v-for="i in cantRows">
 
+            <!-- Solo Dios y yo sabemos como lo hemos hecho -->
             <v-col v-if="(cantRows*(n-1)+(i-1))<cant">
               <img id="image-934-74223" alt="AHORA CRM Software de Gestión Comercial"
                    :src="productos[cantRows*(n-1)+(i-1)].image" width="50">
-              <a id="link-1515-74223" class="" href="https://www.ahora.es/ahora-crm/">
+              <a id="link-1515-74223" class="desc" :href="productos[cantRows*(n-1)+(i-1)].enlace" target="_blank">
                 <h4 id="headline-1516-74223" class="">{{productos[cantRows*(n-1)+(i-1)].titulo}}</h4>
                 <div id="text_block-1517-74223" class="text-grey">{{productos[cantRows*(n-1)+(i-1)].subtitulo}}</div>
               </a>
@@ -39,5 +40,9 @@ let cantRows =Math.ceil(cant/4)
 </template>
 
 <style scoped>
+
+.desc:hover {
+  color: #00b0ff;
+}
 
 </style>

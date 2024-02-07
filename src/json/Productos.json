@@ -2,56 +2,67 @@
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/ahora-crm.png",
     "titulo": "AHORA CRM",
-    "subtitulo": "La herramienta 360º para tu equipo de ventas"
+    "subtitulo": "La herramienta 360º para tu equipo de ventas",
+    "enlace": "https://www.ahora.es/ahora-crm/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/sga.png",
     "titulo": "AHORA SGA",
-    "subtitulo": "Software avanzado para la Gestión de Almacén"
+    "subtitulo": "Software avanzado para la Gestión de Almacén",
+    "enlace": "https://www.ahora.es/ahora-sga/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/empleados.png",
     "titulo": "Sebastian",
-    "subtitulo": "Solución de RR.HH y Portal del Empleado"
+    "subtitulo": "Solución de RR.HH y Portal del Empleado",
+    "enlace": "https://www.ahora.es/sebastian-recursos-humanos-portal-del-empleado/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/analytics-1.png",
     "titulo": "AHORA Analytics",
-    "subtitulo": "El Cuadro BI que se adapta a tu negocio"
+    "subtitulo": "El Cuadro BI que se adapta a tu negocio",
+    "enlace": "https://www.ahora.es/ahora-analytics/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/sat-2.png",
     "titulo": "AHORA SAT",
-    "subtitulo": "App móvil de asistencia técnica"
+    "subtitulo": "App móvil de asistencia técnica",
+    "enlace": "https://www.ahora.es/ahora-sat/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2023/08/este.webp",
     "titulo": "AHORA TPV",
-    "subtitulo": "Software Terminal Punto de Venta"
+    "subtitulo": "Software Terminal Punto de Venta",
+    "enlace": "https://www.ahora.es/ahora-tpv/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2023/08/3333.webp",
     "titulo": "BRUNO GMAO",
-    "subtitulo": "Plataforma para mantenimiento<br> gestión de activos de la empresa"
+    "subtitulo": "Plataforma para mantenimiento<br> gestión de activos de la empresa",
+    "enlace": "https://www.ahora.es/bruno-gmao"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2024/01/Icono-canal-denuncias-azul-claro.webp",
     "titulo": "Canal de Denuncias",
-    "subtitulo": "Alerta sobre las malas prácticas en la empresa"
+    "subtitulo": "Alerta sobre las malas prácticas en la empresa",
+    "enlace": "https://www.ahora.es/canal-de-denuncias-venta/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2023/08/azul-ahora.webp",
     "titulo": "AHORA Business Hub",
-    "subtitulo": "Marketplace de servicios y módulos de gestión"
+    "subtitulo": "Marketplace de servicios y módulos de gestión",
+    "enlace": "https://www.ahora.es/ahora-business-hub/"
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/03/kds.png",
     "titulo": "Kit Digital",
-    "subtitulo": "Te acompañamos en tu digitalización"
+    "subtitulo": "Te acompañamos en tu digitalización",
+    "enlace": "https://www.ahora.es/kit-digital/"
   },
   {
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/1200px-Codigo_QR.svg.png",
     "titulo": "Ticket BAI",
-    "subtitulo": "Somos fabricante de software garante"
+    "subtitulo": "Somos fabricante de software garante",
+    "enlace": "https://www.ahora.es/ticket-bai/"
   }
 ]
