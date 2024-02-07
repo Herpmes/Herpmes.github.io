@@ -6,11 +6,12 @@ import NavDrawerProductosDesktop from '@/components/NavAlgo.vue'
 import NavDrawerServiciosDesktop from '@/components/OnlyDesktop/NavDrawerProductosDesktop.vue'
 import NavDrawerDepartamentosDesktop from '@/components/OnlyDesktop/NavDrawerDepartamentosDesktop.vue'
 import CustomFooter from '@/components/CustomFooter.vue'
+const phoneSized = ["xs","sm","md"]
 </script>
 <template>
   <v-app>
     <!--AppBar-->
-    <AppBarDesktop v-if="$vuetify.display.name==='lg'"/>
+    <AppBarDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <AppBarMobile v-else/>
     <!--Desplegable Productos-->
     <NavDrawerProductosDesktop />

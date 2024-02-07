@@ -1,9 +1,10 @@
 <script setup>
 const props = defineProps(['logo','desc','img'])
+const phoneSized = ["xs","sm","md"]
 </script>
 
 <template>
-  <v-row  class="text-left text-black px-16 py-10 bBG text-white" justify="center" v-if="$vuetify.display.name!=='lg'">
+  <v-row  class="text-left text-black px-16 py-10 bBG text-white" justify="center" v-if="phoneSized.includes($vuetify.display.name)">
     <v-col cols="12">
       <v-img :src="props.logo" width="100px" align="left"></v-img>
       <br>
@@ -21,8 +22,7 @@ const props = defineProps(['logo','desc','img'])
     <v-col cols="5">
       <v-img :src="props.img" height="300px"></v-img>
     </v-col>
-    <v-spacer v-if="$vuetify.display.name!=='lg'"></v-spacer>
-    <v-col cols="12"  md="6">
+    <v-col cols="5">
       <v-img :src="props.logo" width="100px" align="left"></v-img>
       <br>
       <p style="font-size: 20px">
