@@ -68,17 +68,17 @@
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/graph.png",
           "titulo": "Aumento de la productividad y rentabilidad",
-          "desc": "Mayor control de la actividad comercial, a nivel individual o de equipo. Cartera de clientes continuamente activa y gestionada. \n\nRegistra las ventas por comercial, cliente, línea de negocio, producto… y compara con otros años."
+          "desc": "Mayor control de la actividad comercial, a nivel individual o de equipo. Cartera de clientes continuamente activa y gestionada. Registra las ventas por comercial, cliente, línea de negocio, producto… y compara con otros años."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/database.png",
           "titulo": "Información en tiempo real y centralizada",
-          "desc": "Accede a la información desde cualquier dispositivo y ubicación. Evita cientos de documentos diferentes y centraliza la información y la comunicación en una única herramienta de fácil acceso e implantación.\n\nObtén una previsión completa de las ventas de tu equipo comercial, semana a semana y mes a mes."
+          "desc": "Accede a la información desde cualquier dispositivo y ubicación. Evita cientos de documentos diferentes y centraliza la información y la comunicación en una única herramienta de fácil acceso e implantación. Obtén una previsión completa de las ventas de tu equipo comercial, semana a semana y mes a mes."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/cloud.png",
           "titulo": "Despliegue y usabilidad",
-          "desc": "Desarrollo continuo de nuevas funcionalidades. Actualizaciones sencillas y automáticas sin preocupaciones para el usuario.\n\nOn-premise: 100% personalizable e integrable con los sistemas existentes.\n\nCloud: Estándar en la nube. No requiere mantenimiento de sistemas."
+          "desc": "Desarrollo continuo de nuevas funcionalidades. Actualizaciones sencillas y automáticas sin preocupaciones para el usuario. On-premise: 100% personalizable e integrable con los sistemas existentes. Cloud: Estándar en la nube. No requiere mantenimiento de sistemas."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/like.png",
@@ -88,12 +88,12 @@
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/smile.png",
           "titulo": "Acceso fácil y seguro",
-          "desc": "Intuitivo y con una interfaz adecuada para cada usuario.\n\nAcceso directo desde tu navegador web, sin necesidad de instalar programas en los puestos de trabajo.\n"
+          "desc": "Intuitivo y con una interfaz adecuada para cada usuario. Acceso directo desde tu navegador web, sin necesidad de instalar programas en los puestos de trabajo."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
           "titulo": "Integraciones y personalizaciones",
-          "desc": "Integrado con AHORA Express, con otros sistemas ERP, con Office 365 y con Google Calendars.\n\nDesarrollado con la plataforma low code flexygo. Si cuentas con un departamento IT, podrás configurar por completo la aplicación usando los asistentes de la herramienta con la máxima seguridad y garantía tecnológica y de actualización."
+          "desc": "Integrado con AHORA Express, con otros sistemas ERP, con Office 365 y con Google Calendars. Desarrollado con la plataforma low code flexygo. Si cuentas con un departamento IT, podrás configurar por completo la aplicación usando los asistentes de la herramienta con la máxima seguridad y garantía tecnológica y de actualización."
         }
       ],
       "desc": ""
