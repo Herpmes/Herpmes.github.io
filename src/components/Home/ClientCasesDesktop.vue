@@ -12,7 +12,7 @@ const items = CasosExito
         <v-col cols="11" md="10">
           <v-carousel
             hide-delimiter-background
-            :show-arrows="this.$vuetify.display.name!=='xs'"
+            :show-arrows="$vuetify.display.name!=='xs'"
             class="text-white"
             height="auto"
           >
@@ -35,8 +35,8 @@ const items = CasosExito
                     </p>
                   </v-col>
                   <v-col cols="12" md="6">
-                    <v-img :src="item.img" max-height="400px" class="align-center mt-15" v-if="this.$vuetify.display.name==='lg'"></v-img>
-                    <v-img :src="item.img" max-height="300px" class="align-center mt-15" v-else-if="this.$vuetify.display.name==='md'"></v-img>
+                    <v-img :src="item.img" max-height="400px" class="align-center mt-15" v-if="$vuetify.display.name==='lg'"></v-img>
+                    <v-img :src="item.img" max-height="300px" class="align-center mt-15" v-else-if="$vuetify.display.name==='md'"></v-img>
                     <v-img :src="item.img" max-height="200px" class="align-center" v-else></v-img>
                   </v-col>
                 </v-row>

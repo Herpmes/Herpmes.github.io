@@ -10,7 +10,7 @@ import CustomFooter from '@/components/CustomFooter.vue'
 <template>
   <v-app>
     <!--AppBar-->
-    <AppBarDesktop v-if="this.$vuetify.display.name==='lg'"/>
+    <AppBarDesktop v-if="$vuetify.display.name==='lg'"/>
     <AppBarMobile v-else/>
     <!--Desplegable Productos-->
     <NavDrawerProductosDesktop />

@@ -50,9 +50,9 @@ function changeSelected(newSelected) {
     <!--Contact Us-->
     <RouterLink to="/contact">
       <v-btn class="hover-anchor font-weight-bold" color="#24afff" :ripple="false" @click="changeSelected(5)"
-             v-if="selectedTopTab===5">CONTACTANOS
+             v-if="selectedTopTab===5">CONTÁCTANOS
       </v-btn>
-      <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(5)" v-else>CONTACTANOS</v-btn>
+      <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(5)" v-else>CONTÁCTANOS</v-btn>
     </RouterLink>
 
 
