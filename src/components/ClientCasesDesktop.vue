@@ -12,7 +12,7 @@ const items = CasosExito
         <v-col cols="11" md="10">
           <v-carousel
             hide-delimiter-background
-            show-arrows
+            :show-arrows="this.$vuetify.display.name!=='xs'"
             class="text-white"
             height="auto"
           >
