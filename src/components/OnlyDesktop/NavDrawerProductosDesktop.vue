@@ -20,15 +20,15 @@ let cantRows =Math.ceil(cant/4)
       <v-row class="ma-3">
         <!--Bucle Columnas-->
         <v-col cols="3" class="mt-5" v-for="n in 4" >
-          {{console.log(n)}}
           <!--Bucle Elementos-->
           <v-row v-for="i in cantRows">
-            <v-col v-if="(4*(n-1)+(i-1))<=cant">
+            {{console.log("col: "+n+"-row:"+i)}}
+            <v-col v-if="(cantRows*(n-1)+(i-1))<cant">
               <img id="image-934-74223" alt="AHORA CRM Software de Gestión Comercial"
-                   :src="productos[4*(n-1)+(i-1)].image" width="50">
+                   :src="productos[cantRows*(n-1)+(i-1)].image" width="50">
               <a id="link-1515-74223" class="" href="https://www.ahora.es/ahora-crm/">
-                <h4 id="headline-1516-74223" class="">{{productos[4*(n-1)+(i-1)].titulo}}</h4>
-                <div id="text_block-1517-74223" class="text-grey">{{productos[4*(n-1)+(i-1)].subtitulo}}</div>
+                <h4 id="headline-1516-74223" class="">{{productos[cantRows*(n-1)+(i-1)].titulo}}</h4>
+                <div id="text_block-1517-74223" class="text-grey">{{productos[cantRows*(n-1)+(i-1)].subtitulo}}</div>
               </a>
             </v-col>
           </v-row>
