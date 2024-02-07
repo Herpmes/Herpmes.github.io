@@ -22,7 +22,7 @@ let cantRows =Math.ceil(cant/4)
         <v-col cols="3" class="mt-5" v-for="n in 4" >
           <!--Bucle Elementos-->
           <v-row v-for="i in cantRows">
-            {{console.log("col: "+n+"-row:"+i)}}
+
             <v-col v-if="(cantRows*(n-1)+(i-1))<cant">
               <img id="image-934-74223" alt="AHORA CRM Software de Gestión Comercial"
                    :src="productos[cantRows*(n-1)+(i-1)].image" width="50">
@@ -31,6 +31,7 @@ let cantRows =Math.ceil(cant/4)
                 <div id="text_block-1517-74223" class="text-grey">{{productos[cantRows*(n-1)+(i-1)].subtitulo}}</div>
               </a>
             </v-col>
+
           </v-row>
         </v-col>
       </v-row>
