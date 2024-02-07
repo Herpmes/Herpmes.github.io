@@ -5,6 +5,7 @@
 <template>
   <footer class="custom-footer">
     <v-container>
+      <p class="mb-6">© 2024 HERPMES · Carrer Arcadi García i Sanz 19 · 12600 La Vall d'Uixó · (+34) 611 740 761</p>
       <v-row>
         <v-spacer></v-spacer>
         <v-col cols="12" md="4">
