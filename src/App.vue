@@ -14,11 +14,11 @@ const phoneSized = ["xs","sm","md"]
     <AppBarDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <AppBarMobile v-else/>
     <!--Desplegable Productos-->
-    <NavDrawerProductosDesktop />
+    <NavDrawerProductosDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <!--Desplegable Departamentos-->
-    <NavDrawerDepartamentosDesktop />
+    <NavDrawerDepartamentosDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <!--Desplegable Servicios-->
-    <NavDrawerServiciosDesktop />
+    <NavDrawerServiciosDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <!--Main-->
     <RouterView/>
     <!--Footer-->
