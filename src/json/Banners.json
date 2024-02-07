@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title" : "HERPmes es una consultoria de software para pequeñas y medianas empresas",
+    "subtite" :"Impulsa tu éxito con nuestra consultoría de software. Utiliza soluciones digitales poderosas para potenciar tu empresa."
+  },
+  "about": {
+    "title" : "Nuestros engranajes",
+    "subtitle" : "Los pilares de todo"
+  },
+  "contact": {
+    "title" : "CONTÁCTANOS",
+    "subtitle" : "Nuestro horario es de 08:00 a 19:00 de lunes a jueves; y de 08:00 a 15:00 los viernes."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "herpmes" : {
+    "logo": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Logos/LogoHerpmes.png",
+    "desc": "Bienvenido a Herpmes, su socio confiable en consultoría y desarrollo de software. En Herpmes, fusionamos experiencia y creatividad para ofrecer soluciones tecnológicas a la medida de sus necesidades. Nos enorgullece destacar en el panorama de la consultoría, brindando a nuestros clientes las herramientas necesarias para prosperar en el entorno digital.",
+    "img": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Home1.jpg"
+  },
+  "anchor" : {
+    "logo": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Logos/LogoAnchorNegro.png",
+    "desc": "Anchor es un equipo multidisciplinario de expertos en tecnología y estrategia, nos enfocamos en diseñar e implementar soluciones eficientes y estratégicas para satisfacer las necesidades únicas de cada cliente, impulsando así su crecimiento y ventaja competitiva.",
+    "img": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Home1.jpg"
+  },
+  "codeC" : {
+    "logo": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Logos/LogoCodecrafters.png",
+    "desc": "Somos un equipo / departamento, lo que mas hacemos en nuestro departamento es programar y realizar tareas para la empresa, destacamos en nuestro trabajo que somos muy aplicados.",
+    "img": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Home1.jpg"
+  },
+  "nuixo" : {
+    "logo": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Logos/LogoNuixo.png",
+    "desc": "Somos un grupo innovativo formado por un equipo muy unido y con un objetivo común clarísimo, contamos con un personal joven y dinámico con muchas ganas de trabajar en buenos proyectos, tenemos un objetivo en mente y con ganas de cumplirlo.\n A todo esto necesitamos ser flexibles y ágiles para abordar los cambios tecnológicos y empresariales que se presentan",
+    "img": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Home1.jpg"
+  }
+}

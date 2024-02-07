@@ -1,19 +1,24 @@
 <script setup>
 import {RouterView} from 'vue-router'
-import AppBarDesktop from './components/AppBarDesktop.vue'
-import AppBarMobile from './components/AppBarMobile.vue'
-import NavDrawerProductosDesktop from '@/components/NavDrawerProductosDesktop.vue'
+import AppBarDesktop from './components/OnlyDesktop/AppBarDesktop.vue'
+import AppBarMobile from './components/OnlyPhone/AppBarMobile.vue'
+import NavDrawerProductosDesktop from '@/components/NavAlgo.vue'
+import NavDrawerServiciosDesktop from '@/components/OnlyDesktop/NavDrawerProductosDesktop.vue'
+import NavDrawerDepartamentosDesktop from '@/components/OnlyDesktop/NavDrawerDepartamentosDesktop.vue'
 import CustomFooter from '@/components/CustomFooter.vue'
-import Departamentos from '@/components/Departamentos.vue'
+const phoneSized = ["xs","sm","md"]
 </script>
 <template>
   <v-app>
     <!--AppBar-->
-    <AppBarDesktop v-if="this.$vuetify.display.name!=='xs'"/>
+    <AppBarDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <AppBarMobile v-else/>
     <!--Desplegable Productos-->
-    <NavDrawerProductosDesktop />
-    <Departamentos />
+    <NavDrawerProductosDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
+    <!--Desplegable Departamentos-->
+    <NavDrawerDepartamentosDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
+    <!--Desplegable Servicios-->
+    <NavDrawerServiciosDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <!--Main-->
     <RouterView/>
     <!--Footer-->

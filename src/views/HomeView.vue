@@ -1,149 +1,27 @@
 <script>
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
-import CasosExito from "/src/json/CasosExito.json"
+import Banners from '/src/json/Banners.json'
+import BannerDesktop from '@/components/Banner.vue'
+import HomeDescAbout from '@/components/Home/HomeDescAbout.vue'
+import ClientCasesDesktop from '@/components/Home/ClientCasesDesktop.vue'
 export default {
+  components: { ClientCasesDesktop, HomeDescAbout, BannerDesktop },
   data() {
     return {
-      items :CasosExito
+      banner: Banners
     }
   }
 }
 </script>
 
 <template>
-  <!--
-  background-image: url('src/Img/HomeBaner.jpg');
-        background-repeat: repeat;
-        background-size: cover
-  -->
-  <main style="margin-top: 60px">
-    <!--
-    *****************
-    Banner
-    *****************
-    -->
-    <v-sheet
-        class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 py-15"
-        width="100%"
-        style="background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);"
-    >
-      <v-row class="text-white">
-        <v-spacer></v-spacer>
-        <v-col cols="10">
-          <div class="text-h4 font-weight-bold mb-2">
-            HERPmes es una consultoria de software para pequeñas y medianas empresas
-          </div>
-          <br>
-          <p class="text-body-1 mb-4">
-            Impulsa tu éxito con nuestra consultoría de software. Utiliza soluciones digitales poderosas para potenciar tu
-            empresa.
-          </p>
-        </v-col>
-        <v-spacer></v-spacer>
-      </v-row>
-      <div style="width: 60%" >
-
-      </div>
-    </v-sheet>
-
-    <!--
-    *****************
-    Mini Desc
-    *****************
-    -->
-
-    <v-container
-        style="max-width: none ; margin-top: 50px"
-        align="center"
-    >
-      <v-row style="width: 70%" class="text-left text-black">
-        <v-col cols="12" md="6">
-          <h1>
-            Acompañamos a empresas en su camino al éxito
-          </h1>
-          <br>
-          <p>
-            En <b>HERPmes</b> somos consultores y desarrolladores de <b>software de gestión para pequeñas y medianas
-            empresas</b>.
-          </p>
-          <br>
-          <p>
-            Sea cual sea tu actividad, tenemos la solución que estás buscando.
-          </p>
-          <br>
-          <div class="text-right">
-            <router-link to="/about">
-              <v-btn flat class="bg-transparent">
-                Descubre mas
-              </v-btn>
-            </router-link>
-          </div>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
-        </v-col>
-      </v-row>
-    </v-container>
-
-    <!--
-    *****************
-    Casos de Exito
-    *****************
-    -->
-    <center style="
-              background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
-              padding-top: 10px;padding-bottom: 20px;
-              margin-top: 50px" class="text-white">
-      <h1  style="margin-top: 50px;margin-bottom: -60px">Casos de éxito</h1>
-      <v-carousel
-          height="750"
-          hide-delimiter-background
-          show-arrows
-          style="width: 60%;"
-          class="text-white"
-      >
-
-        <v-carousel-item
-            v-for="(item, i) in items"
-            :key="i"
-            align="center"
-        >
-
-          <v-card class="mx-auto" hover  width="80%" height="75%" style="margin-top: 10%; border-radius: 30px">
-                  <v-row style="height: 100%">
-                    <v-col style="height: 100%;text-align: left;padding: 5%" cols="6">
-                      <v-icon icon="mdi-format-quote-close" size="90px"></v-icon>
-                      <p style="font-size: 20px">{{item.desc}}</p>
-                      <br>
-                      <p style="font-size: 20px;font-weight: bold">
-                        {{item.nombre}}
-                        <br>
-                        {{item.empresa}}
-                      </p>
-                    </v-col>
-                    <v-col style="height: 100%;padding: 5%;vertical-align: center;" cols="6">
-                      <v-img :src="item.img" height="100%" class="align-center"></v-img>
-                    </v-col>
-                  </v-row>
-<!--            <v-card-item>-->
-<!--              <v-card-title class="text-black">-->
-<!--                CodeCrafters-->
-<!--              </v-card-title>-->
-<!--            </v-card-item>-->
-
-<!--            <v-card-text class="text-center">-->
-<!--              <p class="text-black">Bot 2</p>-->
-<!--              <br>-->
-<!--              <v-btn>Descubre CodeCrafters</v-btn>-->
-<!--              <br>-->
-<!--            </v-card-text>-->
-<!--            <div class="text-center">-->
-<!--              <img src="/src/Img/Logos/LogoAncla.png" alt="">-->
-<!--            </div>-->
-          </v-card>
-        </v-carousel-item>
-      </v-carousel>
-    </center>
+  <main class="mt-15">
+    <!--Banner-->
+    <BannerDesktop :title="this.banner.home.title" :subtitle="this.banner.home.subtite" />
+    <!--Mini Desc-->
+    <HomeDescAbout />
+    <!--Casos de Exito-->
+    <ClientCasesDesktop/>
   </main>
 </template>
 
@@ -152,5 +30,14 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.radialBG{
+  background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
+}
+.v-carousel__controls__item.v-btn.v-btn--icon {
+  background-color: #858684;
+}
+.v-carousel__controls__item.v-btn.v-btn--icon.v-btn--active {
+  background-color: #5a7cf6; /* Colour for active one */
 }
 </style>

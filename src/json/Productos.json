@@ -1,0 +1,606 @@
+[
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/ahora-crm.png",
+    "titulo": "AHORA CRM",
+    "subtitulo": "La herramienta 360º para tu equipo de ventas",
+    "enlace": "https://www.ahora.es/ahora-crm/",
+    "contenido": {
+      "titulo": "Para la gestión comercial de tu negocio",
+      "razones": [
+        "Genera presupuestos personalizados rápidamente con unos pocos clics.",
+        "Comprueba qué ofertas están en el aire con el embudo de ventas y realiza fácilmente las previsiones de ingresos.",
+        "Simplifica la gestión de los gastos. Envía los tickets fácilmente a través del móvil.",
+        "Registra la actividad comercial en una cronología que incluye tareas, llamadas, citas, visitas, reuniones..."
+      ],
+      "funciones": [
+        {
+          "encabezado":"EFICIENCIA",
+          "titulo": "Gestión de Cuentas",
+          "desc": "Alta y seguimiento continuo de tus clientes potenciales. Visualiza en un timeline toda la actividad realizada, así como el estado de cada una de las oportunidades."
+        },
+        {
+          "encabezado":"INFORMACIÓN EN TIEMPO REAL",
+          "titulo": "Gestión de Oportunidades",
+          "desc": "Gestiona el pipeline de oportunidades y obtén informes detallados sobre la actividad de ventas, la productividad y el rendimiento individual. Toda la información necesaria para guiar al equipo hacia el éxito."
+        },
+        {
+          "encabezado":"AGILIDAD",
+          "titulo": "Registro de la planificación comercial",
+          "desc": "Planifica y verifica la actividad de tus comerciales. Las interacciones quedan registradas en una cronología que incluye tareas, llamadas, citas, visitas, correos electrónicos, reuniones y envío de documentos."
+        },
+        {
+          "encabezado":"RENTABILIDAD",
+          "titulo": "Gestión de Presupuestos",
+          "desc": "Crea y gestiona las ofertas asociadas a una oportunidad y envíalas directamente a tus clientes para su posterior aprobación con solo un clic."
+        },
+        {
+          "encabezado":"CONTROL",
+          "titulo": "Imputación de Gastos",
+          "desc": "Su integración con la gestión empresarial de AHORA facilita la posterior contabilización y liquidación de los partes de gastos generados por técnicos y comerciales."
+        },
+        {
+          "encabezado":"PLANIFICACIÓN",
+          "titulo": "Gestión de Objetivos Comerciales",
+          "desc": "Define y controla los objetivos de tus comerciales. A nivel individual, de equipo o general. Gestiona los objetivos por importe mensual, por nuevas oportunidades, por volumen de venta, por línea de negocio..."
+        },
+        {
+          "encabezado":"CONTROL FINANCIERO",
+          "titulo": "Gestión de la Cartera de Cobros",
+          "desc": "Registra la actividad de la Cartera de Cobros y lleva el seguimiento de las reclamaciones realizadas por los distintos actores del proceso. Anota los cobros realizados para su posterior gestión por administración."
+        },
+        {
+          "encabezado":"ORGANIZACIÓN",
+          "titulo": "Reserva de recursos compartidos",
+          "desc": "Evita duplicidades a la hora de reservar espacios, dispositivos y recursos de empresa. El registro de usuarios de vehículos, facilita la identificación ante una eventual incidencia o sanción."
+        },
+        {
+          "encabezado":"COMUNICACIÓN EFICAZ",
+          "titulo": "Notificaciones",
+          "desc": "AHORA CRM avisa de las tareas vencidas, pendientes o a punto de realizar. También de los presupuestos a punto de caducar."
+        },
+        {
+          "encabezado":"DINÁMICO",
+          "titulo": "Análisis de datos",
+          "desc": "Visualiza de forma sencilla la evolución de tus ventas mediante los KPI integrados. Observa todos los datos en tiempo real, sin esperar a que el equipo de ventas presente los informes."
+        }
+      ],
+      "extras": [
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/graph.png",
+          "titulo": "Aumento de la productividad y rentabilidad",
+          "desc": "Mayor control de la actividad comercial, a nivel individual o de equipo. Cartera de clientes continuamente activa y gestionada. Registra las ventas por comercial, cliente, línea de negocio, producto… y compara con otros años."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/database.png",
+          "titulo": "Información en tiempo real y centralizada",
+          "desc": "Accede a la información desde cualquier dispositivo y ubicación. Evita cientos de documentos diferentes y centraliza la información y la comunicación en una única herramienta de fácil acceso e implantación. Obtén una previsión completa de las ventas de tu equipo comercial, semana a semana y mes a mes."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/cloud.png",
+          "titulo": "Despliegue y usabilidad",
+          "desc": "Desarrollo continuo de nuevas funcionalidades. Actualizaciones sencillas y automáticas sin preocupaciones para el usuario. On-premise: 100% personalizable e integrable con los sistemas existentes. Cloud: Estándar en la nube. No requiere mantenimiento de sistemas."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/like.png",
+          "titulo": "Eficiencia y estandarización de procesos",
+          "desc": "Estandariza procesos sencillos para cada tarea asegurando la optimización del tiempo y una mejor gestión de los datos."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/smile.png",
+          "titulo": "Acceso fácil y seguro",
+          "desc": "Intuitivo y con una interfaz adecuada para cada usuario. Acceso directo desde tu navegador web, sin necesidad de instalar programas en los puestos de trabajo."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Integraciones y personalizaciones",
+          "desc": "Integrado con AHORA Express, con otros sistemas ERP, con Office 365 y con Google Calendars. Desarrollado con la plataforma low code flexygo. Si cuentas con un departamento IT, podrás configurar por completo la aplicación usando los asistentes de la herramienta con la máxima seguridad y garantía tecnológica y de actualización."
+        }
+      ],
+      "desc": ""
+    }
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/sga.png",
+    "titulo": "AHORA SGA",
+    "subtitulo": "Software avanzado para la Gestión de Almacén",
+    "enlace": "https://www.ahora.es/ahora-sga/",
+    "contenido": {
+      "titulo": "",
+      "razones": [
+
+      ],
+      "funciones": [
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "extras": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/empleados.png",
+    "titulo": "Sebastian",
+    "subtitulo": "Solución de RR.HH y Portal del Empleado",
+    "enlace": "https://www.ahora.es/sebastian-recursos-humanos-portal-del-empleado/",
+    "contenido": {
+      "titulo": "",
+      "razones": [
+
+      ],
+      "funciones": [
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "extras": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/analytics-1.png",
+    "titulo": "AHORA Analytics",
+    "subtitulo": "El Cuadro BI que se adapta a tu negocio",
+    "enlace": "https://www.ahora.es/ahora-analytics/",
+    "contenido": {
+      "titulo": "",
+      "razones": [
+
+      ],
+      "funciones": [
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "extras": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2022/01/sat-2.png",
+    "titulo": "AHORA SAT",
+    "subtitulo": "App móvil de asistencia técnica",
+    "enlace": "https://www.ahora.es/ahora-sat/",
+    "contenido": {
+      "titulo": "",
+      "razones": [
+
+      ],
+      "funciones": [
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "extras": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2023/08/este.webp",
+    "titulo": "AHORA TPV",
+    "subtitulo": "Software Terminal Punto de Venta",
+    "enlace": "https://www.ahora.es/ahora-tpv/",
+    "contenido": {
+      "titulo": "",
+      "razones": [
+
+      ],
+      "funciones": [
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "extras": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2023/08/3333.webp",
+    "titulo": "BRUNO GMAO",
+    "subtitulo": "Plataforma para mantenimiento<br> gestión de activos de la empresa",
+    "enlace": "https://www.ahora.es/bruno-gmao",
+    "contenido": {
+      "titulo": "",
+      "razones": [
+
+      ],
+      "funciones": [
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "extras": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
+  },
+  {
+    "image": "https://www.ahora.es/wp-content/uploads/2024/01/Icono-canal-denuncias-azul-claro.webp",
+    "titulo": "Canal de Denuncias",
+    "subtitulo": "Alerta sobre las malas prácticas en la empresa",
+    "enlace": "https://www.ahora.es/canal-de-denuncias-venta/",
+    "contenido": {
+      "titulo": "",
+      "razones": [
+
+      ],
+      "funciones": [
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "encabezado":"",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "extras": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
+  }
+]

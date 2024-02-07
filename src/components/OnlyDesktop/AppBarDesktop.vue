@@ -1,19 +1,16 @@
 <script setup>
-import {useAppBraDesktopStore} from '@/stores/AppBarDesktopStore.js'
-const drawerStore = useAppBraDesktopStore();
+import {useAppBarDesktopStore} from '@/stores/DrawerDesktopStore.js'
+const drawerStore = useAppBarDesktopStore();
 let selectedTopTab = 0;
 function changeSelected(newSelected) {
-  this.selectedTopTab = newSelected
+  selectedTopTab = newSelected
 }
 </script>
 
 <template>
   <v-app-bar fixed>
 
-
-    <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH">
-
-
+    <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH px-5">
 
     <!--Home-->
     <RouterLink to="/">
@@ -36,13 +33,11 @@ function changeSelected(newSelected) {
 
 
     <!--Productos-->
-    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swap()">Productos</v-btn>
-
+    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapProductos()">Productos</v-btn>
+    <!--Servicios-->
+    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapServicios()">Servicios</v-btn>
     <!-- Departamentos -->
     <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapDepartamentos()">Departamentos</v-btn>
-
-
-
 
     <v-spacer></v-spacer>
 
@@ -52,9 +47,9 @@ function changeSelected(newSelected) {
     <!--Contact Us-->
     <RouterLink to="/contact">
       <v-btn class="hover-anchor font-weight-bold" color="#24afff" :ripple="false" @click="changeSelected(5)"
-             v-if="selectedTopTab===5">CONTACTANOS
+             v-if="selectedTopTab===5">CONTÁCTANOS
       </v-btn>
-      <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(5)" v-else>CONTACTANOS</v-btn>
+      <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(5)" v-else>CONTÁCTANOS</v-btn>
     </RouterLink>
 
 
