@@ -28,7 +28,7 @@
       </div>
     </v-col>
     <v-col cols="12" md="4">
-      <v-img src="/src/Img/Home1.jpg" height="300px"></v-img>
+      <v-img src="https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/Home1.jpg" height="300px"></v-img>
     </v-col>
     <v-spacer></v-spacer>
   </v-row>

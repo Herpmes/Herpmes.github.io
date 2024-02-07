@@ -15,7 +15,7 @@ const drawerStore = useAppBarDesktopStore()
     <v-row class="pa-9">
       <!--Anchor-->
       <v-col>
-        <v-card class="mx-auto" hover color="#d2f2fc">
+        <v-card class="mx-auto" hover="true" color="#d2f2fc">
           <v-card-item>
             <v-card-title>
               Anchor

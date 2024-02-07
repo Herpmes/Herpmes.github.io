@@ -3,17 +3,14 @@ import {useAppBarDesktopStore} from '@/stores/DrawerDesktopStore.js'
 const drawerStore = useAppBarDesktopStore();
 let selectedTopTab = 0;
 function changeSelected(newSelected) {
-  this.selectedTopTab = newSelected
+  selectedTopTab = newSelected
 }
 </script>
 
 <template>
   <v-app-bar fixed>
 
-
     <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoH px-5">
-
-
 
     <!--Home-->
     <RouterLink to="/">

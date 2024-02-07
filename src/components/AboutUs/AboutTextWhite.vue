@@ -26,7 +26,7 @@ const props = defineProps(['logo','desc','img'])
         {{props.desc}}
       </p>
     </v-col>
-    <v-spacer v-if="this.$vuetify.display.name!=='lg'"></v-spacer>
+    <v-spacer v-if="$vuetify.display.name!=='lg'"></v-spacer>
     <v-col cols="12" md="5">
       <v-img :src="props.img" height="300px"></v-img>
     </v-col>
