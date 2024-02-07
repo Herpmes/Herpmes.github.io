@@ -12,7 +12,7 @@ let cantRows =Math.ceil(cant/4)
     v-model="drawerStore.getDrawerProductos"
     location="top"
     style="max-height: none; height: fit-content"
-    @mouseleave="drawerStore.swapProductos()" class="pa-9 mt-1">
+    @mouseleave="drawerStore.swapProductos()" class="pa-9 mt-n1">
 
       <h5 class="text-blue text-h5 text-center">Complementa tu Sistema de información</h5>
 
