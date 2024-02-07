@@ -3,66 +3,180 @@
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/ahora-crm.png",
     "titulo": "AHORA CRM",
     "subtitulo": "La herramienta 360º para tu equipo de ventas",
-    "enlace": "https://www.ahora.es/ahora-crm/"
+    "enlace": "https://www.ahora.es/ahora-crm/",
+    "contenido": {
+      "lista1": [
+        "Genera presupuestos personalizados rápidamente con unos pocos clics.",
+        "Comprueba qué ofertas están en el aire con el embudo de ventas y realiza fácilmente las previsiones de ingresos.",
+        "Simplifica la gestión de los gastos. Envía los tickets fácilmente a través del móvil.",
+        "Registra la actividad comercial en una cronología que incluye tareas, llamadas, citas, visitas, reuniones..."
+      ],
+      "lista2": [
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/graph.png",
+          "titulo": "Aumento de la productividad y rentabilidad",
+          "desc": "Mayor control de la actividad comercial, a nivel individual o de equipo. Cartera de clientes continuamente activa y gestionada. \n\nRegistra las ventas por comercial, cliente, línea de negocio, producto… y compara con otros años."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/database.png",
+          "titulo": "Información en tiempo real y centralizada",
+          "desc": "Accede a la información desde cualquier dispositivo y ubicación. Evita cientos de documentos diferentes y centraliza la información y la comunicación en una única herramienta de fácil acceso e implantación.\n\nObtén una previsión completa de las ventas de tu equipo comercial, semana a semana y mes a mes."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/cloud.png",
+          "titulo": "Despliegue y usabilidad",
+          "desc": "Desarrollo continuo de nuevas funcionalidades. Actualizaciones sencillas y automáticas sin preocupaciones para el usuario.\n\nOn-premise: 100% personalizable e integrable con los sistemas existentes.\n\nCloud: Estándar en la nube. No requiere mantenimiento de sistemas."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/like.png",
+          "titulo": "Eficiencia y estandarización de procesos",
+          "desc": "Estandariza procesos sencillos para cada tarea asegurando la optimización del tiempo y una mejor gestión de los datos."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/smile.png",
+          "titulo": "Acceso fácil y seguro",
+          "desc": "Intuitivo y con una interfaz adecuada para cada usuario.\n\nAcceso directo desde tu navegador web, sin necesidad de instalar programas en los puestos de trabajo.\n"
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Integraciones y personalizaciones",
+          "desc": "Integrado con AHORA Express, con otros sistemas ERP, con Office 365 y con Google Calendars.\n\nDesarrollado con la plataforma low code flexygo. Si cuentas con un departamento IT, podrás configurar por completo la aplicación usando los asistentes de la herramienta con la máxima seguridad y garantía tecnológica y de actualización."
+        }
+      ],
+      "desc": ""
+    }
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/sga.png",
     "titulo": "AHORA SGA",
     "subtitulo": "Software avanzado para la Gestión de Almacén",
-    "enlace": "https://www.ahora.es/ahora-sga/"
+    "enlace": "https://www.ahora.es/ahora-sga/",
+    "contenido": {
+      "lista1": [
+
+      ],
+      "lista2": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/empleados.png",
     "titulo": "Sebastian",
     "subtitulo": "Solución de RR.HH y Portal del Empleado",
-    "enlace": "https://www.ahora.es/sebastian-recursos-humanos-portal-del-empleado/"
+    "enlace": "https://www.ahora.es/sebastian-recursos-humanos-portal-del-empleado/",
+    "contenido": {
+      "lista1": [
+
+      ],
+      "lista2": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/analytics-1.png",
     "titulo": "AHORA Analytics",
     "subtitulo": "El Cuadro BI que se adapta a tu negocio",
-    "enlace": "https://www.ahora.es/ahora-analytics/"
+    "enlace": "https://www.ahora.es/ahora-analytics/",
+    "contenido": {
+      "lista1": [
+
+      ],
+      "lista2": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2022/01/sat-2.png",
     "titulo": "AHORA SAT",
     "subtitulo": "App móvil de asistencia técnica",
-    "enlace": "https://www.ahora.es/ahora-sat/"
+    "enlace": "https://www.ahora.es/ahora-sat/",
+    "contenido": {
+      "lista1": [
+
+      ],
+      "lista2": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2023/08/este.webp",
     "titulo": "AHORA TPV",
     "subtitulo": "Software Terminal Punto de Venta",
-    "enlace": "https://www.ahora.es/ahora-tpv/"
+    "enlace": "https://www.ahora.es/ahora-tpv/",
+    "contenido": {
+      "lista1": [
+
+      ],
+      "lista2": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2023/08/3333.webp",
     "titulo": "BRUNO GMAO",
     "subtitulo": "Plataforma para mantenimiento<br> gestión de activos de la empresa",
-    "enlace": "https://www.ahora.es/bruno-gmao"
+    "enlace": "https://www.ahora.es/bruno-gmao",
+    "contenido": {
+      "lista1": [
+
+      ],
+      "lista2": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
   },
   {
     "image": "https://www.ahora.es/wp-content/uploads/2024/01/Icono-canal-denuncias-azul-claro.webp",
     "titulo": "Canal de Denuncias",
     "subtitulo": "Alerta sobre las malas prácticas en la empresa",
-    "enlace": "https://www.ahora.es/canal-de-denuncias-venta/"
-  },
-  {
-    "image": "https://www.ahora.es/wp-content/uploads/2023/08/azul-ahora.webp",
-    "titulo": "AHORA Business Hub",
-    "subtitulo": "Marketplace de servicios y módulos de gestión",
-    "enlace": "https://www.ahora.es/ahora-business-hub/"
-  },
-  {
-    "image": "https://www.ahora.es/wp-content/uploads/2022/03/kds.png",
-    "titulo": "Kit Digital",
-    "subtitulo": "Te acompañamos en tu digitalización",
-    "enlace": "https://www.ahora.es/kit-digital/"
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/1200px-Codigo_QR.svg.png",
-    "titulo": "Ticket BAI",
-    "subtitulo": "Somos fabricante de software garante",
-    "enlace": "https://www.ahora.es/ticket-bai/"
+    "enlace": "https://www.ahora.es/canal-de-denuncias-venta/",
+    "contenido": {
+      "lista1": [
+
+      ],
+      "lista2": [
+        {
+          "icono": "",
+          "titulo": "",
+          "desc": ""
+        }
+      ],
+      "desc": ""
+    }
   }
 ]

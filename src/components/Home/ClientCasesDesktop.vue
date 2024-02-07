@@ -24,7 +24,7 @@ const items = CasosExito
 
               <v-card class="mx-auto" hover width="80%" style="border-radius: 30px">
                 <v-row class="pb-14">
-                  <v-col cols="12" md="6" class="text-left pa-15">
+                  <v-col cols="12" lg="6" class="text-left pa-15">
                     <v-icon icon="mdi-format-quote-close" size="90px"></v-icon>
                     <p style="font-size: 20px">{{ item.desc }}</p>
                     <br>
@@ -34,9 +34,8 @@ const items = CasosExito
                       {{ item.empresa }}
                     </p>
                   </v-col>
-                  <v-col cols="12" md="6">
-                    <v-img :src="item.img" max-height="400px" class="align-center mt-15" v-if="$vuetify.display.name==='lg'"></v-img>
-                    <v-img :src="item.img" max-height="300px" class="align-center mt-15" v-else-if="$vuetify.display.name==='md'"></v-img>
+                  <v-col cols="12" lg="6">
+                    <v-img :src="item.img" max-height="400px" class="align-center mt-15" v-if="$vuetify.display.width>1280"></v-img>
                     <v-img :src="item.img" max-height="200px" class="align-center" v-else></v-img>
                   </v-col>
                 </v-row>

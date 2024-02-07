@@ -1,6 +1,8 @@
 <script setup>
 import {useAppBarDesktopStore} from '@/stores/DrawerDesktopStore.js'
 const drawerStore = useAppBarDesktopStore()
+import { useProductStore } from '@/stores/ProductStore.js'
+const productStore = useProductStore()
 import ProductosJson from "/src/json/Productos.json"
 const productos = ProductosJson
 let cant=productos.length
@@ -22,17 +24,15 @@ let cantRows =Math.ceil(cant/4)
         <v-col cols="3" class="mt-5" v-for="n in 4" >
           <!--Bucle Elementos-->
           <v-row v-for="i in cantRows">
-
             <!-- Solo Dios y yo sabemos como lo hemos hecho -->
             <v-col v-if="(cantRows*(n-1)+(i-1))<cant">
               <img id="image-934-74223" alt="AHORA CRM Software de Gestión Comercial"
-                   :src="productos[cantRows*(n-1)+(i-1)].image" width="50">
-              <a id="link-1515-74223" class="desc" :href="productos[cantRows*(n-1)+(i-1)].enlace" target="_blank">
-                <h4 id="headline-1516-74223" class="">{{productos[cantRows*(n-1)+(i-1)].titulo}}</h4>
-                <div id="text_block-1517-74223" class="text-grey">{{productos[cantRows*(n-1)+(i-1)].subtitulo}}</div>
-              </a>
+                   :src="productos[cantRows*(1-1)+(1-1)].image" width="50">
+              <RouterLink to="/product" @click="productStore.swapProduct(productos[cantRows*(1-1)+(1-1)])">
+                <h4 id="headline-1516-74223" class="">{{productos[cantRows*(1-1)+(1-1)].titulo}}</h4>
+                <div id="text_block-1517-74223" class="text-grey">{{productos[cantRows*(1-1)+(1-1)].subtitulo}}</div>
+              </RouterLink>
             </v-col>
-
           </v-row>
         </v-col>
       </v-row>
