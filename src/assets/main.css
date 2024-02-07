@@ -12,3 +12,8 @@ a{
 .bBG{
   background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%)
 }
+
+.imageRight{
+  display: block;
+  margin-left: auto;
+}
