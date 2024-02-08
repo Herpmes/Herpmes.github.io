@@ -380,67 +380,75 @@
     "subtitulo": "App móvil de asistencia técnica",
     "enlace": "https://www.ahora.es/ahora-sat/",
     "contenido": {
-      "titulo": "",
+      "titulo": "Nuestra app offline para la gestión de partes del servicio técnico",
       "razones": [
-
+        "Cada Técnico tiene los partes de trabajo del día, o los de toda la semana, en el móvil.",
+        "Captura imágenes y documentación referente a la reparación.",
+        "Gestiona con el móvil desplazamientos, materiales utilizados, mano de obra, ubicación, firma del cliente…",
+        "Una vez dispongas de conexión, la información se sincroniza con la base de datos del ERP."
       ],
       "funciones": [
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"EFICIENCIA",
+          "titulo": "Planificador",
+          "desc": "Timeline con toda la actividad para crear nuevos partes y gestionar las tareas desde una ventana única. Permite comunicar de manera directa con los Técnicos gracias a las notificaciones Push."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"INMEDIATEZ",
+          "titulo": "Partes de trabajo",
+          "desc": "Da de alta partes desde el apartado online, sin pasar por el ERP. Visualiza la localización de los mismos. Asigna nuevos partes a los Técnicos y notifícaselo en sus dispositivos."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"PERMISOS",
+          "titulo": "Documentos siempre disponibles",
+          "desc": "Toda la información del parte disponible de forma online. Documentación, desplazamientos, materiales, mano de obra y lugar exacto donde se ha firmado cada parte."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"OPTIMIZACION",
+          "titulo": "Gestión de Vehículos",
+          "desc": "El transporte de tus técnicos es, a su vez, un almacén donde transporta materiales. Asigna un vehículo determinado a cada empleado."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"INFORMACIÓN",
+          "titulo": "Gestión de Stock",
+          "desc": "Consulta el stock en vivo y realiza traspasos de material entre almacenes."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"AGILIDAD",
+          "titulo": "Notificaciones",
+          "desc": "Avisa a los Técnicos en cuanto se les asignan nuevos partes de trabajo. Estarán informados en todo momento evitando llamadas inesperadas."
         }
       ],
       "extras": [
         {
-          "icono": "",
-          "titulo": "",
-          "desc": ""
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/graph.png",
+          "titulo": "Aumento de la productividad y rentabilidad",
+          "desc": "Consigue un mayor control de la actividad, tanto a nivel individual como de equipo. Minimiza las tareas administrativas. Planifica cómodamente a tu equipo."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/database.png",
+          "titulo": "Información en tiempo real y centralizada",
+          "desc": "Accede a la información estés donde estés, desde cualquier dispositivo con una única herramienta de fácil acceso e implantación. Trabaja cómodamente sin conexión y sincroniza los datos cuando sea posible."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/check.png",
+          "titulo": "Eficiencia y estandarización de procesos",
+          "desc": "Mecaniza procesos sencillos para cada tarea, optimizando el tiempo y mejorando la gestión de los datos. "
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/smile.png",
+          "titulo": "Acceso fácil y seguro",
+          "desc": "Autogestión de solicitudes de vacaciones y/o permisos y actualización de datos personales. Publicación y gestión todo tipo de documentación por parte de la plantilla y la empresa."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Integraciones y personalizaciones",
+          "desc": "Integrado con AHORA Express, con otros sistemas ERP, con Office 365 y con Google Calendars. Desarrollado con la plataforma low code flexygo. Si cuentas con un departamento IT, podrás configurar por completo la aplicación usando los asistentes de la herramienta con la máxima seguridad y garantía tecnológica y de actualización."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/cloud.png",
+          "titulo": "Despliegue y usabilidad",
+          "desc": "Desarrollo continuo de nuevas funcionalidades. Actualizaciones sencillas y automáticas sin preocupaciones para el usuario. "
         }
       ],
       "desc": ""
@@ -452,67 +460,96 @@
     "subtitulo": "Software Terminal Punto de Venta",
     "enlace": "https://www.ahora.es/ahora-tpv/",
     "contenido": {
-      "titulo": "",
+      "titulo": "Gestiona todo el proceso de compra y venta de manera ágil y eficiente",
       "razones": [
-
+        "Crea fácilmente tickets, facturas, pedidos o albaranes de crédito. Selecciona tarifas y aplica descuentos adicionales.",
+        "Gestiona los traspasos de mercancías entre tiendas o entre almacenes a través de un sencillo circuito de logística.",
+        "Visualiza el balance de cierre, gestiona anticipos, vales regalo, arqueos y descuadres o deshaz el último cierre si lo necesitas.",
+        "Conecta con impresoras, lectores de códigos de barras, pin pads o balanzas.",
+        "Crea, añade, edita o vincula clientes y/o contactos fácilmente desde tu TPV."
       ],
       "funciones": [
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"VENTAS",
+          "titulo": "Circuito de ventas",
+          "desc": "Disfruta de un circuito completo de ventas: creación de tickets, facturas, pedidos y albaranes de crédito. Además, desde el menú principal, consulta tickets, facturas, selecciona tarifas y aplica descuentos adicionales cuando lo precises."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"VENTAS",
+          "titulo": "Tickets regalo",
+          "desc": "Expide tickets regalo junto a los tickets de venta para facilitar el proceso de cambio de artículos de tus clientes. También, imprime tickets regalo en estado albarán si lo requieres."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"VENTAS",
+          "titulo": "Cheques regalo",
+          "desc": "Emite cheques o vales regalo para que tus clientes puedan regalarlos o canjearlos al realizar sus compras en un futuro."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"VENTAS",
+          "titulo": "Trazabilidad",
+          "desc": "Obtén la trazabilidad completa de tus artículos a través de la gestión de lotes y números de serie en los artículos que lo requieran. Tan solo activa los parámetros que consideres (lote, talla, color…) y controla los movimientos de stock de una manera más simple."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"CAJA",
+          "titulo": "Gestión de anticipos",
+          "desc": "Confecciona la gestión completa de anticipos con tus clientes. Localiza rápidamente los distintos anticipos y aplícalos a las operaciones definidas: entregas a cuenta de pedidos, ventas, etc. "
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"CAJA",
+          "titulo": "Gestión de cobros",
+          "desc": "Ejecuta todas tus operaciones habituales de cobro de una manera ágil y sencilla: cobros parciales, efectivo, Visas, pagarés, etc."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"CAJA",
+          "titulo": "Control de cajas",
+          "desc": "Gestiona tus ventas y el efectivo, registra todos los movimientos y evita descuadres en la gestión diaria de tu negocio teniendo toda la información controlada."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"COMPRAS",
+          "titulo": "Compras más rápidas",
+          "desc": "Realiza un circuito fácil y completo de compras: pedidos, envíos a proveedores y recepciones de los mismos. Asimismo, gestiona cómodamente las compras y facilita la misión de aprovisionamiento del almacén."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"LOGÍSTICA",
+          "titulo": "Traspaso de mercancías",
+          "desc": "Gestiona los traspasos de mercancías entre tiendas o entre almacenes a través de un sencillo circuito de logística. Controla el stock de cada almacén y consúltalo cómodamente."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"CONECTIVIDAD",
+          "titulo": "Simplifica los registros",
+          "desc": "Conecta con impresoras, lectores de códigos de barras o cajones de cobro, pin pads o balanzas, simplificando así el proceso de venta y el registro de información."
         }
       ],
       "extras": [
         {
-          "icono": "",
-          "titulo": "",
-          "desc": ""
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/globe.png",
+          "titulo": "Visibilidad 360",
+          "desc": "Trazabilidad completa de los productos desde AHORA ERP. Control de stock de almacenes con parámetros como talla o color y traspasos de mercancías entre tiendas o entre almacenes."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/graph.png",
+          "titulo": "Escalabilidad",
+          "desc": "AHORA TPV se adapta a todo tipo de comercios, independientemente de su tamaño, optimizando y simplificando la gestión de los procesos logísticos y contables más habituales."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Adaptabilidad",
+          "desc": "Interfaz TPV táctil o clásica, para adecuarse al comercio y facilitar el trabajo diario. Parametrización de procesos para dotar de mayor funcionalidad a la gestión diaria."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/check.png",
+          "titulo": "Diseño intuitivo",
+          "desc": "Su innovador y funcional diseño proporciona la mejor usabilidad y una experiencia de usuario cómoda, fácil e intuitiva. Documentación en línea y vídeos demostrativos para formar a tus clientes y usuarios."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/database.png",
+          "titulo": "Imagen óptima",
+          "desc": "Posibilidad de ofrecer a los clientes nuevas y más cómodas formas de pago y planes de fidelización asociados, mejorando así la capacidad de venta."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/like.png",
+          "titulo": "Mayor control operativo",
+          "desc": "Simplifica el proceso de contabilidad y el control de las operaciones en metálico."
         }
       ],
       "desc": ""
@@ -524,67 +561,85 @@
     "subtitulo": "Plataforma para mantenimiento<br> gestión de activos de la empresa",
     "enlace": "https://www.ahora.es/bruno-gmao",
     "contenido": {
-      "titulo": "",
+      "titulo": "Potencia al máximo la eficiencia y productividad de los activos de tu empresa",
       "razones": [
-
+        "Eficiencia Mejorada. Gestiona el Mantenimiento Correctivo y Preventivo, las Peticiones de Intervención de Averías, así como Intervenciones de Mejora sobre los activos, de forma individual o con varios activos en una misma petición.",
+        "Reducción de Costes. Al administrar el mantenimiento de manera efectiva, se evitan fallas catastróficas, lo que ahorra en costes de reparación. ",
+        "Programación y planificación. Permite la programación y planificación de tareas de mantenimiento de manera más precisa.",
+        "Mejora de la Productividad. La implementación de Bruno GMAO agiliza la programación, seguimiento y documentación de tareas de mantenimiento, permitiendo que el personal trabaje de manera más eficiente y aumente la productividad general."
       ],
       "funciones": [
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"COMERCIAL",
+          "titulo": "Gestión de Activos",
+          "desc": "Gestiona el ciclo de la vida de tus activos, su estado actual, su historia de intervenciones, su impacto dentro del sistema productivo de la empresa, además de mantener al día toda la información necesaria."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"COMERCIAL",
+          "titulo": "Gestión de Peticiones",
+          "desc": "Gestiona las peticiones de intervención de averías, mantenimiento correctivo y preventivo, así como intervenciones de mejora sobre los activos, de forma individual o de varios activos en una misma petición. "
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"COMERCIAL",
+          "titulo": "Catálogo de intervenciones y tareas",
+          "desc": "Mantén un catálogo de intervenciones y tareas bien definidas para poder usarlas en cualquier momento y así minimizar errores y tiempos a la hora de generar peticiones de intervención."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"COMERCIAL",
+          "titulo": "Gestión de planes de mantenimiento",
+          "desc": "Diseña los planes de mantenimiento de tus activos o tipos de activo, para que el sistema proponga de forma automática las intervenciones preventivas en base a fechas, contadores, medidores y eventos."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"COMERCIAL",
+          "titulo": "Gestión de la organización",
+          "desc": "Define de forma completa los distintos componentes que definen la estructura organizativa, compañías, empresas, delegaciones, localizaciones, áreas, empleados, proveedores, etc."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"EMPRESARIAL",
+          "titulo": "Planificador de recursos",
+          "desc": "Planificador gráfico te ayudará a optimizar la asignación de personal, tiempo y activos para las tareas de mantenimiento"
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"EMPRESARIAL",
+          "titulo": "Gestión de la organización",
+          "desc": "Define de forma completa los distintos componentes que definen la estructura organizativa, compañías, empresas, delegaciones, localizaciones, áreas, empleados, proveedores, etc."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"EMPRESARIAL",
+          "titulo": "Planificador de activos",
+          "desc": "Te permite visualizar en modo gráfico tanto las intervenciones ya programadas como aquellas que quieras planificar, pero no lanzar a la lista de intervenciones hasta que llegue el momento oportuno."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"EMPRESARIAL",
+          "titulo": "APP de Técnicos",
+          "desc": "Contar con una aplicación móvil para que los técnicos puedan interactuar con el sistema y registrar información en tiempo real, mejorando aún más la eficiencia y la efectividad de la gestión de mantenimiento. "
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"EMPRESARIAL",
+          "titulo": "APP de Reporte",
+          "desc": "La aplicación móvil de reporte permite al personal no técnico reportar incidencias y problemas adicionales, puede tener varios beneficios significativos para la gestión de mantenimiento y para la organización."
         }
       ],
       "extras": [
         {
-          "icono": "",
-          "titulo": "",
-          "desc": ""
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Gestiona tus recursos  de mantenimiento.",
+          "desc": "Mediante la planificación automática de recursos se agiliza la asignación y disponibilidad de trabajos a realizar por parte de nuestro equipo."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/globe.png",
+          "titulo": "Visualización global del estado de tus activos",
+          "desc": "Mediante informes de actividad y rendimiento para guiar a tu equipo."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/portfolio.png",
+          "titulo": "Documentación y seguimiento",
+          "desc": "La imputación de datos en tiempo real de los técnicos mediante las apps nos aporta una visión actual y precisa de la situación de nuestro inventario de activos."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/check.png",
+          "titulo": "Mejora la seguridad",
+          "desc": "Para pequeña, mediana y gran empresa gracias a su flexibilidad. Evolución continua y soporte inmediato."
         }
       ],
       "desc": ""
@@ -596,67 +651,67 @@
     "subtitulo": "Alerta sobre las malas prácticas en la empresa",
     "enlace": "https://www.ahora.es/canal-de-denuncias-venta/",
     "contenido": {
-      "titulo": "",
+      "titulo": "Solución para cumplir con la nueva directiva europea, en minutos y al mejor precio",
       "razones": [
 
       ],
       "funciones": [
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"DENUNCIAS",
+          "titulo": "Tipo de Personas (Jurídica o Físicas)",
+          "desc": "Personas físicas o jurídicas del sector privado con 50 o más trabajadores."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"DENUNCIAS",
+          "titulo": "Empresas en amplitud",
+          "desc": "Empresas y organismos públicos con más de 250 empleados y entes locales que prestan servicios a más de 10.000 ciudadanos."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"DENUNCIAS",
+          "titulo": "Sector Privado",
+          "desc": "Personas jurídicas del sector privado sujetas a la normativa de la Unión Europea en materia de servicios, productos y mercados financieros, prevención del blanqueo de capitales o financiación del terrorismo, seguridad del transporte y protección del medio ambiente, independientemente del número de trabajadores."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"DENUNCIAS",
+          "titulo": "Planes",
+          "desc": "Empresas con un plan de Compliance, sin importar el número de empleados."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"DENUNCIAS",
+          "titulo": "Sector Político",
+          "desc": "Partidos políticos, sindicatos, patronales y fundaciones creadas por ellos, siempre que reciban o gestionen fondos públicos."
         }
       ],
       "extras": [
         {
-          "icono": "",
-          "titulo": "",
-          "desc": ""
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/smile.png",
+          "titulo": "Evita Sanciones",
+          "desc": "Cumple con la Ley 2/2023, que obliga a empresas con más de 50 empleados a implantar un Canal de Denuncias. Evitarás multas que podrían afectar tus operaciones y reputación."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Fácil de Implementar",
+          "desc": "Nos aseguramos de que tu empresa pueda adoptar esta herramienta crucial en 3 clics, sin interrupciones en tu operativa. Simple y rápido."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/portfolio.png",
+          "titulo": "Seguro y confidencial",
+          "desc": "Garantiza el anonimato y la protección de aquellos que denuncian. Confidencialidad y seguridad asegurada para los informantes. "
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/like.png",
+          "titulo": "Interfaz Intuitiva",
+          "desc": "Fácil de implementar y aún más fácil de utilizar para que los usuarios puedan presentar denuncias de forma rápida y sin complicaciones. "
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/graph.png",
+          "titulo": "Mejora Continua",
+          "desc": "Obtén información valiosa sobre posibles áreas de mejora en tu empresa, toma decisiones informadas y fortalece tu organización."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/check.png",
+          "titulo": "Compromiso",
+          "desc": "Demuestra tu compromiso con la ética y la integridad y construye una reputación sólida en el mercado y entre la plantilla."
         }
       ],
       "desc": ""
