@@ -96,7 +96,7 @@
           "desc": "Integrado con AHORA Express, con otros sistemas ERP, con Office 365 y con Google Calendars. Desarrollado con la plataforma low code flexygo. Si cuentas con un departamento IT, podrás configurar por completo la aplicación usando los asistentes de la herramienta con la máxima seguridad y garantía tecnológica y de actualización."
         }
       ],
-      "desc": "a"
+      "desc": ""
     }
   },
   {
@@ -105,67 +105,80 @@
     "subtitulo": "Software avanzado para la Gestión de Almacén",
     "enlace": "https://www.ahora.es/ahora-sga/",
     "contenido": {
-      "titulo": "",
+      "titulo": "Optimiza los procesos logísticos de tu empresa",
       "razones": [
-
+        "Consulta el stock en tiempo real y haz solicitudes de compra o traspasos entre almacenes.",
+        "Gestiona los traspasos de mercancías mediante un circuito sencillo de logística.",
+        "Trazabilidad total desde la entrada a la salida de los productos y optimización del espacio para mejorar la productividad.",
+        "Movimientos internos, recuentos, trazabilidad de tareas, bloqueos de mercancía, preparación de pedidos…"
       ],
       "funciones": [
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Optimización",
+          "titulo": "Parametrización de almacenes y zonas",
+          "desc": "Definición de estructura de almacenes, zonas (layout y etiquetado) y tipos de ubicaciones. Especificación de relaciones entre zonas y movimientos físicos permitidos y prohibidos."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Visual",
+          "titulo": "Parámetros logísticos de los artículos",
+          "desc": "Medidas y peso. Fragilidad y tipo de packing. Etiquetado (formato de etiqueta de origen, etiquetado a la entrada…). Unidades en agrupaciones logísticas (caja, palet...). Gestión de lotes y números de serie). Parámetros de reabastecimiento interno. Punto de pedido y máximos en picking."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Agilidad",
+          "titulo": "Preparación de pedidos y salidas de mercancía",
+          "desc": "Planificación y control. Monitor de órdenes de salida. Evaluación de carga por zonas. Soporte y selección de distintas técnicas de picking. Gestión de la urgencia y prioridad. Criterios de priorización. Gestión de incidencias de stock."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Fluidez",
+          "titulo": "Expediciones",
+          "desc": "Orden de preparación y carga. Interfaz con el panel de control de las órdenes de trabajo en curso. Planificación automática de los trabajos de preparación y carga."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Eficiencia",
+          "titulo": "Entrada de mercancías",
+          "desc": "Gestión de muelles de descarga. Reparto de la mercancía entrante. Criterios de separación y zonas de colocación. Etiquetado de mercancía entrante y de devoluciones de clientes. Gestión de incidencias."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Intuitivo",
+          "titulo": "Estrategias de ubicación, reabastecimiento y desubicación",
+          "desc": "Definición de reglas por artículo, familia y otros (peso, volumen, fragilidad, valor). Tipos de tareas. Definición de equipos y perfiles de trabajo en el almacén. Restricciones de uso por zonas (equipos de manutención, unidades de almacenamiento reusables y móviles)."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Control",
+          "titulo": "Gestión del almacenamiento y stocks",
+          "desc": "Control de bloqueos y stocks especiales. Reservas de mercancía. Movimientos internos. Ubicación guiada de mercancía entrante. Trazabilidad de movimientos y tareas. Recuentos por ubicación o producto. Trazabilidad por producto, lote, operario, cliente y documentos de gestión."
         }
       ],
       "extras": [
         {
-          "icono": "",
-          "titulo": "",
-          "desc": ""
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/like.png",
+          "titulo": " Simplifica y optimiza ",
+          "desc": "  Reduce probabilidades de error, economiza tiempo y recursos y fortalece la competitividad de la empresa. "
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Mejora la productividad",
+          "desc": " Gestiona en tiempo real los flujos de información asociados a las operaciones logísticas del almacén. Integra la gestión del mismo en los principales Sistemas de Información."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/smile.png",
+          "titulo": "Reducción de costes ",
+          "desc": " Minimización de tareas manuales. La distribución inteligente de la mercancía permite reducir desplazamientos internos, agiliza la generación de pedidos y aumenta el valor añadido del equipo."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/globe.png",
+          "titulo": "Visibilidad 360 del inventario ",
+          "desc": " Registro exhaustivo de entradas, salidas y cambios de ubicación, lo que aporta información de gran valor para las previsiones de demanda. Relación de mayor calidad con proveedores y clientes."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Integración",
+          "desc": " Permite incorporar toda la información automatizada sobre entradas, salidas, picking, packing en tiempo real desde dispositivos móviles (PDA) con el resto de la plataforma de información."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Seguridad y trazabilidad",
+          "desc": " Completa trazabilidad y responsabilidad sobre los diferentes movimientos de la mercancía, reduciendo el riesgo de extravíos. Información más sensible sólo accesible a las personas adecuadas."
         }
       ],
       "desc": ""
@@ -177,67 +190,115 @@
     "subtitulo": "Solución de RR.HH y Portal del Empleado",
     "enlace": "https://www.ahora.es/sebastian-recursos-humanos-portal-del-empleado/",
     "contenido": {
-      "titulo": "",
+      "titulo": "Lo realmente importante para que tu negocio prospere es que tu gente se sienta bien",
       "razones": [
-
+        "La plantilla puede autogestionar sus solicitudes de vacaciones y permisos.",
+        "Todos los protocolos, noticias y comunicados reunidos listos para ser consultados o enviados.",
+        "Reserva ágil de los recursos físicos: salas de reuniones, vehículos o dispositivos.",
+        "Información de cursos con inscripción, validación de asistencia y documentación necesaria."
       ],
       "funciones": [
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Confidencialidad",
+          "titulo": "Canal de denuncias",
+          "desc": "Canal anónimo, para que se puedan hacer denuncias  de acoso laboral o sexual, fraudes, estafas o corrupción."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"CONTROL DE PRESENCIA",
+          "titulo": "Fichajes",
+          "desc": "Permite contabilizar las horas que ha trabajado cada uno de los empleados, y cómo han sido estas repartidas a lo largo de su jornada. También permite localizar el fichaje e identificar quien teletrabaja o está en la oficina. "
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"EFICIENCIA",
+          "titulo": "Información del empleado",
+          "desc": "La plantilla puede actualizar, consultar y descargar su información personal y laboral en cualquier momento: nóminas, resultados de evaluaciones de desempeño, RGPD, etc."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"INMEDIATEZ",
+          "titulo": "Gestión Documental Integrada",
+          "desc": "Información continua de todos los procedimientos, tanto propios como de la empresa. Además, cada área podrá publicar y compartir información para todos o solo para las áreas o usuarios específicos."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"PERMISOS",
+          "titulo": "Noticias, comunicados y protocolos",
+          "desc": "Con opción de indicar la obligatoriedad o no de lectura por parte de los empleados. Incluye control de apertura de cada publicación y valoración de las mismas por parte del empleado. "
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"OPTIMIZACIÓN",
+          "titulo": "Solicitud de ausencias y vacaciones",
+          "desc": "Las solicitudes se enrutan automáticamente a través de su ciclo de aprobación, ya se trate solo por parte del responsable técnico o de Recursos Humanos o de un proceso de aprobación y notificación de varias etapas."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"RECICLAJE CONTINUO",
+          "titulo": "Cursos y Formaciones",
+          "desc": "Con calendario propio, validación de asistencia, manuales y toda la documentación necesaria para realizar el curso, en cualquier formato. Inscripciones con un simple clic."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"AGILIDAD",
+          "titulo": "Reserva de recursos",
+          "desc": "Evita duplicidades a la hora de reservar salas de reuniones, vehículos o dispositivos. El registro de usuarios de vehículos facilita la identificación ante una eventual incidencia o sanción."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"CONTROL FINANCIERO",
+          "titulo": "Imputación de gastos",
+          "desc": "Gestiona fácilmente los partes de gastos generados por técnicos y comerciales para su posterior liquidación y contabilización. Además, permite la integración con cualquier ERP del mercado."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"ACOMPAÑAMIENTO",
+          "titulo": "Evaluaciones de desempeño",
+          "desc": "Seguimiento y progresión de los empleados mediante simples formularios. Facilita la selección del perfil más adecuado entre los candidatos a promoción interna."
+        },
+        {
+          "encabezado":"MEJORA CONTINUA",
+          "titulo": "Buzón de sugerencias",
+          "desc": "Recoge sugerencias de mejora, propuestas de soluciones, quejas o iniciativas, tanto personalizadas como anónimas. Además, tramita la solicitud de material de trabajo."
+        },
+        {
+          "encabezado":"Skills",
+          "titulo": "Registro de habilidades",
+          "desc": "Cada empresa puede configurar una lista de habilidades, para que cada empleado indique cual es su nivel en cada uno de ellas y se pueda analizar que perfil es el más indicado para cada puesto."
+        },
+        {
+          "encabezado":"REVISIÓN MÉDICA",
+          "titulo": "Vigilancia de salud",
+          "desc": "Programa las revisiones médicas de tu empresa y lleva una gestión exhaustiva de quien y cuando la ha realizado. Permite asignación de plazas para distintos días para que los empleados puedan apuntarse a conveniencia. "
+        },
+        {
+          "encabezado":"ORGANIZACIÓN",
+          "titulo": "Organigrama",
+          "desc": "Posibilita la estructuración de la compañía a dos niveles, por organigrama de responsable o implementando por unidades funcionales u operativas."
         }
       ],
       "extras": [
         {
-          "icono": "",
-          "titulo": "",
-          "desc": ""
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Reduce la carga administrativa",
+          "desc": "Simplifica la gestión documental del departamento de RR.HH. y automatiza los procesos repetitivos y tediosos, ahorrando tiempo y eliminando errores humanos."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/like.png",
+          "titulo": "Estandarización de procesos",
+          "desc": "Evita la duplicidad de procesos como solicitud de vacaciones, registro de ausencias, imputación de gastos...\nEstandarizar procesos sencillos para cada tarea es la mejor manera de asegurar la optimización del tiempo y la mejor gestión de los datos."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/portfolio.png",
+          "titulo": "Facilita las gestiones administrativas",
+          "desc": "Los empleados pueden modificar sus datos bancarios, chequear nóminas, revisar la tipología de contrato, solicitar un plan de beneficios o inscribirse en un plan formativo."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "Integraciones",
+          "desc": "Integración con sistemas ERP y con dispositivos de fichaje como tornos o sensores biométricos. Posibilidad de reconocimiento facial o similares para el fichaje masivo de cuadrillas de empleados."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/cloud.png",
+          "titulo": "Despliegue y usabilidad",
+          "desc": "Interfaces multidispositivo muy intuitivas.\nOn-premise: 100% personalizable e integrable con los sistemas existentes.\nCloud: Estándar en la nube. No requiere mantenimiento de sistemas."
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/portfolio.png",
+          "titulo": "Comunicación ágil",
+          "desc": "Autogestión de solicitudes de vacaciones y/o permisos y actualización de datos personales. Publicación y gestión todo tipo de documentación por parte de la plantilla y la empresa."
         }
       ],
       "desc": ""

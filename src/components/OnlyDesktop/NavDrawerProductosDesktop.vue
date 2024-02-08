@@ -6,7 +6,7 @@ const productStore = useProductStore()
 import ProductosJson from "/src/json/Productos.json"
 const productos = ProductosJson
 let cant=productos.length
-let cantRows =Math.ceil(cant/4)
+
 </script>
 
 <template>
@@ -21,16 +21,16 @@ let cantRows =Math.ceil(cant/4)
       <!--Container-->
       <v-row class="ma-3">
         <!--Bucle Columnas-->
-        <v-col cols="3" class="mt-5" v-for="n in 4" >
+        <v-col cols="3" class="mt-5" v-for="n in cant" >
           <!--Bucle Elementos-->
-          <v-row v-for="i in cantRows">
+          <v-row v-if="n<=cant" @click="productStore.swapProduct(productos[n-1])">
             <!-- Solo Dios y yo sabemos como lo hemos hecho -->
-            <v-col v-if="(cantRows*(n-1)+(i-1))<cant">
+            <v-col>
               <img id="image-934-74223" alt="AHORA CRM Software de Gestión Comercial"
-                   :src="productos[cantRows*(1-1)+(1-1)].image" width="50">
-              <RouterLink to="/product" @click="productStore.swapProduct(productos[cantRows*(1-1)+(1-1)])">
-                <h4 id="headline-1516-74223" class="">{{productos[cantRows*(1-1)+(1-1)].titulo}}</h4>
-                <div id="text_block-1517-74223" class="text-grey">{{productos[cantRows*(1-1)+(1-1)].subtitulo}}</div>
+                   :src="productos[n-1].image" width="50">
+              <RouterLink :to="{path:'/product',replace:true}">
+                <h4 id="headline-1516-74223" class="">{{productos[n-1].titulo}}</h4>
+                <div id="text_block-1517-74223" class="text-grey">{{productos[n-1].subtitulo}}</div>
               </RouterLink>
             </v-col>
           </v-row>

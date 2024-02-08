@@ -68,7 +68,8 @@ export default {
         <label for="Reason" style="font-size: 20px">Escribe aquí tu consulta<span style="color: red">*</span></label>
         <v-textarea name="Reason" v-model="this.body"></v-textarea>
         <div class="align-center">
-          <v-btn class="bg-blue" style="font-size: 20px" @click="enviarCorreo">Enviar</v-btn>
+          <!--@click="enviarCorreo"-->
+          <v-btn class="bg-blue" style="font-size: 20px" @click="this.text='Correo Enviado';snackbar=true">Enviar</v-btn>
           <v-snackbar multi-line v-model="snackbar">
             {{ this.text }}
             <template v-slot:actions>

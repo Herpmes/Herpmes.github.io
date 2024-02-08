@@ -1,9 +1,10 @@
 <script setup>
 import { useProductStore } from '@/stores/ProductStore.js'
 const productStore = useProductStore()
-const producto = productStore.getProduct
-const listChecks = producto.contenido.razones
-const cant=listChecks.length
+import { computed } from 'vue'
+const producto = computed(()=>productStore.getProduct)
+const listChecks = computed(()=>producto.value.contenido.razones)
+const cant= computed(()=>listChecks.value.length)
 </script>
 
 <template>
@@ -12,7 +13,7 @@ const cant=listChecks.length
     <v-col cols="10" md="8">
       <h1 class="text-center">¿Cómo te puede ayudar {{producto.titulo}}?</h1>
       <v-row class="mt-13" >
-        <v-col cols="12" v-for="n in cant">
+        <v-col cols="12" v-for="n in cant" :key="n">
           <v-row>
             <v-spacer></v-spacer>
             <v-col cols="1">

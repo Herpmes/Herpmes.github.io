@@ -5,7 +5,8 @@ import FunctionsProducts from '@/components/Products/FunctionsProducts.vue'
 import AdvantajesProducts from '@/components/Products/AdvantajesProducts.vue'
 import { useProductStore } from '@/stores/ProductStore.js'
 const productStore = useProductStore()
-const producto = productStore.getProduct
+import { computed } from 'vue'
+const producto = computed(()=>productStore.getProduct)
 </script>
 <template>
 <main style="margin-top: 60px">

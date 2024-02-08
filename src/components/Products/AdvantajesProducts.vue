@@ -1,9 +1,10 @@
 <script setup>
 import { useProductStore } from '@/stores/ProductStore.js'
 const productStore = useProductStore()
-const producto = productStore.getProduct
-const listAdvantajes = producto.contenido.extras
-const cant=listAdvantajes.length
+import { computed } from 'vue'
+const producto = computed(()=>productStore.getProduct)
+const listAdvantajes = computed(()=>producto.value.contenido.extras)
+const cant=computed(()=>listAdvantajes.value.length)
 </script>
 
 <template>
