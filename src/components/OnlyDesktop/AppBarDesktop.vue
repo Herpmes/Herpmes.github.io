@@ -1,10 +1,10 @@
 <script setup>
-import {useAppBarDesktopStore} from '@/stores/DrawerDesktopStore.js'
-const drawerStore = useAppBarDesktopStore();
-let selectedTopTab = 0;
-function changeSelected(newSelected) {
-  selectedTopTab = newSelected
-}
+import { computed } from 'vue'
+import {useDrawerDesktopStore} from '@/stores/DrawerDesktopStore.js'
+const drawerStore = useDrawerDesktopStore();
+import {useAppBarStoreDesktop} from '@/stores/AppBarStoreDesktop.js'
+const appbarStore= useAppBarStoreDesktop()
+let selectedTopTab = computed(()=> appbarStore.getSelected);
 </script>
 
 <template>
@@ -14,10 +14,10 @@ function changeSelected(newSelected) {
 
     <!--Home-->
     <RouterLink to="/">
-      <v-btn class="font-weight-bold" color="#24afff" :ripple="false" @click="changeSelected(0)"
-             v-if="selectedTopTab===0">Inicio
+      <v-btn class="font-weight-bold" v-bind:color="(selectedTopTab===0)?'#24afff':''" :ripple="false"
+             @click="appbarStore.setSelectedTo(0)" @mouseenter="drawerStore.closeAll()">
+        Inicio
       </v-btn>
-      <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(0)" v-else>Inicio</v-btn>
     </RouterLink>
 
 
@@ -25,19 +25,31 @@ function changeSelected(newSelected) {
 
     <!--About-->
     <RouterLink to="/about">
-      <v-btn class="font-weight-bold" color="#24afff" :ripple="false" @click="changeSelected(1)"
-             v-if="selectedTopTab===1">Quienes Somos
+      <v-btn class="font-weight-bold" v-bind:color="(selectedTopTab===1)?'#24afff':''" :ripple="false"
+             @click="appbarStore.setSelectedTo(1)" @mouseenter="drawerStore.closeAll()">
+        Quienes Somos
       </v-btn>
-      <v-btn class="font-weight-bold" :ripple="false" @click="changeSelected(1)" v-else>Quienes Somos</v-btn>
     </RouterLink>
 
+    <!--Servicios-->
+    <RouterLink to="/services">
+      <v-btn class="font-weight-bold" v-bind:color="(selectedTopTab===2)?'#24afff':''" :ripple="false"
+             @click="appbarStore.setSelectedTo(2)" @mouseenter="drawerStore.closeAll()">
+        Servicios
+      </v-btn>
+    </RouterLink>
 
     <!--Productos-->
-    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapProductos()">Productos</v-btn>
-    <!--Servicios-->
-    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapServicios()">Servicios</v-btn>
+    <v-btn class="font-weight-bold" v-bind:color="(selectedTopTab===3)?'#24afff':''" :ripple="false"
+           @mouseenter="drawerStore.openProductos()">
+      Productos
+    </v-btn>
+
     <!-- Departamentos -->
-    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.swapDepartamentos()">Departamentos</v-btn>
+    <v-btn class="font-weight-bold" v-bind:color="(selectedTopTab===4)?'#24afff':''" :ripple="false"
+           @mouseenter="drawerStore.openDepartamentos()">
+      Departamentos
+    </v-btn>
 
     <v-spacer></v-spacer>
 
@@ -46,17 +58,17 @@ function changeSelected(newSelected) {
 
     <!--Contact Us-->
     <RouterLink to="/contact">
-      <v-btn class="hover-anchor font-weight-bold" color="#24afff" :ripple="false" @click="changeSelected(5)"
-             v-if="selectedTopTab===5">CONTÁCTANOS
+      <v-btn class="hover-anchor font-weight-bold" v-bind:color="(selectedTopTab===5)?'#24afff':''" :ripple="false"
+             @click="appbarStore.setSelectedTo(5)" @mouseenter="drawerStore.closeAll()">
+        CONTÁCTANOS
       </v-btn>
-      <v-btn class="hover-anchor font-weight-bold" :ripple="false" @click="changeSelected(5)" v-else>CONTÁCTANOS</v-btn>
     </RouterLink>
 
 
 
 
     <!--Login-->
-    <v-btn class="font-weight-bold" :ripple="false">LOGIN</v-btn>
+    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.closeAll()">LOGIN</v-btn>
   </v-app-bar>
 </template>
 

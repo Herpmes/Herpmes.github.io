@@ -1,41 +1,29 @@
 import { defineStore } from 'pinia'
 
-export const useAppBarDesktopStore = defineStore('drawerNavHome', {
+export const useDrawerDesktopStore = defineStore('drawerNavHome', {
   state:()=>({
-    drawerServicios : false,
     drawerProductos : false,
     drawerDepartamentos: false
   }),getters: {
     getDrawerProductos(){return this.drawerProductos},
-    getDrawerServicios(){return this.drawerServicios},
     getDrawerDepartamentos(){return this.drawerDepartamentos}
   },actions:{
-    swapProductos(){
-      this.drawerProductos=!this.drawerProductos;
-      if(this.drawerServicios){
-        this.drawerServicios=!this.drawerServicios;
-      }
-      if(this.drawerDepartamentos){
-        this.drawerDepartamentos=!this.drawerDepartamentos;
-      }
+    openProductos(){
+      this.drawerProductos=true;
+      this.drawerDepartamentos=false;
     },
-    swapServicios(){
-      this.drawerServicios=!this.drawerServicios;
-      if(this.drawerProductos){
-        this.drawerProductos=!this.drawerProductos;
-      }
-      if(this.drawerDepartamentos){
-        this.drawerDepartamentos=!this.drawerDepartamentos;
-      }
+    openDepartamentos(){
+      this.drawerProductos=false;
+      this.drawerDepartamentos=true;
     },
-    swapDepartamentos(){
-      this.drawerDepartamentos=!this.drawerDepartamentos;
-      if(this.drawerServicios){
-        this.drawerServicios=!this.drawerServicios;
-      }
-      if(this.drawerProductos){
-        this.drawerProductos=!this.drawerProductos;
-      }
+    closeProductos(){
+      this.drawerProductos=false;
+    },closeDepartamentos(){
+      this.drawerDepartamentos=false;
+    },
+    closeAll() {
+      this.drawerDepartamentos=false;
+      this.drawerProductos=false;
     }
   }
 })

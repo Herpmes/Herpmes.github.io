@@ -13,7 +13,7 @@ const cant=computed(()=>listAdvantajes.value.length)
     <v-col cols="11" md="9">
       <v-row class="mt-13" >
         <v-spacer></v-spacer>
-        <v-col cols="6" md="4" v-for="n in cant">
+        <v-col cols="12" xs="6" md="4" v-for="n in cant" :key="n">
           <!--Campo-->
           <v-row>
             <v-col cols="2" >

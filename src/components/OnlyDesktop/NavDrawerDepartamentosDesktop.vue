@@ -1,7 +1,7 @@
 <script setup>
-import { useAppBarDesktopStore } from '@/stores/DrawerDesktopStore.js'
+import { useDrawerDesktopStore } from '@/stores/DrawerDesktopStore.js'
 
-const drawerStore = useAppBarDesktopStore()
+const drawerStore = useDrawerDesktopStore()
 </script>
 
 <template>
@@ -11,7 +11,7 @@ const drawerStore = useAppBarDesktopStore()
     location="top"
     class=""
     style="margin-top: -5px; height: fit-content"
-    @mouseleave="drawerStore.swapDepartamentos()">
+    @mouseleave="drawerStore.closeDepartamentos()">
     <v-row class="pa-9">
       <!--Anchor-->
       <v-col>

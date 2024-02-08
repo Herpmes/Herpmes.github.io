@@ -342,33 +342,28 @@
       "extras": [
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
-          "titulo": "",
-          "desc": ""
+          "titulo": "Informes personalizados",
+          "desc": "Genera tus propios informes en base a las dimensiones y medidas seleccionadas dentro de cada departamento."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
-          "titulo": "",
-          "desc": ""
+          "titulo": "Elimina dependencias interdepartamentales",
+          "desc": "Cualquier usuario puede obtener sus informes sin tener que solicitar la información a otros departamentos."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
-          "titulo": "",
-          "desc": ""
+          "titulo": "Indicadores propios",
+          "desc": "Los usuarios pueden crear indicadores según sus necesidades, AHORA Analytics es 100% personalizable."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
-          "titulo": "",
-          "desc": ""
+          "titulo": "Gran alcance",
+          "desc": "Capacita al mayor número posible de personas para descubrir y comprender la información más útil, desde cualquier lugar."
         },
         {
           "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
-          "titulo": "",
-          "desc": ""
+          "titulo": "Centralizado",
+          "desc": "Toda la organización (finanzas, marketing, RRHH...) tendrá acceso a los datos de negocio en cualquier momento y desde cualquier dispositivo."
         }
       ],
       "desc": ""
@@ -714,7 +709,7 @@
           "desc": "Demuestra tu compromiso con la ética y la integridad y construye una reputación sólida en el mercado y entre la plantilla."
         }
       ],
-      "desc": ""
+      "desc": "Con la entrada en vigor de la Directiva (UE) 20129/1937 y la Ley 2/2023, se establece una nueva obligación para las empresas: Todas las organizaciones con más de 50 empleados deben contar con un Canal de Denuncias que proporcione a los empleados y otras partes interesadas un medio seguro y confidencial para informar sobre posibles irregularidades, fraudes, abusos o cualquier comportamiento contrario a la ética en el ámbito laboral. \nEl Canal de Denuncias deberá estar implementado antes del 1 de diciembre de 2023 para evitar sanciones de hasta 1.000.000 de Euros."
     }
   }
 ]

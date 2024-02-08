@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<main style="margin-top: 60px">
+<main class="mt-15">
 
 </main>
 </template>
