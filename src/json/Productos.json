@@ -310,65 +310,63 @@
     "subtitulo": "El Cuadro BI que se adapta a tu negocio",
     "enlace": "https://www.ahora.es/ahora-analytics/",
     "contenido": {
-      "titulo": "",
+      "titulo": "Convierte tus datos en información medible para abordar las mejores decisiones",
       "razones": [
-
+        "Detecta desviaciones y corrígelas antes de que supongan un coste. Toma decisiones acertadas más rápidamente y mejora la eficacia de la empresa.",
+        "Analiza la situación actual y obtén una comparativa real para prever objetivos y establecer estrategias.",
+        "Crea cuadros de mando personalizados para los distintos departamentos: financiero, logística, producción, marketing, dirección, ventas…",
+        "Consulta los datos desde cualquier lugar. Se adapta a cualquier dispositivo."
       ],
       "funciones": [
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Gestión",
+          "titulo": "Control",
+          "desc": "Obtén información por áreas o de forma global de la empresa."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Información",
+          "titulo": "Decisivo",
+          "desc": "Transforma los datos en información de valor y conviértelos en ventaja competitiva frente a otros."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Accesibilidad",
+          "titulo": "Fluido",
+          "desc": "Todo el equipo puede crear con facilidad visualizaciones flexibles e interactivas y tomar decisiones fundadas."
         },
         {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
-        },
-        {
-          "encabezado":"",
-          "titulo": "",
-          "desc": ""
+          "encabezado":"Trabajo",
+          "titulo": "Eficiente",
+          "desc": "Aúna los datos y la analítica en un único canal de datos analítico integral."
         }
       ],
       "extras": [
         {
-          "icono": "",
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
+          "titulo": "",
+          "desc": ""
+        },
+        {
+          "icono": "https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/icons/gear.png",
           "titulo": "",
           "desc": ""
         }
