@@ -12,7 +12,7 @@ import { computed } from 'vue'
 const producto = computed(() => productStore.getProduct)
 </script>
 <template>
-  <main class="mt-15">
+  <main>
     <Banner :title="producto.titulo" :subtitle="producto.contenido.titulo" />
     <ReasonsProducts v-if="producto.contenido.razones.length>0" />
     <DescProducts v-else />

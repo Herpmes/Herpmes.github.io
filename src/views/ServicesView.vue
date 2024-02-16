@@ -4,7 +4,7 @@ import ServicesBody from '@/components/Services/ServicesBody.vue'
 </script>
 
 <template>
-  <main class="mt-15">
+  <main>
     <BannerDesktop title="SERVICIOS" subtitle="Lo que podemos ofrecer"/>
     <ServicesBody/>
   </main>

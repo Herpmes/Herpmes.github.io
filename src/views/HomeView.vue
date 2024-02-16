@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <main class="mt-15">
+  <main>
     <!--Banner-->
     <BannerDesktop :title="this.banner.home.title" :subtitle="this.banner.home.subtite" />
     <!--Mini Desc-->
