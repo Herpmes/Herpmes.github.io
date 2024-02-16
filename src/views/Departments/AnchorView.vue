@@ -3,8 +3,8 @@
 </script>
 
 <template>
-<main class="mt-15">
-
+<main>
+<!--Cod-->
 </main>
 </template>
 
