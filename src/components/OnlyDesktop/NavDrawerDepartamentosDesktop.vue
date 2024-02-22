@@ -54,7 +54,9 @@ const drawerStore = useDrawerDesktopStore()
         </v-card>
       </v-col>
       <!--CodeCrafters-->
+
       <v-col>
+        <RouterLink to="/codecrafters">
         <v-card class="mx-auto" hover color="#0f5dab">
           <v-card-item>
             <v-card-title class="text-white">
@@ -72,7 +74,9 @@ const drawerStore = useDrawerDesktopStore()
             <img src="/src/Img/Logos/LogoCodecrafters.png" width="100" alt="CodeCrafters">
           </div>
         </v-card>
+        </RouterLink>
       </v-col>
+
     </v-row>
   </v-navigation-drawer>
 </template>
