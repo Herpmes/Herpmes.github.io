@@ -10,11 +10,11 @@ const drawerStore = useDrawerPhoneStore()
         <v-app-bar-nav-icon @click="drawerStore.switch()"></v-app-bar-nav-icon>
       </v-col>
       <v-spacer></v-spacer>
-      <v-col cols="8" sm="5 " md="4" style="display: flex;">
+      <v-col cols="7" sm="5 " md="4" style="display: flex;">
         <img src="/src/Img/Logos/LogoHerpmes.png" alt="" class="logoHChiquito">
       </v-col>
-      <v-spacer></v-spacer>
     </v-row>
+    <v-spacer></v-spacer>
   </v-app-bar>
 </template>
 

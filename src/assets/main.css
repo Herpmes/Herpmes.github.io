@@ -6,7 +6,7 @@ a{
   width: 200px;
 }
 .logoHChiquito{
-  width: 150px;
+  width: 180px;
   justify-content: center;
 }
 .bBG{
@@ -16,4 +16,8 @@ a{
 .imageRight{
   display: block;
   margin-left: auto;
+}
+
+.v-expansion-panel-title{
+  text-align: center;
 }
