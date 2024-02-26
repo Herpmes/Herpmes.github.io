@@ -17,7 +17,7 @@ const phoneSized = ["xs","sm","md"]
     <!--Desplegable Departamentos-->
     <NavDrawerDepartamentosDesktop v-if="!phoneSized.includes($vuetify.display.name)"/>
     <!--Main-->
-    <RouterView/>
+    <RouterView class="mt-15"/>
     <!--Footer-->
     <CustomFooter />
   </v-app>

@@ -3,8 +3,7 @@
 </script>
 
 <template>
-
-<!--Cod-->
+<h1>weeeeeeeeee</h1>
 </template>
 
 <style scoped>

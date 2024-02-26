@@ -5,6 +5,7 @@ import ContactView from "@/views/ContactView.vue";
 import ProductView from '@/views/ProductView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import NuixoView from "@/views/Departments/Nuix/NuixoView.vue";
+import FotosGrupoView from "@/views/Departments/Nuix/FotosGrupoView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,8 +36,13 @@ const router = createRouter({
     },
     {
       path: "/nuixo",
-      name: "Nuixó",
+      name: "Nuixo",
       component: NuixoView
+    },
+    {
+      path: "/nuixo/imgs",
+      name: "Nuixó_Fotos",
+      component: FotosGrupoView
     }
 
   ],
