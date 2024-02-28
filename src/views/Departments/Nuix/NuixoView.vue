@@ -1,7 +1,12 @@
 <template>
+  <main class="mt-15">
   <div>
 
-    <p> ..</p>
+
+
+
+
+
 
     <v-row align="center" justify="center">
       <v-img
@@ -79,6 +84,7 @@
     </v-col>
   </div>
 
+</main>
 </template>
 
 <style scoped>

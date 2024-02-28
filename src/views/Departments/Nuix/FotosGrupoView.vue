@@ -10,15 +10,15 @@ export default {
 </script>
 <template>
 
+  <main class="mt-15">
+
 <v-img
-    :width="2000"
+    style="display: flex"
     aspect-ratio="16/9"
     cover
 src="https://i.imgur.com/8p34Az4.jpeg"
 >
-  <p>dfgdg</p>
-  <p>dfgdfg</p>
-  <p>dfgd</p>
+
    <v-img
       :width="400"
 
@@ -307,12 +307,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
       </v-window>
     </v-card-text>
   </v-card>
-
-
-
-
-
-
+    </main>
 </template>
 
 <style scoped>
