@@ -8,14 +8,14 @@
 
 
 
-    <v-row align="center" justify="center">
+    <v-row align="center" justify="center" >
       <v-img
           width="40%"
           aspect-ratio="16/9"
           contain
           src="src/Img/img Nuixo/NuixoERP-28-2-2024.png"
       ></v-img>
-    </v-row>
+    </v-row >
 
     <v-row align="center" justify="center">
       <v-col cols="12" md="8" lg="6" xl="4" class="mt-4" >
@@ -66,7 +66,7 @@
           class="mx-auto"
           max-width="1500"
 
-          title="Caso de Éxito"
+          title="Caso de Éxito EnerTech"
           subtitle="NuixoERP"
       >
         <template v-slot:prepend>
@@ -78,7 +78,13 @@
           </v-avatar>
         </template>
 
-        <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</v-card-text>
+        <v-card-text class="text-body-1">Un problema que tenía la empresa era que no tenían un sistema de gestión empresarial para gestionar de manera más efectiva las relaciones con sus clientes y optimizar el seguimiento de los contratos.
+
+          Otro problema que tenían era encontrar una solución para facilitar la gestión de ofertas, contratos y seguimientos continuos.
+
+          Gracias a nuestra ayuda hemos conseguido que se un caso de éxito buscando soluciones a los dos problemas y ahora la empresa EneTech ya se adapta ágilmente a nuevas oportunidades en el mercado eléctrico y gestiona de manera más efectiva las relaciones con sus clientes optimizando el seguimiento de los contratos entre otras cosas.
+
+        </v-card-text>
       </v-card>
     </v-col>
     </div>
