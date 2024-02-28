@@ -18,7 +18,7 @@
     </v-row>
 
     <v-row align="center" justify="center">
-      <v-col cols="12" md="8" lg="6" xl="4" class="mt-4">
+      <v-col cols="12" md="8" lg="6" xl="4" class="mt-4" >
         <v-card
             class="mx-auto"
             color="#0075FF"
@@ -57,9 +57,10 @@
             </v-list-item>
           </v-card-actions>
         </v-card>
-        <div style="margin-top: 130px;"></div>
+        <div style="margin-top: 50px;"></div>
       </v-col>
     </v-row>
+    <div class="v-col v-col-12 py-8 mt-10 text-white radialBG" align="center" justify="center">
     <v-col cols="auto">
       <v-card
           class="mx-auto"
@@ -69,19 +70,18 @@
           subtitle="NuixoERP"
       >
         <template v-slot:prepend>
-          <v-avatar size="60">
+          <v-avatar size="80" align="center" justify="center">
             <v-img
                 src="https://cdn.vuetifyjs.com/images/john.png"
                 alt="John"
             ></v-img>
           </v-avatar>
         </template>
-        <template v-slot:append>
 
-        </template>
         <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</v-card-text>
       </v-card>
     </v-col>
+    </div>
   </div>
 
 </main>
