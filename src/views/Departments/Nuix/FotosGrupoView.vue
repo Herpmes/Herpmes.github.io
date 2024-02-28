@@ -21,7 +21,7 @@ src="https://i.imgur.com/8p34Az4.jpeg"
   <p>dfgd</p>
    <v-img
       :width="400"
-      aspect-ratio="16/9"
+
       contain
 src="https://i.imgur.com/0DYmczp.png"  ></v-img>
  </v-img>
