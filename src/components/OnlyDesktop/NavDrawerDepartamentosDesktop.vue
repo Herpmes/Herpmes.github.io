@@ -35,6 +35,7 @@ const drawerStore = useDrawerDesktopStore()
       </v-col>
       <!--Nuixo-->
       <v-col>
+        <RouterLink to="/nuixo">
         <v-card class="mx-auto" hover color="#ff8787">
           <v-card-item>
             <v-card-title>
@@ -52,6 +53,7 @@ const drawerStore = useDrawerDesktopStore()
             <img src="/src/Img/Logos/LogoNuixo-removedBackground.png" alt="Nuixo" width="258" />
           </div>
         </v-card>
+        </RouterLink>
       </v-col>
       <!--CodeCrafters-->
       <v-col>
