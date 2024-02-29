@@ -13,12 +13,12 @@ export default {
       </h1>
       <br>
       <p>
-        En <b>HERPmes</b> somos consultores y desarrolladores de <b>software de gestión para pequeñas y medianas
-        empresas</b>.
+        En <b>Anchor</b> somos un departamento que demuestra <b>todo su trabajo con esfuerzo, cariño y detalle</b>.
       </p>
       <br>
       <p>
-        Sea cual sea tu actividad, tenemos la solución que estás buscando.
+        Siempre <b>seremos el ancla</b> que te de seguridad a la <b>hora de navegar</b>, podremos estar al tanto de todo, si
+        quieres descubrir más presiona aquí abajo.
       </p>
       <br>
       <div class="text-right">
@@ -30,7 +30,7 @@ export default {
       </div>
     </v-col>
     <v-col cols="12" md="4">
-      <v-img src="https://raw.githubusercontent.com/aarricgra/aarricgra.github.io/main/Img/grupo.jpg" height="300px"></v-img>
+      <v-img src="https://raw.githubusercontent.com/Herpmes/Herpmes.github.io/master/src/Img/grupo.jpg" height="300px"></v-img>
     </v-col>
     <v-spacer></v-spacer>
   </v-row>

@@ -26,6 +26,7 @@
         Camaradas
       </v-col>
     </v-row>
+
     <v-carousel
       hide-delimiters
       :show-arrows="$vuetify.display.name!=='xs'"
@@ -37,7 +38,9 @@
       <v-carousel-item v-for="(item, i) in items" :key="i">
         <v-card class="mx-auto" width="80%" style="border-radius: 30px">
           <v-row class="pb-14">
+            <v-spacer></v-spacer>
             <v-col cols="12" lg="6" class="text-left pa-15">
+              <v-spacer></v-spacer>
               <v-icon icon="mdi-format-quote-close" size="90px"></v-icon>
               <p style="font-size: 20px">{{ item.text }}</p>
               <br>
