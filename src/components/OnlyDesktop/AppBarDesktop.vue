@@ -20,9 +20,6 @@ let selectedTopTab = computed(()=> appbarStore.getSelected);
       </v-btn>
     </RouterLink>
 
-
-
-
     <!--About-->
     <RouterLink to="/about">
       <v-btn class="font-weight-bold" v-bind:color="(selectedTopTab===1)?'#24afff':''" :ripple="false"

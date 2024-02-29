@@ -4,6 +4,7 @@ import AboutView from "@/views/AboutView.vue";
 import ContactView from "@/views/ContactView.vue";
 import ProductView from '@/views/ProductView.vue'
 import ServicesView from '@/views/ServicesView.vue'
+import AnchorView from "@/views/Departments/AnchorView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,7 +23,8 @@ const router = createRouter({
       path: '/contact',
       name: 'Constact',
       component: ContactView
-    },{
+    },
+    {
       path: '/product',
       name: 'Product',
       component: ProductView
@@ -31,7 +33,12 @@ const router = createRouter({
       path: '/services',
       name: 'Services',
       component: ServicesView
-    }
+    },
+    {
+      path: '/anchor',
+      name: 'Anchor',
+      component: AnchorView
+    },
   ],
   scrollBehavior() {
     // always scroll to top

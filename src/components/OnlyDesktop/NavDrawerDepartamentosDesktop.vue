@@ -25,7 +25,9 @@ const drawerStore = useDrawerDesktopStore()
           <v-card-text class="text-center">
             <p class="textCenter">Departamento Marítimo</p>
             <br>
-            <v-btn>Descubre Anchor</v-btn>
+            <router-link to="/anchor">
+              <v-btn>Descubre Anchor</v-btn>
+            </router-link>
             <br>
           </v-card-text>
           <div class="text-center">
