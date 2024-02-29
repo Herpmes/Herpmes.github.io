@@ -19,11 +19,13 @@ const { handleSubmit, handleReset } = useForm({
     }
   }
 })
-const password = useField('password')
-const email = useField('email')
+const password_form = useField('password')
+const email_form = useField('email')
+
+
 
 const submit = handleSubmit(values => {
-  alert(JSON.stringify(values, null, 2))
+  open("http://localhost:5173","_self")
 })
 </script>
 
@@ -36,26 +38,29 @@ const submit = handleSubmit(values => {
         <br>
         <form @submit.prevent="submit">
           <v-text-field
-            v-model="email.value.value"
-            :error-messages="email.errorMessage.value"
+            v-model="email_form.value.value"
+            :error-messages="email_form.errorMessage.value"
             label="Correo Electrónico"
           ></v-text-field>
 
           <v-text-field
-            v-model="password.value.value"
+            v-model="password_form.value.value"
             :counter="9"
-            :error-messages="password.errorMessage.value"
+            :error-messages="password_form.errorMessage.value"
             label="Contraseña"
             type="password"
           ></v-text-field>
 
+
           <v-btn @click="handleSubmit"
                  class="me-4 mt-3"
-                 type="submit">
-            Inicia sesión
+                 type="submit"
+                 color="primary"
+                 >
+           Inicia Sesión
           </v-btn>
 
-          <v-btn @click="handleReset" class="mt-3">
+          <v-btn @click="handleReset" class="mt-3" color="primary">
             Limpiar
           </v-btn>
         </form>

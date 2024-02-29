@@ -50,7 +50,7 @@ const items = ref([
 ])
 
 const submit = handleSubmit(values => {
-  alert(JSON.stringify(values, null, 2))
+  open("http://localhost:5173","_self")
 })
 </script>
 
@@ -101,13 +101,15 @@ const submit = handleSubmit(values => {
             class="mt-3"
           ></v-select>
 
-          <v-btn @click="handleSubmit"
+          <v-btn
+            @click="handleSubmit"
             class="me-4 mt-3"
-            type="submit">
+            type="submit"
+            color="primary">
             Regístrate
           </v-btn>
 
-          <v-btn @click="handleReset" class="mt-3">
+          <v-btn @click="handleReset" class="mt-3" color="primary">
             Limpiar
           </v-btn>
         </form>
