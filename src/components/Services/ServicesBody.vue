@@ -3,11 +3,15 @@ import ServiciosJson from '/src/json/InfoServicios.json'
 
 const servicios = ServiciosJson
 let cant = servicios.length
-console.log()
+
+import {useColorStore} from "@/stores/ColorStore.js";
+import {computed} from "vue";
+const colorStore = useColorStore()
+let color = computed(()=> colorStore.getColor);
 </script>
 
 <template>
-  <v-row v-for="i in cant" :key="i" v-bind:class="((i-1)%2!==0)?'bBG text-white py-8':'py-8'">
+  <v-row v-for="i in cant" :key="i" v-bind:class="((i-1)%2!==0)? (color==='blue' ? 'bBG':(color==='red' ? 'rBG' : 'gBG')+' text-white py-8'):'py-8'">
     <v-spacer />
     <v-col cols="10" md="8">
       <v-row class="py-5 rowsB">

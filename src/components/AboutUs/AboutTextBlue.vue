@@ -1,10 +1,16 @@
 <script setup>
 const props = defineProps(['logo','desc','img'])
 const phoneSized = ["xs","sm","md"]
+
+import {useColorStore} from "@/stores/ColorStore.js";
+import {computed} from "vue";
+const colorStore = useColorStore()
+let color = computed(()=> colorStore.getColor);
 </script>
 
 <template>
-  <v-row  class="text-left text-black px-16 py-10 bBG text-white" justify="center" v-if="phoneSized.includes($vuetify.display.name)">
+  <v-row  :class="['text-left', 'text-black', 'px-16', 'py-10', color=== 'blue' ? 'bBG' : (color==='red' ? 'rBG' : 'gBG'), 'text-white']"
+          justify="center" v-if="phoneSized.includes($vuetify.display.name)">
     <v-col cols="12">
       <v-img :src="props.logo" width="100px" align="left"></v-img>
       <br>
@@ -17,7 +23,8 @@ const phoneSized = ["xs","sm","md"]
     </v-col>
   </v-row>
 
-  <v-row  class="text-left text-black px-16 py-10 bBG text-white" justify="center" v-else>
+  <v-row  :class="['text-left', 'text-black', 'px-16', 'py-10', color=== 'blue' ? 'bBG' : (color==='red' ? 'rBG' : 'gBG'), 'text-white']"
+          justify="center" v-else>
     <v-spacer></v-spacer>
     <v-col cols="5">
       <v-img :src="props.img" height="300px"></v-img>

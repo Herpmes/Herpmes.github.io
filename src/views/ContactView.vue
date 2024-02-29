@@ -7,7 +7,7 @@ const banner = Banners
 </script>
 
 <template>
-  <main class="mt-15">
+  <main>
     <!--Banner-->
     <BannerDesktop :title="banner.contact.title" :subtitle="banner.contact.subtitle" />
     <!--FORM-->

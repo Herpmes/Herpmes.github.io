@@ -1,9 +1,12 @@
 <script setup>
-
+import {useColorStore} from "@/stores/ColorStore.js";
+import {computed} from "vue";
+const colorStore = useColorStore()
+let color = computed(()=> colorStore.getColor);
 </script>
 
 <template>
-  <v-row class="text-center text-white bBG py-8">
+  <v-row :class="['text-center','text-white', color==='blue' ? 'bBG': (color==='red' ? 'rBG' :'gBG'),'py-8']">
     <v-spacer></v-spacer>
     <v-col cols="10" md="8">
       <h1>Nuestros departamentos</h1>

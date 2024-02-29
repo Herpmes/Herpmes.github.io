@@ -10,7 +10,7 @@ import AboutDesc from '@/components/AboutUs/AboutDesc.vue'
 </script>
 
 <template>
-  <main style="margin-top: 60px">
+  <main>
     <!--Banner-->
     <BannerDesktop :title="banner.about.title" :subtitle="banner.about.subtitle"/>
     <!--Descripcion-->

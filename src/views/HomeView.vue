@@ -4,6 +4,7 @@ import Banners from '/src/json/Banners.json'
 import BannerDesktop from '@/components/Banner.vue'
 import HomeDescAbout from '@/components/Home/HomeDescAbout.vue'
 import ClientCasesDesktop from '@/components/Home/ClientCasesDesktop.vue'
+
 export default {
   components: { ClientCasesDesktop, HomeDescAbout, BannerDesktop },
   data() {
@@ -15,9 +16,9 @@ export default {
 </script>
 
 <template>
-  <main class="mt-15">
+  <main>
     <!--Banner-->
-    <BannerDesktop :title="this.banner.home.title" :subtitle="this.banner.home.subtite" />
+    <BannerDesktop :title="this.banner.home.title" :subtitle="this.banner.home.subtite"/>
     <!--Mini Desc-->
     <HomeDescAbout />
     <!--Casos de Exito-->
@@ -26,14 +27,6 @@ export default {
 </template>
 
 <style>
-.align-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.radialBG{
-  background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
-}
 .v-carousel__controls__item.v-btn.v-btn--icon {
   background-color: #858684;
 }
