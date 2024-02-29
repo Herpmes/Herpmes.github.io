@@ -1,9 +1,8 @@
 <script setup>
 import CasosExito from '/src/json/CasosExito.json'
 const items = CasosExito
-
-import {useColorStore} from "@/stores/ColorStore.js";
 import {computed} from "vue";
+import {useColorStore} from "@/stores/ColorStore.js";
 const colorStore = useColorStore()
 let color = computed(()=> colorStore.getColor);
 </script>
