@@ -12,16 +12,19 @@ export default {
   <main class="mt-15">
 
 <v-img
-    style="display: flex"
+    style="display: flex;"
     aspect-ratio="16/9"
     cover
 src="https://i.imgur.com/8p34Az4.jpeg"
 >
 
-   <v-img dark elevation="24"
-      :width="400"
-      contain
-      src="https://i.imgur.com/0DYmczp.png"></v-img>
+  <div class="d-flex justify-center align-center" style="width: 100%;">
+    <v-img dark elevation="24"
+           :width="400"
+           contain
+           src="https://i.imgur.com/8fFmuwI.png"
+    ></v-img>
+  </div>
  </v-img>
 
   <v-card>
