@@ -27,14 +27,6 @@ export default {
 </template>
 
 <style>
-.align-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.radialBG{
-  background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%);
-}
 .v-carousel__controls__item.v-btn.v-btn--icon {
   background-color: #858684;
 }

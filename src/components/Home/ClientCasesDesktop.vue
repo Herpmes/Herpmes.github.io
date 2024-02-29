@@ -26,7 +26,6 @@ let color = computed(()=> colorStore.getColor);
               v-for="(item, i) in items"
               :key="i"
             >
-
               <v-card class="mx-auto" width="80%" style="border-radius: 30px">
                 <v-row class="pb-14">
                   <v-col cols="12" lg="6" class="text-left pa-15">
