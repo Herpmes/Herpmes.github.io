@@ -6,6 +6,8 @@ import ProductView from '@/views/ProductView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import LoginView from '@/views/LoginView.vue'
 import RegisterView from '@/views/RegisterView.vue'
+import NuixoView from "@/views/Departments/Nuix/NuixoView.vue";
+import NuixoFotosView from "@/views/Departments/Nuix/FotosGrupoView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,6 +45,17 @@ const router = createRouter({
       path: '/register',
       name: 'Register',
       component: RegisterView
+    },
+
+    {
+      path: '/nuixo',
+      name: 'Nuixó',
+      component: NuixoView
+    },
+    {
+      path: '/nuixoFotos',
+      name: 'Nuixó_Fotos',
+      component: NuixoFotosView
     }
   ],
   scrollBehavior() {

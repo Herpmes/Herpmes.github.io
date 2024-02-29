@@ -21,11 +21,10 @@ src="https://i.imgur.com/8p34Az4.jpeg"
 <!-- Este div simboliza la el contenedor de la segunda imagen-->
   <div class="d-flex justify-center align-center" style="width: 100%;">
 <!--    Esta es la imagen del banner que esta en el medio y es el-->
-    <v-img dark elevation="24"
-           :width="400"
-           contain
+    <img
+           width="400px"
            src="https://i.imgur.com/8fFmuwI.png"
-    ></v-img>
+    >
   </div>
  </v-img>
 <!-- Este es el inicio del carrusel -->

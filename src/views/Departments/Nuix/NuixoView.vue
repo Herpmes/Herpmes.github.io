@@ -1,16 +1,18 @@
 <template>
-  <main class="mt-15">
+  <main>
     <div>
-      <div class="v-col v-col-12 py-8 mt-10 text-white radialBG" align="center" justify="center">
+      <div class="v-col v-col-12 py-8 text-white bBG" align="center" justify="center">
         <v-row align="center" justify="center">
-          <v-img
-              width="40%"
-              aspect-ratio="16/9"
-              contain
-              src="src/Img/img Nuixo/NuixoERP-29-2-2024.png"
-          ></v-img>
+          <v-spacer/>
+          <v-col cols="6">
+            <v-img
+                aspect-ratio="16/9"
+                contain
+                src="src/Img/img Nuixo/NuixoERP-29-2-2024.png"
+            ></v-img>
+          </v-col>
+          <v-spacer/>
         </v-row>
-
       </div>
       <div style="margin-top: 40px;"></div>
       <router-link :to="{ name: 'Nuixó_Fotos' }">
@@ -30,7 +32,9 @@
               title="Sobre Nosotros"
           >
             <v-card-text class="text-h5 py-2">
-              "Somos un grupo innovador formado por un equipo muy unido con un objetivo común claro. Contamos con un personal joven y dinámico con muchas ganas de trabajar en proyectos significativos. Nuestro propósito es ser flexibles y ágiles para abordar los cambios tecnológicos y empresariales que se presentan."
+              "Somos un grupo innovador formado por un equipo muy unido con un objetivo común claro. Contamos con un
+              personal joven y dinámico con muchas ganas de trabajar en proyectos significativos. Nuestro propósito es
+              ser flexibles y ágiles para abordar los cambios tecnológicos y empresariales que se presentan."
             </v-card-text>
             <v-card-actions>
               <v-list-item class="w-100">
@@ -76,11 +80,16 @@
               </v-avatar>
             </template>
             <v-card-text class="text-body-1">
-              Un problema que tenía la empresa era que no tenían un sistema de gestión empresarial para gestionar de manera más efectiva las relaciones con sus clientes y optimizar el seguimiento de los contratos.
+              Un problema que tenía la empresa era que no tenían un sistema de gestión empresarial para gestionar de
+              manera más efectiva las relaciones con sus clientes y optimizar el seguimiento de los contratos.
 
-              Otro problema que tenían era encontrar una solución para facilitar la gestión de ofertas, contratos y seguimientos continuos.
+              Otro problema que tenían era encontrar una solución para facilitar la gestión de ofertas, contratos y
+              seguimientos continuos.
 
-              Gracias a nuestra ayuda hemos conseguido que se un caso de éxito buscando soluciones a los dos problemas y ahora la empresa EneTech ya se adapta ágilmente a nuevas oportunidades en el mercado eléctrico y gestiona de manera más efectiva las relaciones con sus clientes optimizando el seguimiento de los contratos entre otras cosas.
+              Gracias a nuestra ayuda hemos conseguido que se un caso de éxito buscando soluciones a los dos problemas y
+              ahora la empresa EneTech ya se adapta ágilmente a nuevas oportunidades en el mercado eléctrico y gestiona
+              de manera más efectiva las relaciones con sus clientes optimizando el seguimiento de los contratos entre
+              otras cosas.
             </v-card-text>
           </v-card>
         </v-col>
@@ -88,9 +97,11 @@
 
       <div style="margin-top: 50px;"></div>
 
-     <div class="download__button" align="center" justify="center">
-      <v-btn color="#146ac0" dark elevation="24" size="x-large" :href="downloadLink" download="CurriculumDaltonicos" target="_blank" rel="noopener noreferrer" align="center">Descargar Doc.Daltonicos</v-btn>
-    </div>
+      <div class="download__button" align="center" justify="center">
+        <v-btn color="#146ac0" dark elevation="24" size="x-large" :href="downloadLink" download="CurriculumDaltonicos"
+               target="_blank" rel="noopener noreferrer" align="center">Descargar Doc.Daltonicos
+        </v-btn>
+      </div>
       <div style="margin-top: 10px;"></div>
     </div>
   </main>
