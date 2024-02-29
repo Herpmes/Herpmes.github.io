@@ -4,6 +4,8 @@ import AboutView from "@/views/AboutView.vue";
 import ContactView from "@/views/ContactView.vue";
 import ProductView from '@/views/ProductView.vue'
 import ServicesView from '@/views/ServicesView.vue'
+import LoginView from '@/views/LoginView.vue'
+import RegisterView from '@/views/RegisterView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -31,6 +33,16 @@ const router = createRouter({
       path: '/services',
       name: 'Services',
       component: ServicesView
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: LoginView
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: RegisterView
     }
   ],
   scrollBehavior() {

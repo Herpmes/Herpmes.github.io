@@ -53,9 +53,6 @@ let selectedTopTab = computed(()=> appbarStore.getSelected);
 
     <v-spacer></v-spacer>
 
-
-
-
     <!--Contact Us-->
     <RouterLink to="/contact">
       <v-btn class="hover-anchor font-weight-bold" v-bind:color="(selectedTopTab===5)?'#24afff':''" :ripple="false"
@@ -68,7 +65,9 @@ let selectedTopTab = computed(()=> appbarStore.getSelected);
 
 
     <!--Login-->
-    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.closeAll()">LOGIN</v-btn>
+    <RouterLink to="/register">
+    <v-btn class="font-weight-bold" :ripple="false" @mouseenter="drawerStore.closeAll()">Inicia Sesión</v-btn>
+    </RouterLink>
   </v-app-bar>
 </template>
 
