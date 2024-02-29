@@ -12,12 +12,13 @@
         </v-row>
 
       </div>
+      <div style="margin-top: 40px;"></div>
       <router-link :to="{ name: 'Nuixó_Fotos' }">
         <v-col cols="auto" align="center">
           <v-btn color="#146ac0" dark elevation="24" size="x-large">Más Información</v-btn>
         </v-col>
       </router-link>
-      <div style="margin-top: 70px;"></div>
+      <div style="margin-top: 40px;"></div>
       <v-row align="center" justify="center">
         <v-col cols="12" md="8" lg="6" xl="4" class="mt-4">
           <v-card
@@ -87,10 +88,10 @@
 
       <div style="margin-top: 50px;"></div>
 
-     <div class="download__button" >
+     <div class="download__button" align="center" justify="center">
       <v-btn color="#146ac0" dark elevation="24" size="x-large" :href="downloadLink" download="CurriculumDaltonicos" target="_blank" rel="noopener noreferrer" align="center">Descargar Doc.Daltonicos</v-btn>
     </div>
-      <div style="margin-top: 15px;"></div>
+      <div style="margin-top: 10px;"></div>
     </div>
   </main>
 </template>
@@ -99,11 +100,4 @@
 const downloadLink = "src/assets/pdfsnuixo/DocumentoDaltónicos.pdf";
 </script>
 
-<style scoped>
-/* Agrega estilos si es necesario */
-.download__button {
-  position:initial;
-  top: 10px;
-  right: 10px;
-}
-</style>
+
