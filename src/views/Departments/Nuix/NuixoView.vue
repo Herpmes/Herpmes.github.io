@@ -8,7 +8,7 @@
             <v-img
                 aspect-ratio="16/9"
                 contain
-                src="src/Img/img Nuixo/NuixoERP-29-2-2024.png"
+                src="https://raw.githubusercontent.com/Herpmes/Herpmes.github.io/master/src/Img/img%20Nuixo/NuixoERP-29-2-2024.png"
             ></v-img>
           </v-col>
           <v-spacer/>
