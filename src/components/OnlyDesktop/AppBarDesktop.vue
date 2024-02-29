@@ -5,6 +5,10 @@ const drawerStore = useDrawerDesktopStore();
 import {useAppBarStoreDesktop} from '@/stores/AppBarStoreDesktop.js'
 const appbarStore= useAppBarStoreDesktop()
 let selectedTopTab = computed(()=> appbarStore.getSelected);
+
+import {useColorStore} from "@/stores/ColorStore.js";
+const colorStore = useColorStore()
+let color = computed(()=> colorStore.getColor);
 </script>
 
 <template>
@@ -53,6 +57,19 @@ let selectedTopTab = computed(()=> appbarStore.getSelected);
 
     <v-spacer></v-spacer>
 
+
+
+    <v-btn class="me-2" @click="colorStore.swapRed()" v-if="color==='blue'">
+      <img alt="a" src="https://raw.githubusercontent.com/Herpmes/Herpmes.github.io/master/src/Img/daltonic_nobg.png" width="32px">
+    </v-btn>
+
+    <v-btn class="me-2" @click="colorStore.swapGreen()" v-if="color==='red'">
+      <img alt="a" src="https://raw.githubusercontent.com/Herpmes/Herpmes.github.io/master/src/Img/daltonic_nobg.png" width="32px">
+    </v-btn>
+
+    <v-btn class="me-2" @click="colorStore.swapBlue()" v-if="color==='green'">
+      <img alt="a" src="https://raw.githubusercontent.com/Herpmes/Herpmes.github.io/master/src/Img/daltonic_nobg.png" width="32px">
+    </v-btn>
     <!--Contact Us-->
     <RouterLink to="/contact">
       <v-btn class="hover-anchor font-weight-bold" v-bind:color="(selectedTopTab===5)?'#24afff':''" :ripple="false"

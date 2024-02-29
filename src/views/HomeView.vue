@@ -4,6 +4,7 @@ import Banners from '/src/json/Banners.json'
 import BannerDesktop from '@/components/Banner.vue'
 import HomeDescAbout from '@/components/Home/HomeDescAbout.vue'
 import ClientCasesDesktop from '@/components/Home/ClientCasesDesktop.vue'
+
 export default {
   components: { ClientCasesDesktop, HomeDescAbout, BannerDesktop },
   data() {
@@ -17,7 +18,7 @@ export default {
 <template>
   <main>
     <!--Banner-->
-    <BannerDesktop :title="this.banner.home.title" :subtitle="this.banner.home.subtite" />
+    <BannerDesktop :title="this.banner.home.title" :subtitle="this.banner.home.subtite"/>
     <!--Mini Desc-->
     <HomeDescAbout />
     <!--Casos de Exito-->

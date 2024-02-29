@@ -13,6 +13,14 @@ a{
   background: radial-gradient(3339.49% 274.53% at 50% 50%, #146CC4 0%, #093866 100%)
 }
 
+.rBG{
+  background: radial-gradient(3339.49% 274.53% at 50% 50%, #ef4242 0%, #600404 100%)
+}
+
+.gBG{
+  background: radial-gradient(3339.49% 274.53% at 50% 50%, #64862f 0%, #144b02 100%)
+}
+
 .imageRight{
   display: block;
   margin-left: auto;

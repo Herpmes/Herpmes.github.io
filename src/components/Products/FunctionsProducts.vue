@@ -5,10 +5,14 @@ import { computed } from 'vue'
 const producto = computed(()=>productStore.getProduct)
 const listFunctions = computed(()=>producto.value.contenido.funciones)
 const cant = computed(()=>listFunctions.value.length)
+
+import {useColorStore} from "@/stores/ColorStore.js";
+const colorStore = useColorStore()
+let color = computed(()=> colorStore.getColor);
 </script>
 
 <template>
-<v-row class="text-white mt-13 py-10 bBG" >
+<v-row :class="['text-white','mt-13', 'py-10', color==='blue' ? 'bBG':(color==='red'?'rBG':'gBG')]" >
   <v-spacer></v-spacer>
   <v-col cols="10" md="8">
     <h1 class="text-center" style="color: #021e73">{{producto.subtitulo}}</h1>
