@@ -4,7 +4,6 @@ export default {
     tab: null,
     show: false
   }),
-
 }
 
 </script>
@@ -21,9 +20,8 @@ src="https://i.imgur.com/8p34Az4.jpeg"
 
    <v-img
       :width="400"
-
       contain
-src="https://i.imgur.com/0DYmczp.png"  ></v-img>
+      src="https://i.imgur.com/0DYmczp.png"></v-img>
  </v-img>
 
   <v-card>
@@ -36,6 +34,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
       <v-tab value="three">Rafa</v-tab>
       <v-tab value="four">Jorge</v-tab>
       <v-tab value="five">Vicente</v-tab>
+      <v-tab value="six">Monsef</v-tab>
     </v-tabs>
 
     <v-card-text>
@@ -49,7 +48,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
             ></v-img>
             <v-card class="mx-auto" max-width="500">
               <v-img
-                  height="400px"
+                  height="500px"
                   aspect-ratio="16/9"
                   contain
                   src="https://i.imgur.com/OHRkNwu.jpeg"
@@ -64,7 +63,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
               </v-card-subtitle>
 
               <v-card-actions>
-                <v-btn color="orange-lighten-2" variant="text">
+                <v-btn color="blue" variant="text">
                   Sobre mi
                 </v-btn>
 
@@ -106,7 +105,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
                   height="400px"
                   aspect-ratio="16/9"
                   contain
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg"
+                  src="https://i.imgur.com/D424TsL.png"
               ></v-img>
 
               <v-card-title>
@@ -118,7 +117,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
               </v-card-subtitle>
 
               <v-card-actions>
-                <v-btn color="orange-lighten-2" variant="text">
+                <v-btn color="blue" variant="text">
                   Sobre mi
                 </v-btn>
 
@@ -170,7 +169,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
               </v-card-subtitle>
 
               <v-card-actions>
-                <v-btn color="orange-lighten-2" variant="text">
+                <v-btn color="blue" variant="text">
                   Sobre mi
                 </v-btn>
 
@@ -213,7 +212,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
                   height="400px"
                   aspect-ratio="16/9"
                   contain
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg"
+                  src="https://i.imgur.com/98FC1XV.jpeg"
               ></v-img>
 
               <v-card-title>
@@ -225,7 +224,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
               </v-card-subtitle>
 
               <v-card-actions>
-                <v-btn color="orange-lighten-2" variant="text">
+                <v-btn color="blue" variant="text">
                   Sobre mi
                 </v-btn>
 
@@ -264,7 +263,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
                   height="400px"
                   aspect-ratio="16/9"
                   contain
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg"
+                  src="https://i.imgur.com/otRmB1J.jpeg"
               ></v-img>
 
               <v-card-title>
@@ -276,7 +275,7 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
               </v-card-subtitle>
 
               <v-card-actions>
-                <v-btn color="orange-lighten-2" variant="text">
+                <v-btn color="blue" variant="text">
                   Sobre mi
                 </v-btn>
 
@@ -291,6 +290,56 @@ src="https://i.imgur.com/0DYmczp.png"  ></v-img>
 
                   <v-card-text>
                     Destaca en la capacidad para adaptarse rápidamente a los desafíos y obstáculos que pueda enfrentar al grupo promoviendo un ambiente más colaborativo. Por otra parte, siempre suele estar centrado y no suele despistarse.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+            <v-img
+                style="width: 180px; height: 180px; margin-right: auto"
+                contain
+                src="https://i.imgur.com/0DYmczp.png"
+            ></v-img>
+          </div>
+        </v-window-item>
+        <v-window-item value="six">
+          <div style="display: inline-flex; justify-content: space-between; align-items: center; width: 100%;">
+            <v-img
+                style="width: 180px; height: 180px; margin-left: auto "
+                contain
+                src="https://i.imgur.com/0DYmczp.png"
+            ></v-img>
+            <v-card class="mx-auto" max-width="500">
+              <v-img
+                  height="400px"
+                  aspect-ratio="16/9"
+                  contain
+                  src="https://i.imgur.com/DcPqhRC.png"
+              ></v-img>
+
+              <v-card-title>
+                Vicente Arnau Romay
+              </v-card-title>
+
+              <v-card-subtitle>
+                Planeador Profesional
+              </v-card-subtitle>
+
+              <v-card-actions>
+                <v-btn color="blue" variant="text">
+                  Sobre mi
+                </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'" @click="show = !show"></v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    Soy un estudiante de 20 años apasionado de las nuevas tecnologías, con ganas de aprender constantemente. Mi entorno me define como una persona inteligente, creativa, sociable, colaborativa y con facilidad para adquirir nuevos conocimientos.
                   </v-card-text>
                 </div>
               </v-expand-transition>
