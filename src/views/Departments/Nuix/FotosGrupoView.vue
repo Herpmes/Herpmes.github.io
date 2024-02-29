@@ -18,7 +18,7 @@ export default {
 src="https://i.imgur.com/8p34Az4.jpeg"
 >
 
-   <v-img
+   <v-img dark elevation="24"
       :width="400"
       contain
       src="https://i.imgur.com/0DYmczp.png"></v-img>

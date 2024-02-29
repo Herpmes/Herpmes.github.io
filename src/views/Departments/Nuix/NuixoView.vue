@@ -7,21 +7,23 @@
 
 
 
-
+    <div class="v-col v-col-12 py-8 mt-10 text-white radialBG" align="center" justify="center">
     <v-row align="center" justify="center" >
       <v-img
           width="40%"
           aspect-ratio="16/9"
           contain
-          src="src/Img/img Nuixo/NuixoERP-28-2-2024.png"
+          src="src/Img/img Nuixo/NuixoERP-29-2-2024.png"
       ></v-img>
     </v-row >
+      </div>
 
-    <v-row align="center" justify="center">
+    <div style="margin-top: 70px;"></div>
+    <v-row align="center" justify="center" >
       <v-col cols="12" md="8" lg="6" xl="4" class="mt-4" >
         <v-card
             class="mx-auto"
-            color="#0075FF"
+            color="#146ac0"
             theme="dark"
             max-width="800"
             prepend-icon="mdi-twitter"
@@ -53,10 +55,12 @@
                   <v-icon class="me-1" icon="mdi-share-variant"></v-icon>
                   <span class="subheading">45</span>
                 </div>
+
               </template>
             </v-list-item>
           </v-card-actions>
         </v-card>
+
         <div style="margin-top: 50px;"></div>
       </v-col>
     </v-row>
@@ -88,6 +92,14 @@
       </v-card>
     </v-col>
     </div>
+    <div style="margin-top: 50px;"></div>
+
+    <router-link :to="{ name: 'Nuixó_Fotos' }">
+    <v-col cols="auto" align="center">
+      <v-btn color="#146ac0" dark elevation="24" size="x-large">Más Información</v-btn>
+    </v-col>
+    </router-link>
+    <div style="margin-top: 15px;"></div>
   </div>
 
 </main>
