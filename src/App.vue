@@ -24,5 +24,7 @@ const phoneSized = ["xs","sm","md"]
     <!--Footer-->
     <CustomFooter />
   </v-app>
+
 </template>
+
 <style></style>

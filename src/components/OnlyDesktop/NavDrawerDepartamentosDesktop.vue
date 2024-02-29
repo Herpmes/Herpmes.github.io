@@ -15,6 +15,7 @@ const drawerStore = useDrawerDesktopStore()
     <v-row class="pa-9">
       <!--Anchor-->
       <v-col>
+        <RouterLink to="/aboutAnchor">
         <v-card class="mx-auto" color="#d2f2fc">
           <v-card-item>
             <v-card-title>
@@ -32,6 +33,7 @@ const drawerStore = useDrawerDesktopStore()
             <img src="/src/Img/Logos/LogoAncla.png" alt="Anchor" width="74" />
           </div>
         </v-card>
+        </RouterLink>
       </v-col>
       <!--Nuixo-->
       <v-col>
