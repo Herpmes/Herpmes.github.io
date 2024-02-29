@@ -18,8 +18,8 @@
       hide-delimiters
       :show-arrows="$vuetify.display.name!=='xs'"
       class="text-white"
-      height="auto"
-    >
+      height="auto">
+
       <v-container>
       <v-carousel-item v-for="(item, i) in carouselItems" :key="i">
         <v-card class="mx-auto" width="80%" style="border-radius: 30px">
