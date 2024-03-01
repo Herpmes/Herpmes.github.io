@@ -9,6 +9,7 @@ import RegisterView from '@/views/RegisterView.vue'
 import NuixoView from "@/views/Departments/Nuix/NuixoView.vue";
 import NuixoFotosView from "@/views/Departments/Nuix/FotosGrupoView.vue";
 import AboutAnchorView from '@/views/Departments/Anchor/AboutAnchorView.vue'
+import AnchorView from '@/views/Departments/Anchor/AnchorView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -57,6 +58,11 @@ const router = createRouter({
       path: '/nuixoFotos',
       name: 'Nuixó_Fotos',
       component: NuixoFotosView
+    },
+    {
+      path: '/anchor',
+      name: 'anchor',
+      component: AnchorView
     },
     {
       path: '/aboutAnchor',

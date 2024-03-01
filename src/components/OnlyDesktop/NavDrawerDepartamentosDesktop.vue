@@ -15,7 +15,7 @@ const drawerStore = useDrawerDesktopStore()
     <v-row class="pa-9">
       <!--Anchor-->
       <v-col>
-        <RouterLink to="/aboutAnchor">
+        <RouterLink to="/anchor">
         <v-card class="mx-auto" color="#d2f2fc">
           <v-card-item>
             <v-card-title>

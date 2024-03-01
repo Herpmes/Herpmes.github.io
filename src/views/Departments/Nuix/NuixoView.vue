@@ -108,7 +108,7 @@
 </template>
 
 <script setup>
-const downloadLink = "src/assets/pdfsnuixo/DocumentoDaltónicos.pdf";
+const downloadLink = "https://github.com/Herpmes/Herpmes.github.io/blob/master/src/assets/pdfsnuixo/DocumentoDalt%C3%B3nicos.pdf";
 </script>
 
 

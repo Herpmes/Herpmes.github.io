@@ -1,11 +1,12 @@
 <script setup>
 
+import Content from '@/components/AnchorComponents/Content.vue'
+import Landing from '@/components/AnchorComponents/Landing.vue'
 </script>
 
 <template>
-<main class="mt-15">
-
-</main>
+  <Landing></Landing>
+  <Content></Content>
 </template>
 
 <style scoped>
